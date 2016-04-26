@@ -4,5 +4,6 @@ url: http://analyticstest.muni.org
 #   analytics --output=[dir]
 # and running from [dir]:
 #   serve
+title: "analyticstest.muni.org | MOA Web Stats"
 data_url: /fake-data
 header_host: analyticstest
