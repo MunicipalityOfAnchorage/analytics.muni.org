@@ -1,80 +1,109 @@
-analytics.muni.org
-==================
+## analytics.usa.gov
 
-A project to publish website analytics for the Municipality of Anchorage forked from [analytics.usa.gov](https://github.com/18F/analytics.usa.gov).
+A project to publish website analytics for the US federal government.
 
 For a detailed description of how the site works, read [18F's blog post on analytics.usa.gov](https://18f.gsa.gov/2015/03/19/how-we-built-analytics-usa-gov/).
 
-Other government agencies have reused [analytics.usa.gov](https://github.com/18F/analytics.usa.gov) for their analytics dashboard. [This blog post details their implementations and lessons learned](https://18f.gsa.gov/2016/01/05/tips-for-adapting-analytics-usa-gov/).  
+Other government agencies who have reused this project for their analytics dashboard:
+* http://analytics.phila.gov/
+* https://bouldercolorado.gov/stats
+* http://analytics.tdec.tn.gov/
 
-## Setup
+[This blog post details their implementations and lessons learned](https://18f.gsa.gov/2016/01/05/tips-for-adapting-analytics-usa-gov/).  
 
-### Windows servers
 
-Install [GNU Make for Windows] (http://gnuwin32.sourceforge.net/packages/make.htm) (Optional)
+### Setup
 
-Install Ruby using [RubyInstaller for Windows](http://rubyinstaller.org/).
+Ths app uses [Jekyll](http://jekyllrb.com) to build the site, and [Sass](http://sass-lang.com/), [Bourbon](http://bourbon.io), and [Neat](http://neat.bourbon.io) for CSS.
 
-Install [Bundler] (http://bundler.io)
-
-```bash
-gem install bundle
-```
-
-This app uses [Jekyll](http://jekyllrb.com) to build the site, and [Sass](http://sass-lang.com/), [Bourbon](http://bourbon.io), and [Neat](http://neat.bourbon.io) for CSS.
-
-Install them all (from the directory containing the local copy of this github repository):
+Install them all:
 
 ```bash
 bundle install
 ```
 
-[`analytics-reporter`](https://github.com/MunicipalityOfAnchorage/analytics-reporter) is the code that powers the analytics dashboard.
+[`analytics-reporter`](https://github.com/18F/analytics-reporter) is the code that powers the analytics dashboard.
 Please clone the `analytics-reporter` next to a local copy of this github repository.
 
-### Linux servers
+### Adding Additional Agencies
+0. Ensure that data is being collected for a specific agency's Google Analytics ID. Visit [18F's analytics-reporter](https://github.com/18F/analytics-reporter) for more information. Save the url path for the data collection path.
+0. Create a new html file in the `_agencies` directory. The name of the file will be the url path.
 
-See [analytics.usa.gov README.md] (https://github.com/18F/analytics.usa.gov/blob/18f-pages/README.md) for Linux setup instructions.
+  ```bash
+  touch _agencies/agencyx.html
+  ```
+0. Set the required data for for the new file. example:
 
-## Adding Additional Agencies
+  ```yaml
+  ---
+  name: Agency X # Name of the page
+  data_url: https://analytics.usa.gov/data/agencyx # Data URL from step 1
+  layout: agencies # type of layout used. available layouts are in `_layouts`
+  ---
+  ```
 
-See [analytics.usa.gov README.md] (https://github.com/18F/analytics.usa.gov/blob/18f-pages/README.md) for agency setup instructions.
 
-## Developing
+### Developing locally
 
-Development build using fake data:
+Run Jekyll with development settings:
 
 ```bash
 make dev
 ```
 
+(This runs `bundle exec jekyll serve --watch --config _.yml,_development.yml`.)
+
+Sass can watch the .scss source files for changes, and build the .css files automatically:
+
+```bash
+make watch
+```
+
+To compile the Sass stylesheets once, run `make clean all`, or `make -B` to compile even if the .css file already exists.
+
+### Developing with local data
+
 The development settings assume data is available at `/fakedata`. You can change this in `_development.yml`.
 
-## Test
 
-Test build using real data:
+### Developing with real live data from `analytics-reporter`
 
-```bash
-make test
-```
+If also working off of local data, e.g. using `analytics-reporter`, you will need to make the data available over HTTP _and_ through CORS.
 
-This assumes you have already set up `analytics-reporter` in an adjacent directory.
-
-## Production
-
-Set an environment variable for the path to a file share on the production server:
+Various tools can do this. This project recommends using the Node module `serve`:
 
 ```bash
-export ANALYTICS_PROD_SHARE="\\prod_server\share"
+npm install -g serve
 ```
 
-Production build that deploys to production share:
+Generate data to a directory:
+
+```
+analytics --output [dir]
+```
+
+Then run `serve` from the output directory:
+
+```bash
+serve --cors
+```
+
+The data will be available at `http://localhost:3000` over CORS, with no path prefix. For example, device data will be at `http://localhost:3000/devices.json`.
+
+
+### Deploying the app to production
+
+In production, the site's base URL is set to `https://analytics.usa.gov` and the data's base URL is set to `https://analytics.usa.gov/data/live`.
+
+To deploy this app to `analytics.usa.gov`, you will need authorized access to 18F's Amazon S3 bucket for the project.
+
+To deploy the site using `s3cmd`, production settings, and a **5 minute cache time**, run:
 
 ```bash
 make deploy
 ```
 
-In production, the site's base URL is set to `https://analytics.usa.gov` and the data's base URL is set to `https://analytics.usa.gov/data`.
+**Use the full command above.** The full command ensures that the build completes successfully, with production settings, _before_ triggering an upload to the production bucket.
 
 ### Public domain
 

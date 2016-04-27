@@ -150,6 +150,7 @@ header {
     margin-right: 24px;
     font-size: 36px;
     @include media($medium-screen) {
+      font-size: 26px;
       line-height: 30px;
     }
   }
@@ -195,7 +196,7 @@ header {
   width: 100%;
   height: 40px;
   color: $white;
-  background-color: transparent;
+  background-color: $dark_blue;
   font-size: 22px;
   font-weight: 600;
   vertical-align: middle;
@@ -308,7 +309,7 @@ section {
 }
 
 #explanation {
-  @include span-columns(14);
+  @include span-columns(9);
 
   @include media($small-screen)  {
     @include span-columns(1);
@@ -316,6 +317,7 @@ section {
 }
 
 #data_download {
+  @include span-columns(5);
   @include media($small-screen)  {
     @include span-columns(1);
   }

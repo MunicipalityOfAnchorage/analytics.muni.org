@@ -6,7 +6,6 @@ GEM
       thor
     colorator (0.1)
     ffi (1.9.10)
-    ffi (1.9.10-x86-mingw32)
     jekyll (3.0.1)
       colorator (~> 0.1)
       jekyll-sass-converter (~> 1.0)
@@ -39,7 +38,6 @@ GEM
 
 PLATFORMS
   ruby
-  x86-mingw32
 
 DEPENDENCIES
   bourbon
@@ -48,4 +46,4 @@ DEPENDENCIES
   sass
 
 BUNDLED WITH
-   1.11.2
+   1.10.6
