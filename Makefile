@@ -12,4 +12,4 @@ dev:
 deploy:
 	make prod
 	net use "%ANALYTICS_PROD_SHARE%"
-	-robocopy _site\ "%ANALYTICS_PROD_SHARE%" /e /xx
+	-robocopy d:\analytics.muni.org\_site\ "%ANALYTICS_PROD_SHARE%" /E
