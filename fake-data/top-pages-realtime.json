@@ -1,121 +1,147 @@
 {
-    "name": "top-pages-realtime",
-    "query": {
-        "dimensions": "rt:pagePath,rt:pageTitle",
-        "metrics": [
-            "rt:activeUsers"
-        ],
-        "sort": [
-            "-rt:activeUsers"
-        ],
-        "max-results": 20
-    },
-    "meta": {
-        "name": "Top Pages (Live)",
-        "description": "The top 20 pages, measured by active onsite users, for all sites."
-    },
-    "data": [
-        {
-            "page": "earthquake.usgs.gov/earthquakes/eventpage/us100044k6",
-            "page_title": "M7.2 - 109km W of Murghob, Tajikistan",
-            "active_visitors": "804"
-        },
-        {
-            "page": "earthquake.usgs.gov/earthquakes/map/",
-            "page_title": "Earthquakes",
-            "active_visitors": "551"
-        },
-        {
-            "page": "forecast.weather.gov/mapclick.php",
-            "page_title": "National Weather Service",
-            "active_visitors": "444"
-        },
-        {
-            "page": "ceac.state.gov/genniv/general/complete/complete_travel.aspx?node=travel",
-            "page_title": "Nonimmigrant Visa - Travel Information",
-            "active_visitors": "229"
-        },
-        {
-            "page": "ceac.state.gov/genniv/default.aspx",
-            "page_title": "Nonimmigrant Visa - Instructions Page",
-            "active_visitors": "211"
-        },
-        {
-            "page": "ceac.state.gov/ceac/",
-            "page_title": "Consular Electronic Application Center",
-            "active_visitors": "210"
-        },
-        {
-            "page": "nasa.gov/",
-            "page_title": "NASA",
-            "active_visitors": "185"
-        },
-        {
-            "page": "ceac.state.gov/genniv/general/complete/complete_workeducation2.aspx?node=workeducation2",
-            "page_title": "Nonimmigrant Visa - Previous Work/Education/Training Information",
-            "active_visitors": "178"
-        },
-        {
-            "page": "ceac.state.gov/genniv/general/complete/complete_personal.aspx?node=personal1",
-            "page_title": "Nonimmigrant Visa - Personal Information 1",
-            "active_visitors": "177"
-        },
-        {
-            "page": "ceac.state.gov/genniv/general/complete/complete_workeducation1.aspx?node=workeducation1",
-            "page_title": "Nonimmigrant Visa - Present Work/Education/Training Information",
-            "active_visitors": "172"
-        },
-        {
-            "page": "ceac.state.gov/genniv/general/esign/complete_done.aspx?node=done",
-            "page_title": "Nonimmigrant Visa - Confirmation Page",
-            "active_visitors": "166"
-        },
-        {
-            "page": "nasa.gov/feature/new-horizons-returns-first-of-the-best-images-of-pluto/",
-            "page_title": "New Horizons Returns First, Best Images of Pluto | NASA",
-            "active_visitors": "162"
-        },
-        {
-            "page": "ceac.state.gov/genniv/general/complete/complete_contact.aspx?node=addressphone",
-            "page_title": "Nonimmigrant Visa - Address and Phone Information",
-            "active_visitors": "150"
-        },
-        {
-            "page": "usgs.gov/",
-            "page_title": "Welcome to the USGS - U.S. Geological Survey",
-            "active_visitors": "131"
-        },
-        {
-            "page": "ceac.state.gov/genniv/common/recovery.aspx",
-            "page_title": "Nonimmigrant Visa - Recover Your Application",
-            "active_visitors": "127"
-        },
-        {
-            "page": "whitehouse.gov/blog/2015/12/05/president-obama-addresses-nation-keeping-american-people-safe",
-            "page_title": "President Obama Addresses the Nation on Keeping the American People Safe | whitehouse.gov",
-            "active_visitors": "123"
-        },
-        {
-            "page": "ceac.state.gov/genniv/general/complete/passport_visa_info.aspx?node=pptvisa",
-            "page_title": "Nonimmigrant Visa - Passport Information",
-            "active_visitors": "116"
-        },
-        {
-            "page": "egov.uscis.gov/casestatus/mycasestatus.do",
-            "page_title": "myUSCIS - Case Status",
-            "active_visitors": "114"
-        },
-        {
-            "page": "weather.gov/",
-            "page_title": "National Weather Service",
-            "active_visitors": "114"
-        },
-        {
-            "page": "ceac.state.gov/genniv/",
-            "page_title": "Nonimmigrant Visa - Instructions Page",
-            "active_visitors": "112"
-        }
+  "name": "top-pages-realtime",
+  "query": {
+    "dimensions": "rt:pagePath,rt:pageTitle",
+    "metrics": [
+      "rt:activeUsers"
     ],
-    "totals": {},
-    "taken_at": "2015-12-07T08:34:03.637Z"
+    "sort": [
+      "-rt:activeUsers"
+    ],
+    "filters": "rt:pagePath=~^gis.muni.org|^merrillfieldmasterplan.com|^muni.org|^www.muni.org|^analytics.muni.org;rt:pagePath!~pagenotfound",
+    "max-results": 25
+  },
+  "meta": {
+    "name": "Top Pages (Live)",
+    "description": "The top 25 pages, measured by active onsite users, for all sites."
+  },
+  "data": [
+    {
+      "page": "www.muni.org/departments/library/pages/default.aspx",
+      "page_title": "Library",
+      "active_visitors": "20"
+    },
+    {
+      "page": "www.muni.org/pages/default.aspx",
+      "page_title": "Anchorage, Alaska: The Official Municipality of Anchorage, Alaska website",
+      "active_visitors": "10"
+    },
+    {
+      "page": "www.muni.org/departments/finance/property_appraisal/pages/default.aspx",
+      "page_title": "Property Appraisal",
+      "active_visitors": "6"
+    },
+    {
+      "page": "www.muni.org/departments/transit/peoplemover/pages/mapsandschedules.aspx",
+      "page_title": "MapsAndSchedules",
+      "active_visitors": "5"
+    },
+    {
+      "page": "www.muni.org/departments/employee_relations/pages/jol.aspx",
+      "page_title": "Jobs",
+      "active_visitors": "4"
+    },
+    {
+      "page": "www.muni.org/departments/purchasing/pages/bidding.aspx",
+      "page_title": "Current Bidding Opportunities",
+      "active_visitors": "3"
+    },
+    {
+      "page": "www.muni.org/departments/transit/peoplemover/pages/default.aspx",
+      "page_title": "People Mover",
+      "active_visitors": "3"
+    },
+    {
+      "page": "www.muni.org/departments/fire/prevention/pages/default.aspx",
+      "page_title": "Fire Prevention",
+      "active_visitors": "2"
+    },
+    {
+      "page": "www.muni.org/departments/mayor/pages/default.aspx",
+      "page_title": "Mayor's Corner",
+      "active_visitors": "2"
+    },
+    {
+      "page": "www.muni.org/departments/ocpd/planning/projects/anchlanduse/pages/default.aspx",
+      "page_title": "Anchorage Bowl Land Use Plan Map Project",
+      "active_visitors": "2"
+    },
+    {
+      "page": "www.muni.org/departments/parks/pages/bartlettpool.aspx",
+      "page_title": "Bartlett Pool",
+      "active_visitors": "2"
+    },
+    {
+      "page": "www.muni.org/departments/police/pages/contactinfo.aspx",
+      "page_title": "Contact Information",
+      "active_visitors": "2"
+    },
+    {
+      "page": "www.muni.org/departments/sws/howdoi/pages/recycle.aspx",
+      "page_title": "How Do I Recycle These Items?",
+      "active_visitors": "2"
+    },
+    {
+      "page": "www.muni.org/departments/transit/peoplemover/pages/route3.aspx",
+      "page_title": "Route 3",
+      "active_visitors": "2"
+    },
+    {
+      "page": "www.muni.org/departments/transit/peoplemover/pages/route7.aspx",
+      "page_title": "Route7",
+      "active_visitors": "2"
+    },
+    {
+      "page": "www.muni.org/contactus/pages/default.aspx",
+      "page_title": "Employee Search",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/assembly/events/pages/090309asd.aspx",
+      "page_title": "Step Up Open House",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/assembly/pages/default.aspx",
+      "page_title": "Anchorage Assembly",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/finance/property_appraisal/exemption/pages/default.aspx",
+      "page_title": "Property Appraisal Exemptions",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/finance/treasury/proptax/pages/realestatepropertytaxes.aspx",
+      "page_title": "Real Estate Property Taxes",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/fire/pages/default.aspx",
+      "page_title": "Anchorage Fire Department",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/fire/pages/faq.aspx",
+      "page_title": "FAQ",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/fire/wildfire/pages/woodlots.aspx",
+      "page_title": "Wood Lots",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/health/admin/animal_control/pages/barkingdogs.aspx",
+      "page_title": "BarkingDogs",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/health/admin/animal_control/pages/default.aspx",
+      "page_title": "Animal Control",
+      "active_visitors": "1"
+    }
+  ],
+  "totals": {},
+  "taken_at": "2016-04-26T23:02:29.548Z"
 }

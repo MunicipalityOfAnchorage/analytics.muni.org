@@ -46,7 +46,7 @@ data_url: http://analytics.muni.org/data
 home_url: http://www.muni.org
 
 # Header parts
-header_logo: images/200px-Seal_of_Anchorage,_Alaska_svg.png
+header_logo: /images/200px-Seal_of_Anchorage,_Alaska_svg.png
 header_host: analytics
 header_domain: muni.org
 

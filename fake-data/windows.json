@@ -1,37 +1,3084 @@
 {
-    "name": "windows",
-    "query": {
-        "start-date": "90daysAgo",
-        "end-date": "yesterday",
-        "dimensions": "ga:date,ga:operatingSystemVersion",
-        "metrics": [
-            "ga:sessions"
-        ],
-        "sort": [
-            "ga:date"
-        ],
-        "filters": "ga:operatingSystem==Windows;ga:sessions>1000",
-        "start-index": 1,
-        "max-results": 10000,
-        "samplingLevel": "HIGHER_PRECISION"
+  "name": "windows",
+  "query": {
+    "start-date": "90daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:date,ga:operatingSystemVersion",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "ga:date"
+    ],
+    "filters": "ga:operatingSystem==Windows",
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Windows",
+    "description": "90 days of visits from Windows users, broken down by operating system version and date, for all sites."
+  },
+  "data": [
+    {
+      "date": "2016-01-27",
+      "os_version": "10",
+      "visits": "738"
     },
-    "meta": {
-        "name": "Windows",
-        "description": "90 days of visits from Windows users, broken down by operating system version and date, for all sites."
+    {
+      "date": "2016-01-27",
+      "os_version": "7",
+      "visits": "4328"
     },
-    "totals": {
-        "visits": 865825156,
-        "os_version": {
-            "7": 563333614,
-            "8": 15081362,
-            "10": 97321779,
-            "XP": 34403449,
-            "Vista": 20193456,
-            "8.1": 134766052,
-            "Other": 725444
-        },
-        "start_date": "2015-09-07",
-        "end_date": "2015-12-05"
+    {
+      "date": "2016-01-27",
+      "os_version": "8",
+      "visits": "36"
     },
-    "taken_at": "2015-12-06T08:10:06.783Z"
+    {
+      "date": "2016-01-27",
+      "os_version": "8.1",
+      "visits": "471"
+    },
+    {
+      "date": "2016-01-27",
+      "os_version": "NT",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-27",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-27",
+      "os_version": "Vista",
+      "visits": "87"
+    },
+    {
+      "date": "2016-01-27",
+      "os_version": "XP",
+      "visits": "325"
+    },
+    {
+      "date": "2016-01-28",
+      "os_version": "10",
+      "visits": "752"
+    },
+    {
+      "date": "2016-01-28",
+      "os_version": "7",
+      "visits": "4024"
+    },
+    {
+      "date": "2016-01-28",
+      "os_version": "8",
+      "visits": "33"
+    },
+    {
+      "date": "2016-01-28",
+      "os_version": "8.1",
+      "visits": "417"
+    },
+    {
+      "date": "2016-01-28",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-28",
+      "os_version": "Vista",
+      "visits": "82"
+    },
+    {
+      "date": "2016-01-28",
+      "os_version": "XP",
+      "visits": "349"
+    },
+    {
+      "date": "2016-01-29",
+      "os_version": "10",
+      "visits": "685"
+    },
+    {
+      "date": "2016-01-29",
+      "os_version": "7",
+      "visits": "3547"
+    },
+    {
+      "date": "2016-01-29",
+      "os_version": "8",
+      "visits": "22"
+    },
+    {
+      "date": "2016-01-29",
+      "os_version": "8.1",
+      "visits": "370"
+    },
+    {
+      "date": "2016-01-29",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-29",
+      "os_version": "Vista",
+      "visits": "67"
+    },
+    {
+      "date": "2016-01-29",
+      "os_version": "XP",
+      "visits": "335"
+    },
+    {
+      "date": "2016-01-30",
+      "os_version": "10",
+      "visits": "565"
+    },
+    {
+      "date": "2016-01-30",
+      "os_version": "7",
+      "visits": "1631"
+    },
+    {
+      "date": "2016-01-30",
+      "os_version": "8",
+      "visits": "26"
+    },
+    {
+      "date": "2016-01-30",
+      "os_version": "8.1",
+      "visits": "291"
+    },
+    {
+      "date": "2016-01-30",
+      "os_version": "Vista",
+      "visits": "68"
+    },
+    {
+      "date": "2016-01-30",
+      "os_version": "XP",
+      "visits": "125"
+    },
+    {
+      "date": "2016-01-31",
+      "os_version": "(not set)",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-31",
+      "os_version": "10",
+      "visits": "653"
+    },
+    {
+      "date": "2016-01-31",
+      "os_version": "7",
+      "visits": "1198"
+    },
+    {
+      "date": "2016-01-31",
+      "os_version": "8",
+      "visits": "22"
+    },
+    {
+      "date": "2016-01-31",
+      "os_version": "8.1",
+      "visits": "287"
+    },
+    {
+      "date": "2016-01-31",
+      "os_version": "Vista",
+      "visits": "72"
+    },
+    {
+      "date": "2016-01-31",
+      "os_version": "XP",
+      "visits": "99"
+    },
+    {
+      "date": "2016-02-01",
+      "os_version": "10",
+      "visits": "781"
+    },
+    {
+      "date": "2016-02-01",
+      "os_version": "7",
+      "visits": "3966"
+    },
+    {
+      "date": "2016-02-01",
+      "os_version": "8",
+      "visits": "40"
+    },
+    {
+      "date": "2016-02-01",
+      "os_version": "8.1",
+      "visits": "509"
+    },
+    {
+      "date": "2016-02-01",
+      "os_version": "Server 2003",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-01",
+      "os_version": "Vista",
+      "visits": "84"
+    },
+    {
+      "date": "2016-02-01",
+      "os_version": "XP",
+      "visits": "290"
+    },
+    {
+      "date": "2016-02-02",
+      "os_version": "10",
+      "visits": "806"
+    },
+    {
+      "date": "2016-02-02",
+      "os_version": "7",
+      "visits": "4106"
+    },
+    {
+      "date": "2016-02-02",
+      "os_version": "8",
+      "visits": "33"
+    },
+    {
+      "date": "2016-02-02",
+      "os_version": "8.1",
+      "visits": "460"
+    },
+    {
+      "date": "2016-02-02",
+      "os_version": "Server 2003",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-02",
+      "os_version": "Vista",
+      "visits": "78"
+    },
+    {
+      "date": "2016-02-02",
+      "os_version": "XP",
+      "visits": "350"
+    },
+    {
+      "date": "2016-02-03",
+      "os_version": "10",
+      "visits": "762"
+    },
+    {
+      "date": "2016-02-03",
+      "os_version": "7",
+      "visits": "4112"
+    },
+    {
+      "date": "2016-02-03",
+      "os_version": "8",
+      "visits": "45"
+    },
+    {
+      "date": "2016-02-03",
+      "os_version": "8.1",
+      "visits": "507"
+    },
+    {
+      "date": "2016-02-03",
+      "os_version": "Vista",
+      "visits": "75"
+    },
+    {
+      "date": "2016-02-03",
+      "os_version": "XP",
+      "visits": "315"
+    },
+    {
+      "date": "2016-02-04",
+      "os_version": "10",
+      "visits": "729"
+    },
+    {
+      "date": "2016-02-04",
+      "os_version": "7",
+      "visits": "4149"
+    },
+    {
+      "date": "2016-02-04",
+      "os_version": "8",
+      "visits": "27"
+    },
+    {
+      "date": "2016-02-04",
+      "os_version": "8.1",
+      "visits": "462"
+    },
+    {
+      "date": "2016-02-04",
+      "os_version": "Vista",
+      "visits": "87"
+    },
+    {
+      "date": "2016-02-04",
+      "os_version": "XP",
+      "visits": "332"
+    },
+    {
+      "date": "2016-02-05",
+      "os_version": "10",
+      "visits": "638"
+    },
+    {
+      "date": "2016-02-05",
+      "os_version": "7",
+      "visits": "3478"
+    },
+    {
+      "date": "2016-02-05",
+      "os_version": "8",
+      "visits": "35"
+    },
+    {
+      "date": "2016-02-05",
+      "os_version": "8.1",
+      "visits": "423"
+    },
+    {
+      "date": "2016-02-05",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-05",
+      "os_version": "Vista",
+      "visits": "77"
+    },
+    {
+      "date": "2016-02-05",
+      "os_version": "XP",
+      "visits": "251"
+    },
+    {
+      "date": "2016-02-06",
+      "os_version": "(not set)",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-06",
+      "os_version": "10",
+      "visits": "547"
+    },
+    {
+      "date": "2016-02-06",
+      "os_version": "7",
+      "visits": "1652"
+    },
+    {
+      "date": "2016-02-06",
+      "os_version": "8",
+      "visits": "12"
+    },
+    {
+      "date": "2016-02-06",
+      "os_version": "8.1",
+      "visits": "288"
+    },
+    {
+      "date": "2016-02-06",
+      "os_version": "Vista",
+      "visits": "55"
+    },
+    {
+      "date": "2016-02-06",
+      "os_version": "XP",
+      "visits": "101"
+    },
+    {
+      "date": "2016-02-07",
+      "os_version": "10",
+      "visits": "453"
+    },
+    {
+      "date": "2016-02-07",
+      "os_version": "7",
+      "visits": "917"
+    },
+    {
+      "date": "2016-02-07",
+      "os_version": "8",
+      "visits": "32"
+    },
+    {
+      "date": "2016-02-07",
+      "os_version": "8.1",
+      "visits": "279"
+    },
+    {
+      "date": "2016-02-07",
+      "os_version": "Vista",
+      "visits": "38"
+    },
+    {
+      "date": "2016-02-07",
+      "os_version": "XP",
+      "visits": "68"
+    },
+    {
+      "date": "2016-02-08",
+      "os_version": "10",
+      "visits": "788"
+    },
+    {
+      "date": "2016-02-08",
+      "os_version": "7",
+      "visits": "4100"
+    },
+    {
+      "date": "2016-02-08",
+      "os_version": "8",
+      "visits": "31"
+    },
+    {
+      "date": "2016-02-08",
+      "os_version": "8.1",
+      "visits": "467"
+    },
+    {
+      "date": "2016-02-08",
+      "os_version": "NT",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-08",
+      "os_version": "Server 2003",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-08",
+      "os_version": "Vista",
+      "visits": "81"
+    },
+    {
+      "date": "2016-02-08",
+      "os_version": "XP",
+      "visits": "254"
+    },
+    {
+      "date": "2016-02-09",
+      "os_version": "10",
+      "visits": "837"
+    },
+    {
+      "date": "2016-02-09",
+      "os_version": "2000",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-09",
+      "os_version": "7",
+      "visits": "4261"
+    },
+    {
+      "date": "2016-02-09",
+      "os_version": "8",
+      "visits": "31"
+    },
+    {
+      "date": "2016-02-09",
+      "os_version": "8.1",
+      "visits": "489"
+    },
+    {
+      "date": "2016-02-09",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-09",
+      "os_version": "Vista",
+      "visits": "72"
+    },
+    {
+      "date": "2016-02-09",
+      "os_version": "XP",
+      "visits": "345"
+    },
+    {
+      "date": "2016-02-10",
+      "os_version": "(not set)",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-10",
+      "os_version": "10",
+      "visits": "767"
+    },
+    {
+      "date": "2016-02-10",
+      "os_version": "7",
+      "visits": "4065"
+    },
+    {
+      "date": "2016-02-10",
+      "os_version": "8",
+      "visits": "32"
+    },
+    {
+      "date": "2016-02-10",
+      "os_version": "8.1",
+      "visits": "477"
+    },
+    {
+      "date": "2016-02-10",
+      "os_version": "Vista",
+      "visits": "72"
+    },
+    {
+      "date": "2016-02-10",
+      "os_version": "XP",
+      "visits": "356"
+    },
+    {
+      "date": "2016-02-11",
+      "os_version": "10",
+      "visits": "719"
+    },
+    {
+      "date": "2016-02-11",
+      "os_version": "7",
+      "visits": "4023"
+    },
+    {
+      "date": "2016-02-11",
+      "os_version": "8",
+      "visits": "33"
+    },
+    {
+      "date": "2016-02-11",
+      "os_version": "8.1",
+      "visits": "414"
+    },
+    {
+      "date": "2016-02-11",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-11",
+      "os_version": "Vista",
+      "visits": "88"
+    },
+    {
+      "date": "2016-02-11",
+      "os_version": "XP",
+      "visits": "297"
+    },
+    {
+      "date": "2016-02-12",
+      "os_version": "10",
+      "visits": "693"
+    },
+    {
+      "date": "2016-02-12",
+      "os_version": "7",
+      "visits": "3551"
+    },
+    {
+      "date": "2016-02-12",
+      "os_version": "8",
+      "visits": "22"
+    },
+    {
+      "date": "2016-02-12",
+      "os_version": "8.1",
+      "visits": "394"
+    },
+    {
+      "date": "2016-02-12",
+      "os_version": "Server 2003",
+      "visits": "4"
+    },
+    {
+      "date": "2016-02-12",
+      "os_version": "Vista",
+      "visits": "62"
+    },
+    {
+      "date": "2016-02-12",
+      "os_version": "XP",
+      "visits": "276"
+    },
+    {
+      "date": "2016-02-13",
+      "os_version": "10",
+      "visits": "523"
+    },
+    {
+      "date": "2016-02-13",
+      "os_version": "7",
+      "visits": "1290"
+    },
+    {
+      "date": "2016-02-13",
+      "os_version": "8",
+      "visits": "19"
+    },
+    {
+      "date": "2016-02-13",
+      "os_version": "8.1",
+      "visits": "267"
+    },
+    {
+      "date": "2016-02-13",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-13",
+      "os_version": "Vista",
+      "visits": "56"
+    },
+    {
+      "date": "2016-02-13",
+      "os_version": "XP",
+      "visits": "83"
+    },
+    {
+      "date": "2016-02-14",
+      "os_version": "10",
+      "visits": "535"
+    },
+    {
+      "date": "2016-02-14",
+      "os_version": "7",
+      "visits": "1102"
+    },
+    {
+      "date": "2016-02-14",
+      "os_version": "8",
+      "visits": "23"
+    },
+    {
+      "date": "2016-02-14",
+      "os_version": "8.1",
+      "visits": "275"
+    },
+    {
+      "date": "2016-02-14",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-14",
+      "os_version": "Vista",
+      "visits": "52"
+    },
+    {
+      "date": "2016-02-14",
+      "os_version": "XP",
+      "visits": "76"
+    },
+    {
+      "date": "2016-02-15",
+      "os_version": "10",
+      "visits": "804"
+    },
+    {
+      "date": "2016-02-15",
+      "os_version": "7",
+      "visits": "1991"
+    },
+    {
+      "date": "2016-02-15",
+      "os_version": "8",
+      "visits": "27"
+    },
+    {
+      "date": "2016-02-15",
+      "os_version": "8.1",
+      "visits": "452"
+    },
+    {
+      "date": "2016-02-15",
+      "os_version": "Vista",
+      "visits": "81"
+    },
+    {
+      "date": "2016-02-15",
+      "os_version": "XP",
+      "visits": "78"
+    },
+    {
+      "date": "2016-02-16",
+      "os_version": "10",
+      "visits": "913"
+    },
+    {
+      "date": "2016-02-16",
+      "os_version": "7",
+      "visits": "4431"
+    },
+    {
+      "date": "2016-02-16",
+      "os_version": "8",
+      "visits": "27"
+    },
+    {
+      "date": "2016-02-16",
+      "os_version": "8.1",
+      "visits": "461"
+    },
+    {
+      "date": "2016-02-16",
+      "os_version": "Server 2003",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-16",
+      "os_version": "Vista",
+      "visits": "74"
+    },
+    {
+      "date": "2016-02-16",
+      "os_version": "XP",
+      "visits": "281"
+    },
+    {
+      "date": "2016-02-17",
+      "os_version": "10",
+      "visits": "774"
+    },
+    {
+      "date": "2016-02-17",
+      "os_version": "7",
+      "visits": "4321"
+    },
+    {
+      "date": "2016-02-17",
+      "os_version": "8",
+      "visits": "47"
+    },
+    {
+      "date": "2016-02-17",
+      "os_version": "8.1",
+      "visits": "459"
+    },
+    {
+      "date": "2016-02-17",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-17",
+      "os_version": "Vista",
+      "visits": "83"
+    },
+    {
+      "date": "2016-02-17",
+      "os_version": "XP",
+      "visits": "311"
+    },
+    {
+      "date": "2016-02-18",
+      "os_version": "10",
+      "visits": "796"
+    },
+    {
+      "date": "2016-02-18",
+      "os_version": "2000",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-18",
+      "os_version": "7",
+      "visits": "4162"
+    },
+    {
+      "date": "2016-02-18",
+      "os_version": "8",
+      "visits": "33"
+    },
+    {
+      "date": "2016-02-18",
+      "os_version": "8.1",
+      "visits": "416"
+    },
+    {
+      "date": "2016-02-18",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-18",
+      "os_version": "Vista",
+      "visits": "59"
+    },
+    {
+      "date": "2016-02-18",
+      "os_version": "XP",
+      "visits": "340"
+    },
+    {
+      "date": "2016-02-19",
+      "os_version": "10",
+      "visits": "702"
+    },
+    {
+      "date": "2016-02-19",
+      "os_version": "7",
+      "visits": "3619"
+    },
+    {
+      "date": "2016-02-19",
+      "os_version": "8",
+      "visits": "23"
+    },
+    {
+      "date": "2016-02-19",
+      "os_version": "8.1",
+      "visits": "412"
+    },
+    {
+      "date": "2016-02-19",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-19",
+      "os_version": "Vista",
+      "visits": "58"
+    },
+    {
+      "date": "2016-02-19",
+      "os_version": "XP",
+      "visits": "261"
+    },
+    {
+      "date": "2016-02-20",
+      "os_version": "10",
+      "visits": "562"
+    },
+    {
+      "date": "2016-02-20",
+      "os_version": "7",
+      "visits": "1649"
+    },
+    {
+      "date": "2016-02-20",
+      "os_version": "8",
+      "visits": "38"
+    },
+    {
+      "date": "2016-02-20",
+      "os_version": "8.1",
+      "visits": "280"
+    },
+    {
+      "date": "2016-02-20",
+      "os_version": "Vista",
+      "visits": "73"
+    },
+    {
+      "date": "2016-02-20",
+      "os_version": "XP",
+      "visits": "92"
+    },
+    {
+      "date": "2016-02-21",
+      "os_version": "10",
+      "visits": "622"
+    },
+    {
+      "date": "2016-02-21",
+      "os_version": "7",
+      "visits": "1192"
+    },
+    {
+      "date": "2016-02-21",
+      "os_version": "8",
+      "visits": "16"
+    },
+    {
+      "date": "2016-02-21",
+      "os_version": "8.1",
+      "visits": "250"
+    },
+    {
+      "date": "2016-02-21",
+      "os_version": "Vista",
+      "visits": "62"
+    },
+    {
+      "date": "2016-02-21",
+      "os_version": "XP",
+      "visits": "80"
+    },
+    {
+      "date": "2016-02-22",
+      "os_version": "10",
+      "visits": "880"
+    },
+    {
+      "date": "2016-02-22",
+      "os_version": "7",
+      "visits": "3920"
+    },
+    {
+      "date": "2016-02-22",
+      "os_version": "8",
+      "visits": "27"
+    },
+    {
+      "date": "2016-02-22",
+      "os_version": "8.1",
+      "visits": "464"
+    },
+    {
+      "date": "2016-02-22",
+      "os_version": "Vista",
+      "visits": "72"
+    },
+    {
+      "date": "2016-02-22",
+      "os_version": "XP",
+      "visits": "263"
+    },
+    {
+      "date": "2016-02-23",
+      "os_version": "10",
+      "visits": "842"
+    },
+    {
+      "date": "2016-02-23",
+      "os_version": "7",
+      "visits": "4207"
+    },
+    {
+      "date": "2016-02-23",
+      "os_version": "8",
+      "visits": "35"
+    },
+    {
+      "date": "2016-02-23",
+      "os_version": "8.1",
+      "visits": "448"
+    },
+    {
+      "date": "2016-02-23",
+      "os_version": "Vista",
+      "visits": "86"
+    },
+    {
+      "date": "2016-02-23",
+      "os_version": "XP",
+      "visits": "375"
+    },
+    {
+      "date": "2016-02-24",
+      "os_version": "10",
+      "visits": "823"
+    },
+    {
+      "date": "2016-02-24",
+      "os_version": "2000",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-24",
+      "os_version": "7",
+      "visits": "4140"
+    },
+    {
+      "date": "2016-02-24",
+      "os_version": "8",
+      "visits": "31"
+    },
+    {
+      "date": "2016-02-24",
+      "os_version": "8.1",
+      "visits": "449"
+    },
+    {
+      "date": "2016-02-24",
+      "os_version": "Server 2003",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-24",
+      "os_version": "Vista",
+      "visits": "74"
+    },
+    {
+      "date": "2016-02-24",
+      "os_version": "XP",
+      "visits": "317"
+    },
+    {
+      "date": "2016-02-25",
+      "os_version": "10",
+      "visits": "812"
+    },
+    {
+      "date": "2016-02-25",
+      "os_version": "7",
+      "visits": "3892"
+    },
+    {
+      "date": "2016-02-25",
+      "os_version": "8",
+      "visits": "35"
+    },
+    {
+      "date": "2016-02-25",
+      "os_version": "8.1",
+      "visits": "417"
+    },
+    {
+      "date": "2016-02-25",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-25",
+      "os_version": "Vista",
+      "visits": "71"
+    },
+    {
+      "date": "2016-02-25",
+      "os_version": "XP",
+      "visits": "304"
+    },
+    {
+      "date": "2016-02-26",
+      "os_version": "10",
+      "visits": "737"
+    },
+    {
+      "date": "2016-02-26",
+      "os_version": "7",
+      "visits": "3455"
+    },
+    {
+      "date": "2016-02-26",
+      "os_version": "8",
+      "visits": "21"
+    },
+    {
+      "date": "2016-02-26",
+      "os_version": "8.1",
+      "visits": "403"
+    },
+    {
+      "date": "2016-02-26",
+      "os_version": "Vista",
+      "visits": "64"
+    },
+    {
+      "date": "2016-02-26",
+      "os_version": "XP",
+      "visits": "283"
+    },
+    {
+      "date": "2016-02-27",
+      "os_version": "10",
+      "visits": "584"
+    },
+    {
+      "date": "2016-02-27",
+      "os_version": "2000",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-27",
+      "os_version": "7",
+      "visits": "1666"
+    },
+    {
+      "date": "2016-02-27",
+      "os_version": "8",
+      "visits": "32"
+    },
+    {
+      "date": "2016-02-27",
+      "os_version": "8.1",
+      "visits": "238"
+    },
+    {
+      "date": "2016-02-27",
+      "os_version": "Server 2003",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-27",
+      "os_version": "Vista",
+      "visits": "49"
+    },
+    {
+      "date": "2016-02-27",
+      "os_version": "XP",
+      "visits": "100"
+    },
+    {
+      "date": "2016-02-28",
+      "os_version": "10",
+      "visits": "581"
+    },
+    {
+      "date": "2016-02-28",
+      "os_version": "7",
+      "visits": "1163"
+    },
+    {
+      "date": "2016-02-28",
+      "os_version": "8",
+      "visits": "22"
+    },
+    {
+      "date": "2016-02-28",
+      "os_version": "8.1",
+      "visits": "296"
+    },
+    {
+      "date": "2016-02-28",
+      "os_version": "98",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-28",
+      "os_version": "Vista",
+      "visits": "64"
+    },
+    {
+      "date": "2016-02-28",
+      "os_version": "XP",
+      "visits": "50"
+    },
+    {
+      "date": "2016-02-29",
+      "os_version": "10",
+      "visits": "915"
+    },
+    {
+      "date": "2016-02-29",
+      "os_version": "2000",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-29",
+      "os_version": "7",
+      "visits": "4025"
+    },
+    {
+      "date": "2016-02-29",
+      "os_version": "8",
+      "visits": "42"
+    },
+    {
+      "date": "2016-02-29",
+      "os_version": "8.1",
+      "visits": "460"
+    },
+    {
+      "date": "2016-02-29",
+      "os_version": "Server 2003",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-29",
+      "os_version": "Vista",
+      "visits": "95"
+    },
+    {
+      "date": "2016-02-29",
+      "os_version": "XP",
+      "visits": "275"
+    },
+    {
+      "date": "2016-03-01",
+      "os_version": "10",
+      "visits": "947"
+    },
+    {
+      "date": "2016-03-01",
+      "os_version": "7",
+      "visits": "4327"
+    },
+    {
+      "date": "2016-03-01",
+      "os_version": "8",
+      "visits": "31"
+    },
+    {
+      "date": "2016-03-01",
+      "os_version": "8.1",
+      "visits": "487"
+    },
+    {
+      "date": "2016-03-01",
+      "os_version": "Vista",
+      "visits": "89"
+    },
+    {
+      "date": "2016-03-01",
+      "os_version": "XP",
+      "visits": "311"
+    },
+    {
+      "date": "2016-03-02",
+      "os_version": "10",
+      "visits": "851"
+    },
+    {
+      "date": "2016-03-02",
+      "os_version": "7",
+      "visits": "4034"
+    },
+    {
+      "date": "2016-03-02",
+      "os_version": "8",
+      "visits": "44"
+    },
+    {
+      "date": "2016-03-02",
+      "os_version": "8.1",
+      "visits": "433"
+    },
+    {
+      "date": "2016-03-02",
+      "os_version": "Vista",
+      "visits": "91"
+    },
+    {
+      "date": "2016-03-02",
+      "os_version": "XP",
+      "visits": "294"
+    },
+    {
+      "date": "2016-03-03",
+      "os_version": "10",
+      "visits": "818"
+    },
+    {
+      "date": "2016-03-03",
+      "os_version": "7",
+      "visits": "4029"
+    },
+    {
+      "date": "2016-03-03",
+      "os_version": "8",
+      "visits": "23"
+    },
+    {
+      "date": "2016-03-03",
+      "os_version": "8.1",
+      "visits": "428"
+    },
+    {
+      "date": "2016-03-03",
+      "os_version": "Vista",
+      "visits": "58"
+    },
+    {
+      "date": "2016-03-03",
+      "os_version": "XP",
+      "visits": "263"
+    },
+    {
+      "date": "2016-03-04",
+      "os_version": "10",
+      "visits": "740"
+    },
+    {
+      "date": "2016-03-04",
+      "os_version": "7",
+      "visits": "3751"
+    },
+    {
+      "date": "2016-03-04",
+      "os_version": "8",
+      "visits": "25"
+    },
+    {
+      "date": "2016-03-04",
+      "os_version": "8.1",
+      "visits": "389"
+    },
+    {
+      "date": "2016-03-04",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-04",
+      "os_version": "Vista",
+      "visits": "61"
+    },
+    {
+      "date": "2016-03-04",
+      "os_version": "XP",
+      "visits": "253"
+    },
+    {
+      "date": "2016-03-05",
+      "os_version": "10",
+      "visits": "627"
+    },
+    {
+      "date": "2016-03-05",
+      "os_version": "7",
+      "visits": "1606"
+    },
+    {
+      "date": "2016-03-05",
+      "os_version": "8",
+      "visits": "20"
+    },
+    {
+      "date": "2016-03-05",
+      "os_version": "8.1",
+      "visits": "249"
+    },
+    {
+      "date": "2016-03-05",
+      "os_version": "Vista",
+      "visits": "66"
+    },
+    {
+      "date": "2016-03-05",
+      "os_version": "XP",
+      "visits": "115"
+    },
+    {
+      "date": "2016-03-06",
+      "os_version": "10",
+      "visits": "618"
+    },
+    {
+      "date": "2016-03-06",
+      "os_version": "7",
+      "visits": "1063"
+    },
+    {
+      "date": "2016-03-06",
+      "os_version": "8",
+      "visits": "32"
+    },
+    {
+      "date": "2016-03-06",
+      "os_version": "8.1",
+      "visits": "280"
+    },
+    {
+      "date": "2016-03-06",
+      "os_version": "Vista",
+      "visits": "62"
+    },
+    {
+      "date": "2016-03-06",
+      "os_version": "XP",
+      "visits": "71"
+    },
+    {
+      "date": "2016-03-07",
+      "os_version": "10",
+      "visits": "937"
+    },
+    {
+      "date": "2016-03-07",
+      "os_version": "7",
+      "visits": "4219"
+    },
+    {
+      "date": "2016-03-07",
+      "os_version": "8",
+      "visits": "47"
+    },
+    {
+      "date": "2016-03-07",
+      "os_version": "8.1",
+      "visits": "456"
+    },
+    {
+      "date": "2016-03-07",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-07",
+      "os_version": "Vista",
+      "visits": "97"
+    },
+    {
+      "date": "2016-03-07",
+      "os_version": "XP",
+      "visits": "241"
+    },
+    {
+      "date": "2016-03-08",
+      "os_version": "10",
+      "visits": "957"
+    },
+    {
+      "date": "2016-03-08",
+      "os_version": "7",
+      "visits": "4774"
+    },
+    {
+      "date": "2016-03-08",
+      "os_version": "8",
+      "visits": "37"
+    },
+    {
+      "date": "2016-03-08",
+      "os_version": "8.1",
+      "visits": "484"
+    },
+    {
+      "date": "2016-03-08",
+      "os_version": "Vista",
+      "visits": "100"
+    },
+    {
+      "date": "2016-03-08",
+      "os_version": "XP",
+      "visits": "268"
+    },
+    {
+      "date": "2016-03-09",
+      "os_version": "10",
+      "visits": "912"
+    },
+    {
+      "date": "2016-03-09",
+      "os_version": "7",
+      "visits": "4118"
+    },
+    {
+      "date": "2016-03-09",
+      "os_version": "8",
+      "visits": "38"
+    },
+    {
+      "date": "2016-03-09",
+      "os_version": "8.1",
+      "visits": "406"
+    },
+    {
+      "date": "2016-03-09",
+      "os_version": "Vista",
+      "visits": "88"
+    },
+    {
+      "date": "2016-03-09",
+      "os_version": "XP",
+      "visits": "307"
+    },
+    {
+      "date": "2016-03-10",
+      "os_version": "10",
+      "visits": "895"
+    },
+    {
+      "date": "2016-03-10",
+      "os_version": "7",
+      "visits": "4112"
+    },
+    {
+      "date": "2016-03-10",
+      "os_version": "8",
+      "visits": "34"
+    },
+    {
+      "date": "2016-03-10",
+      "os_version": "8.1",
+      "visits": "419"
+    },
+    {
+      "date": "2016-03-10",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-10",
+      "os_version": "Vista",
+      "visits": "66"
+    },
+    {
+      "date": "2016-03-10",
+      "os_version": "XP",
+      "visits": "287"
+    },
+    {
+      "date": "2016-03-11",
+      "os_version": "10",
+      "visits": "762"
+    },
+    {
+      "date": "2016-03-11",
+      "os_version": "7",
+      "visits": "3551"
+    },
+    {
+      "date": "2016-03-11",
+      "os_version": "8",
+      "visits": "30"
+    },
+    {
+      "date": "2016-03-11",
+      "os_version": "8.1",
+      "visits": "348"
+    },
+    {
+      "date": "2016-03-11",
+      "os_version": "Vista",
+      "visits": "79"
+    },
+    {
+      "date": "2016-03-11",
+      "os_version": "XP",
+      "visits": "249"
+    },
+    {
+      "date": "2016-03-12",
+      "os_version": "10",
+      "visits": "658"
+    },
+    {
+      "date": "2016-03-12",
+      "os_version": "7",
+      "visits": "1586"
+    },
+    {
+      "date": "2016-03-12",
+      "os_version": "8",
+      "visits": "19"
+    },
+    {
+      "date": "2016-03-12",
+      "os_version": "8.1",
+      "visits": "225"
+    },
+    {
+      "date": "2016-03-12",
+      "os_version": "Vista",
+      "visits": "58"
+    },
+    {
+      "date": "2016-03-12",
+      "os_version": "XP",
+      "visits": "130"
+    },
+    {
+      "date": "2016-03-13",
+      "os_version": "10",
+      "visits": "651"
+    },
+    {
+      "date": "2016-03-13",
+      "os_version": "7",
+      "visits": "1098"
+    },
+    {
+      "date": "2016-03-13",
+      "os_version": "8",
+      "visits": "21"
+    },
+    {
+      "date": "2016-03-13",
+      "os_version": "8.1",
+      "visits": "228"
+    },
+    {
+      "date": "2016-03-13",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-13",
+      "os_version": "Vista",
+      "visits": "44"
+    },
+    {
+      "date": "2016-03-13",
+      "os_version": "XP",
+      "visits": "75"
+    },
+    {
+      "date": "2016-03-14",
+      "os_version": "10",
+      "visits": "1022"
+    },
+    {
+      "date": "2016-03-14",
+      "os_version": "7",
+      "visits": "4037"
+    },
+    {
+      "date": "2016-03-14",
+      "os_version": "8",
+      "visits": "35"
+    },
+    {
+      "date": "2016-03-14",
+      "os_version": "8.1",
+      "visits": "441"
+    },
+    {
+      "date": "2016-03-14",
+      "os_version": "Vista",
+      "visits": "92"
+    },
+    {
+      "date": "2016-03-14",
+      "os_version": "XP",
+      "visits": "249"
+    },
+    {
+      "date": "2016-03-15",
+      "os_version": "10",
+      "visits": "946"
+    },
+    {
+      "date": "2016-03-15",
+      "os_version": "7",
+      "visits": "4248"
+    },
+    {
+      "date": "2016-03-15",
+      "os_version": "8",
+      "visits": "38"
+    },
+    {
+      "date": "2016-03-15",
+      "os_version": "8.1",
+      "visits": "422"
+    },
+    {
+      "date": "2016-03-15",
+      "os_version": "Vista",
+      "visits": "79"
+    },
+    {
+      "date": "2016-03-15",
+      "os_version": "XP",
+      "visits": "232"
+    },
+    {
+      "date": "2016-03-16",
+      "os_version": "10",
+      "visits": "1018"
+    },
+    {
+      "date": "2016-03-16",
+      "os_version": "7",
+      "visits": "4201"
+    },
+    {
+      "date": "2016-03-16",
+      "os_version": "8",
+      "visits": "38"
+    },
+    {
+      "date": "2016-03-16",
+      "os_version": "8.1",
+      "visits": "373"
+    },
+    {
+      "date": "2016-03-16",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-16",
+      "os_version": "Vista",
+      "visits": "75"
+    },
+    {
+      "date": "2016-03-16",
+      "os_version": "XP",
+      "visits": "274"
+    },
+    {
+      "date": "2016-03-17",
+      "os_version": "10",
+      "visits": "840"
+    },
+    {
+      "date": "2016-03-17",
+      "os_version": "7",
+      "visits": "4050"
+    },
+    {
+      "date": "2016-03-17",
+      "os_version": "8",
+      "visits": "29"
+    },
+    {
+      "date": "2016-03-17",
+      "os_version": "8.1",
+      "visits": "382"
+    },
+    {
+      "date": "2016-03-17",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-17",
+      "os_version": "Vista",
+      "visits": "64"
+    },
+    {
+      "date": "2016-03-17",
+      "os_version": "XP",
+      "visits": "279"
+    },
+    {
+      "date": "2016-03-18",
+      "os_version": "10",
+      "visits": "844"
+    },
+    {
+      "date": "2016-03-18",
+      "os_version": "7",
+      "visits": "3387"
+    },
+    {
+      "date": "2016-03-18",
+      "os_version": "8",
+      "visits": "24"
+    },
+    {
+      "date": "2016-03-18",
+      "os_version": "8.1",
+      "visits": "362"
+    },
+    {
+      "date": "2016-03-18",
+      "os_version": "Vista",
+      "visits": "82"
+    },
+    {
+      "date": "2016-03-18",
+      "os_version": "XP",
+      "visits": "213"
+    },
+    {
+      "date": "2016-03-19",
+      "os_version": "10",
+      "visits": "678"
+    },
+    {
+      "date": "2016-03-19",
+      "os_version": "7",
+      "visits": "1478"
+    },
+    {
+      "date": "2016-03-19",
+      "os_version": "8",
+      "visits": "22"
+    },
+    {
+      "date": "2016-03-19",
+      "os_version": "8.1",
+      "visits": "242"
+    },
+    {
+      "date": "2016-03-19",
+      "os_version": "Vista",
+      "visits": "58"
+    },
+    {
+      "date": "2016-03-19",
+      "os_version": "XP",
+      "visits": "106"
+    },
+    {
+      "date": "2016-03-20",
+      "os_version": "10",
+      "visits": "661"
+    },
+    {
+      "date": "2016-03-20",
+      "os_version": "7",
+      "visits": "1143"
+    },
+    {
+      "date": "2016-03-20",
+      "os_version": "8",
+      "visits": "29"
+    },
+    {
+      "date": "2016-03-20",
+      "os_version": "8.1",
+      "visits": "273"
+    },
+    {
+      "date": "2016-03-20",
+      "os_version": "Vista",
+      "visits": "65"
+    },
+    {
+      "date": "2016-03-20",
+      "os_version": "XP",
+      "visits": "72"
+    },
+    {
+      "date": "2016-03-21",
+      "os_version": "10",
+      "visits": "1034"
+    },
+    {
+      "date": "2016-03-21",
+      "os_version": "7",
+      "visits": "4061"
+    },
+    {
+      "date": "2016-03-21",
+      "os_version": "8",
+      "visits": "36"
+    },
+    {
+      "date": "2016-03-21",
+      "os_version": "8.1",
+      "visits": "449"
+    },
+    {
+      "date": "2016-03-21",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-21",
+      "os_version": "Vista",
+      "visits": "91"
+    },
+    {
+      "date": "2016-03-21",
+      "os_version": "XP",
+      "visits": "173"
+    },
+    {
+      "date": "2016-03-22",
+      "os_version": "10",
+      "visits": "1123"
+    },
+    {
+      "date": "2016-03-22",
+      "os_version": "7",
+      "visits": "4464"
+    },
+    {
+      "date": "2016-03-22",
+      "os_version": "8",
+      "visits": "29"
+    },
+    {
+      "date": "2016-03-22",
+      "os_version": "8.1",
+      "visits": "379"
+    },
+    {
+      "date": "2016-03-22",
+      "os_version": "Vista",
+      "visits": "84"
+    },
+    {
+      "date": "2016-03-22",
+      "os_version": "XP",
+      "visits": "230"
+    },
+    {
+      "date": "2016-03-23",
+      "os_version": "10",
+      "visits": "996"
+    },
+    {
+      "date": "2016-03-23",
+      "os_version": "7",
+      "visits": "4098"
+    },
+    {
+      "date": "2016-03-23",
+      "os_version": "8",
+      "visits": "26"
+    },
+    {
+      "date": "2016-03-23",
+      "os_version": "8.1",
+      "visits": "412"
+    },
+    {
+      "date": "2016-03-23",
+      "os_version": "Vista",
+      "visits": "71"
+    },
+    {
+      "date": "2016-03-23",
+      "os_version": "XP",
+      "visits": "205"
+    },
+    {
+      "date": "2016-03-24",
+      "os_version": "(not set)",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-24",
+      "os_version": "10",
+      "visits": "981"
+    },
+    {
+      "date": "2016-03-24",
+      "os_version": "7",
+      "visits": "3880"
+    },
+    {
+      "date": "2016-03-24",
+      "os_version": "8",
+      "visits": "21"
+    },
+    {
+      "date": "2016-03-24",
+      "os_version": "8.1",
+      "visits": "392"
+    },
+    {
+      "date": "2016-03-24",
+      "os_version": "Vista",
+      "visits": "63"
+    },
+    {
+      "date": "2016-03-24",
+      "os_version": "XP",
+      "visits": "161"
+    },
+    {
+      "date": "2016-03-25",
+      "os_version": "10",
+      "visits": "865"
+    },
+    {
+      "date": "2016-03-25",
+      "os_version": "7",
+      "visits": "3361"
+    },
+    {
+      "date": "2016-03-25",
+      "os_version": "8",
+      "visits": "16"
+    },
+    {
+      "date": "2016-03-25",
+      "os_version": "8.1",
+      "visits": "308"
+    },
+    {
+      "date": "2016-03-25",
+      "os_version": "Vista",
+      "visits": "55"
+    },
+    {
+      "date": "2016-03-25",
+      "os_version": "XP",
+      "visits": "168"
+    },
+    {
+      "date": "2016-03-26",
+      "os_version": "10",
+      "visits": "676"
+    },
+    {
+      "date": "2016-03-26",
+      "os_version": "2000",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-26",
+      "os_version": "7",
+      "visits": "1317"
+    },
+    {
+      "date": "2016-03-26",
+      "os_version": "8",
+      "visits": "26"
+    },
+    {
+      "date": "2016-03-26",
+      "os_version": "8.1",
+      "visits": "236"
+    },
+    {
+      "date": "2016-03-26",
+      "os_version": "Server 2003",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-26",
+      "os_version": "Vista",
+      "visits": "63"
+    },
+    {
+      "date": "2016-03-26",
+      "os_version": "XP",
+      "visits": "68"
+    },
+    {
+      "date": "2016-03-27",
+      "os_version": "10",
+      "visits": "572"
+    },
+    {
+      "date": "2016-03-27",
+      "os_version": "7",
+      "visits": "920"
+    },
+    {
+      "date": "2016-03-27",
+      "os_version": "8",
+      "visits": "20"
+    },
+    {
+      "date": "2016-03-27",
+      "os_version": "8.1",
+      "visits": "219"
+    },
+    {
+      "date": "2016-03-27",
+      "os_version": "Vista",
+      "visits": "59"
+    },
+    {
+      "date": "2016-03-27",
+      "os_version": "XP",
+      "visits": "50"
+    },
+    {
+      "date": "2016-03-28",
+      "os_version": "10",
+      "visits": "1048"
+    },
+    {
+      "date": "2016-03-28",
+      "os_version": "7",
+      "visits": "2950"
+    },
+    {
+      "date": "2016-03-28",
+      "os_version": "8",
+      "visits": "22"
+    },
+    {
+      "date": "2016-03-28",
+      "os_version": "8.1",
+      "visits": "436"
+    },
+    {
+      "date": "2016-03-28",
+      "os_version": "NT",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-28",
+      "os_version": "Server 2003",
+      "visits": "3"
+    },
+    {
+      "date": "2016-03-28",
+      "os_version": "Vista",
+      "visits": "76"
+    },
+    {
+      "date": "2016-03-28",
+      "os_version": "XP",
+      "visits": "92"
+    },
+    {
+      "date": "2016-03-29",
+      "os_version": "10",
+      "visits": "1199"
+    },
+    {
+      "date": "2016-03-29",
+      "os_version": "7",
+      "visits": "4412"
+    },
+    {
+      "date": "2016-03-29",
+      "os_version": "8",
+      "visits": "38"
+    },
+    {
+      "date": "2016-03-29",
+      "os_version": "8.1",
+      "visits": "376"
+    },
+    {
+      "date": "2016-03-29",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-29",
+      "os_version": "Vista",
+      "visits": "80"
+    },
+    {
+      "date": "2016-03-29",
+      "os_version": "XP",
+      "visits": "166"
+    },
+    {
+      "date": "2016-03-30",
+      "os_version": "10",
+      "visits": "1131"
+    },
+    {
+      "date": "2016-03-30",
+      "os_version": "7",
+      "visits": "4388"
+    },
+    {
+      "date": "2016-03-30",
+      "os_version": "8",
+      "visits": "32"
+    },
+    {
+      "date": "2016-03-30",
+      "os_version": "8.1",
+      "visits": "387"
+    },
+    {
+      "date": "2016-03-30",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-30",
+      "os_version": "Vista",
+      "visits": "63"
+    },
+    {
+      "date": "2016-03-30",
+      "os_version": "XP",
+      "visits": "197"
+    },
+    {
+      "date": "2016-03-31",
+      "os_version": "10",
+      "visits": "1034"
+    },
+    {
+      "date": "2016-03-31",
+      "os_version": "2000",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-31",
+      "os_version": "7",
+      "visits": "4212"
+    },
+    {
+      "date": "2016-03-31",
+      "os_version": "8",
+      "visits": "35"
+    },
+    {
+      "date": "2016-03-31",
+      "os_version": "8.1",
+      "visits": "378"
+    },
+    {
+      "date": "2016-03-31",
+      "os_version": "Vista",
+      "visits": "68"
+    },
+    {
+      "date": "2016-03-31",
+      "os_version": "XP",
+      "visits": "194"
+    },
+    {
+      "date": "2016-04-01",
+      "os_version": "10",
+      "visits": "917"
+    },
+    {
+      "date": "2016-04-01",
+      "os_version": "7",
+      "visits": "3516"
+    },
+    {
+      "date": "2016-04-01",
+      "os_version": "8",
+      "visits": "29"
+    },
+    {
+      "date": "2016-04-01",
+      "os_version": "8.1",
+      "visits": "316"
+    },
+    {
+      "date": "2016-04-01",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-01",
+      "os_version": "Vista",
+      "visits": "56"
+    },
+    {
+      "date": "2016-04-01",
+      "os_version": "XP",
+      "visits": "179"
+    },
+    {
+      "date": "2016-04-02",
+      "os_version": "10",
+      "visits": "721"
+    },
+    {
+      "date": "2016-04-02",
+      "os_version": "7",
+      "visits": "1620"
+    },
+    {
+      "date": "2016-04-02",
+      "os_version": "8",
+      "visits": "22"
+    },
+    {
+      "date": "2016-04-02",
+      "os_version": "8.1",
+      "visits": "246"
+    },
+    {
+      "date": "2016-04-02",
+      "os_version": "Vista",
+      "visits": "58"
+    },
+    {
+      "date": "2016-04-02",
+      "os_version": "XP",
+      "visits": "54"
+    },
+    {
+      "date": "2016-04-03",
+      "os_version": "10",
+      "visits": "721"
+    },
+    {
+      "date": "2016-04-03",
+      "os_version": "7",
+      "visits": "1113"
+    },
+    {
+      "date": "2016-04-03",
+      "os_version": "8",
+      "visits": "16"
+    },
+    {
+      "date": "2016-04-03",
+      "os_version": "8.1",
+      "visits": "263"
+    },
+    {
+      "date": "2016-04-03",
+      "os_version": "Vista",
+      "visits": "66"
+    },
+    {
+      "date": "2016-04-03",
+      "os_version": "XP",
+      "visits": "57"
+    },
+    {
+      "date": "2016-04-04",
+      "os_version": "10",
+      "visits": "1399"
+    },
+    {
+      "date": "2016-04-04",
+      "os_version": "7",
+      "visits": "4467"
+    },
+    {
+      "date": "2016-04-04",
+      "os_version": "8",
+      "visits": "27"
+    },
+    {
+      "date": "2016-04-04",
+      "os_version": "8.1",
+      "visits": "479"
+    },
+    {
+      "date": "2016-04-04",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-04",
+      "os_version": "Vista",
+      "visits": "98"
+    },
+    {
+      "date": "2016-04-04",
+      "os_version": "XP",
+      "visits": "226"
+    },
+    {
+      "date": "2016-04-05",
+      "os_version": "10",
+      "visits": "1922"
+    },
+    {
+      "date": "2016-04-05",
+      "os_version": "7",
+      "visits": "6455"
+    },
+    {
+      "date": "2016-04-05",
+      "os_version": "8",
+      "visits": "35"
+    },
+    {
+      "date": "2016-04-05",
+      "os_version": "8.1",
+      "visits": "610"
+    },
+    {
+      "date": "2016-04-05",
+      "os_version": "Server 2003",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-05",
+      "os_version": "Vista",
+      "visits": "117"
+    },
+    {
+      "date": "2016-04-05",
+      "os_version": "XP",
+      "visits": "238"
+    },
+    {
+      "date": "2016-04-06",
+      "os_version": "(not set)",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-06",
+      "os_version": "10",
+      "visits": "1609"
+    },
+    {
+      "date": "2016-04-06",
+      "os_version": "7",
+      "visits": "6243"
+    },
+    {
+      "date": "2016-04-06",
+      "os_version": "8",
+      "visits": "40"
+    },
+    {
+      "date": "2016-04-06",
+      "os_version": "8.1",
+      "visits": "575"
+    },
+    {
+      "date": "2016-04-06",
+      "os_version": "Vista",
+      "visits": "108"
+    },
+    {
+      "date": "2016-04-06",
+      "os_version": "XP",
+      "visits": "233"
+    },
+    {
+      "date": "2016-04-07",
+      "os_version": "10",
+      "visits": "1137"
+    },
+    {
+      "date": "2016-04-07",
+      "os_version": "7",
+      "visits": "3988"
+    },
+    {
+      "date": "2016-04-07",
+      "os_version": "8",
+      "visits": "32"
+    },
+    {
+      "date": "2016-04-07",
+      "os_version": "8.1",
+      "visits": "396"
+    },
+    {
+      "date": "2016-04-07",
+      "os_version": "Vista",
+      "visits": "77"
+    },
+    {
+      "date": "2016-04-07",
+      "os_version": "XP",
+      "visits": "187"
+    },
+    {
+      "date": "2016-04-08",
+      "os_version": "10",
+      "visits": "982"
+    },
+    {
+      "date": "2016-04-08",
+      "os_version": "7",
+      "visits": "3516"
+    },
+    {
+      "date": "2016-04-08",
+      "os_version": "8",
+      "visits": "27"
+    },
+    {
+      "date": "2016-04-08",
+      "os_version": "8.1",
+      "visits": "327"
+    },
+    {
+      "date": "2016-04-08",
+      "os_version": "Server 2003",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-08",
+      "os_version": "Vista",
+      "visits": "70"
+    },
+    {
+      "date": "2016-04-08",
+      "os_version": "XP",
+      "visits": "164"
+    },
+    {
+      "date": "2016-04-09",
+      "os_version": "10",
+      "visits": "790"
+    },
+    {
+      "date": "2016-04-09",
+      "os_version": "2000",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-09",
+      "os_version": "7",
+      "visits": "1541"
+    },
+    {
+      "date": "2016-04-09",
+      "os_version": "8",
+      "visits": "22"
+    },
+    {
+      "date": "2016-04-09",
+      "os_version": "8.1",
+      "visits": "293"
+    },
+    {
+      "date": "2016-04-09",
+      "os_version": "Vista",
+      "visits": "68"
+    },
+    {
+      "date": "2016-04-09",
+      "os_version": "XP",
+      "visits": "47"
+    },
+    {
+      "date": "2016-04-10",
+      "os_version": "10",
+      "visits": "786"
+    },
+    {
+      "date": "2016-04-10",
+      "os_version": "7",
+      "visits": "1135"
+    },
+    {
+      "date": "2016-04-10",
+      "os_version": "8",
+      "visits": "25"
+    },
+    {
+      "date": "2016-04-10",
+      "os_version": "8.1",
+      "visits": "269"
+    },
+    {
+      "date": "2016-04-10",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-10",
+      "os_version": "Vista",
+      "visits": "66"
+    },
+    {
+      "date": "2016-04-10",
+      "os_version": "XP",
+      "visits": "31"
+    },
+    {
+      "date": "2016-04-11",
+      "os_version": "10",
+      "visits": "1177"
+    },
+    {
+      "date": "2016-04-11",
+      "os_version": "7",
+      "visits": "3967"
+    },
+    {
+      "date": "2016-04-11",
+      "os_version": "8",
+      "visits": "29"
+    },
+    {
+      "date": "2016-04-11",
+      "os_version": "8.1",
+      "visits": "438"
+    },
+    {
+      "date": "2016-04-11",
+      "os_version": "Server 2003",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-11",
+      "os_version": "Vista",
+      "visits": "99"
+    },
+    {
+      "date": "2016-04-11",
+      "os_version": "XP",
+      "visits": "190"
+    },
+    {
+      "date": "2016-04-12",
+      "os_version": "10",
+      "visits": "1152"
+    },
+    {
+      "date": "2016-04-12",
+      "os_version": "7",
+      "visits": "4312"
+    },
+    {
+      "date": "2016-04-12",
+      "os_version": "8",
+      "visits": "30"
+    },
+    {
+      "date": "2016-04-12",
+      "os_version": "8.1",
+      "visits": "432"
+    },
+    {
+      "date": "2016-04-12",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-12",
+      "os_version": "Vista",
+      "visits": "87"
+    },
+    {
+      "date": "2016-04-12",
+      "os_version": "XP",
+      "visits": "204"
+    },
+    {
+      "date": "2016-04-13",
+      "os_version": "10",
+      "visits": "1147"
+    },
+    {
+      "date": "2016-04-13",
+      "os_version": "7",
+      "visits": "4246"
+    },
+    {
+      "date": "2016-04-13",
+      "os_version": "8",
+      "visits": "27"
+    },
+    {
+      "date": "2016-04-13",
+      "os_version": "8.1",
+      "visits": "407"
+    },
+    {
+      "date": "2016-04-13",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-13",
+      "os_version": "Vista",
+      "visits": "92"
+    },
+    {
+      "date": "2016-04-13",
+      "os_version": "XP",
+      "visits": "178"
+    },
+    {
+      "date": "2016-04-14",
+      "os_version": "10",
+      "visits": "1065"
+    },
+    {
+      "date": "2016-04-14",
+      "os_version": "7",
+      "visits": "4253"
+    },
+    {
+      "date": "2016-04-14",
+      "os_version": "8",
+      "visits": "32"
+    },
+    {
+      "date": "2016-04-14",
+      "os_version": "8.1",
+      "visits": "373"
+    },
+    {
+      "date": "2016-04-14",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-14",
+      "os_version": "Vista",
+      "visits": "64"
+    },
+    {
+      "date": "2016-04-14",
+      "os_version": "XP",
+      "visits": "151"
+    },
+    {
+      "date": "2016-04-15",
+      "os_version": "10",
+      "visits": "1041"
+    },
+    {
+      "date": "2016-04-15",
+      "os_version": "7",
+      "visits": "3764"
+    },
+    {
+      "date": "2016-04-15",
+      "os_version": "8",
+      "visits": "20"
+    },
+    {
+      "date": "2016-04-15",
+      "os_version": "8.1",
+      "visits": "361"
+    },
+    {
+      "date": "2016-04-15",
+      "os_version": "NT",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-15",
+      "os_version": "Vista",
+      "visits": "69"
+    },
+    {
+      "date": "2016-04-15",
+      "os_version": "XP",
+      "visits": "146"
+    },
+    {
+      "date": "2016-04-16",
+      "os_version": "10",
+      "visits": "800"
+    },
+    {
+      "date": "2016-04-16",
+      "os_version": "2000",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-16",
+      "os_version": "7",
+      "visits": "1622"
+    },
+    {
+      "date": "2016-04-16",
+      "os_version": "8",
+      "visits": "22"
+    },
+    {
+      "date": "2016-04-16",
+      "os_version": "8.1",
+      "visits": "227"
+    },
+    {
+      "date": "2016-04-16",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-16",
+      "os_version": "Vista",
+      "visits": "80"
+    },
+    {
+      "date": "2016-04-16",
+      "os_version": "XP",
+      "visits": "61"
+    },
+    {
+      "date": "2016-04-17",
+      "os_version": "10",
+      "visits": "767"
+    },
+    {
+      "date": "2016-04-17",
+      "os_version": "2000",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-17",
+      "os_version": "7",
+      "visits": "1078"
+    },
+    {
+      "date": "2016-04-17",
+      "os_version": "8",
+      "visits": "29"
+    },
+    {
+      "date": "2016-04-17",
+      "os_version": "8.1",
+      "visits": "218"
+    },
+    {
+      "date": "2016-04-17",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-17",
+      "os_version": "Vista",
+      "visits": "65"
+    },
+    {
+      "date": "2016-04-17",
+      "os_version": "XP",
+      "visits": "28"
+    },
+    {
+      "date": "2016-04-18",
+      "os_version": "10",
+      "visits": "1209"
+    },
+    {
+      "date": "2016-04-18",
+      "os_version": "7",
+      "visits": "4085"
+    },
+    {
+      "date": "2016-04-18",
+      "os_version": "8",
+      "visits": "26"
+    },
+    {
+      "date": "2016-04-18",
+      "os_version": "8.1",
+      "visits": "396"
+    },
+    {
+      "date": "2016-04-18",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-18",
+      "os_version": "Vista",
+      "visits": "83"
+    },
+    {
+      "date": "2016-04-18",
+      "os_version": "XP",
+      "visits": "150"
+    },
+    {
+      "date": "2016-04-19",
+      "os_version": "10",
+      "visits": "1213"
+    },
+    {
+      "date": "2016-04-19",
+      "os_version": "7",
+      "visits": "4401"
+    },
+    {
+      "date": "2016-04-19",
+      "os_version": "8",
+      "visits": "32"
+    },
+    {
+      "date": "2016-04-19",
+      "os_version": "8.1",
+      "visits": "368"
+    },
+    {
+      "date": "2016-04-19",
+      "os_version": "Vista",
+      "visits": "77"
+    },
+    {
+      "date": "2016-04-19",
+      "os_version": "XP",
+      "visits": "178"
+    },
+    {
+      "date": "2016-04-20",
+      "os_version": "10",
+      "visits": "1152"
+    },
+    {
+      "date": "2016-04-20",
+      "os_version": "7",
+      "visits": "4327"
+    },
+    {
+      "date": "2016-04-20",
+      "os_version": "8",
+      "visits": "34"
+    },
+    {
+      "date": "2016-04-20",
+      "os_version": "8.1",
+      "visits": "394"
+    },
+    {
+      "date": "2016-04-20",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-20",
+      "os_version": "Vista",
+      "visits": "82"
+    },
+    {
+      "date": "2016-04-20",
+      "os_version": "XP",
+      "visits": "155"
+    },
+    {
+      "date": "2016-04-21",
+      "os_version": "(not set)",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-21",
+      "os_version": "10",
+      "visits": "1014"
+    },
+    {
+      "date": "2016-04-21",
+      "os_version": "7",
+      "visits": "3831"
+    },
+    {
+      "date": "2016-04-21",
+      "os_version": "8",
+      "visits": "46"
+    },
+    {
+      "date": "2016-04-21",
+      "os_version": "8.1",
+      "visits": "404"
+    },
+    {
+      "date": "2016-04-21",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-21",
+      "os_version": "Vista",
+      "visits": "72"
+    },
+    {
+      "date": "2016-04-21",
+      "os_version": "XP",
+      "visits": "173"
+    },
+    {
+      "date": "2016-04-22",
+      "os_version": "10",
+      "visits": "959"
+    },
+    {
+      "date": "2016-04-22",
+      "os_version": "7",
+      "visits": "3527"
+    },
+    {
+      "date": "2016-04-22",
+      "os_version": "8",
+      "visits": "25"
+    },
+    {
+      "date": "2016-04-22",
+      "os_version": "8.1",
+      "visits": "321"
+    },
+    {
+      "date": "2016-04-22",
+      "os_version": "Vista",
+      "visits": "73"
+    },
+    {
+      "date": "2016-04-22",
+      "os_version": "XP",
+      "visits": "154"
+    },
+    {
+      "date": "2016-04-23",
+      "os_version": "(not set)",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-23",
+      "os_version": "10",
+      "visits": "739"
+    },
+    {
+      "date": "2016-04-23",
+      "os_version": "7",
+      "visits": "1425"
+    },
+    {
+      "date": "2016-04-23",
+      "os_version": "8",
+      "visits": "23"
+    },
+    {
+      "date": "2016-04-23",
+      "os_version": "8.1",
+      "visits": "218"
+    },
+    {
+      "date": "2016-04-23",
+      "os_version": "Vista",
+      "visits": "52"
+    },
+    {
+      "date": "2016-04-23",
+      "os_version": "XP",
+      "visits": "54"
+    },
+    {
+      "date": "2016-04-24",
+      "os_version": "10",
+      "visits": "712"
+    },
+    {
+      "date": "2016-04-24",
+      "os_version": "2000",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-24",
+      "os_version": "7",
+      "visits": "1042"
+    },
+    {
+      "date": "2016-04-24",
+      "os_version": "8",
+      "visits": "16"
+    },
+    {
+      "date": "2016-04-24",
+      "os_version": "8.1",
+      "visits": "205"
+    },
+    {
+      "date": "2016-04-24",
+      "os_version": "Server 2003",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-24",
+      "os_version": "Vista",
+      "visits": "51"
+    },
+    {
+      "date": "2016-04-24",
+      "os_version": "XP",
+      "visits": "47"
+    },
+    {
+      "date": "2016-04-25",
+      "os_version": "10",
+      "visits": "1233"
+    },
+    {
+      "date": "2016-04-25",
+      "os_version": "7",
+      "visits": "4072"
+    },
+    {
+      "date": "2016-04-25",
+      "os_version": "8",
+      "visits": "33"
+    },
+    {
+      "date": "2016-04-25",
+      "os_version": "8.1",
+      "visits": "401"
+    },
+    {
+      "date": "2016-04-25",
+      "os_version": "Vista",
+      "visits": "66"
+    },
+    {
+      "date": "2016-04-25",
+      "os_version": "XP",
+      "visits": "146"
+    }
+  ],
+  "totals": {
+    "visits": 431903,
+    "os_version": {
+      "7": 293754,
+      "8": 2626,
+      "10": 77723,
+      "XP": 17461,
+      "Vista": 6561,
+      "8.1": 33688,
+      "Other": 90
+    },
+    "start_date": "2016-01-27",
+    "end_date": "2016-04-25"
+  },
+  "taken_at": "2016-04-26T23:02:28.642Z"
 }

@@ -1,146 +1,146 @@
 {
-    "name": "today",
-    "query": {
-        "start-date": "today",
-        "end-date": "today",
-        "dimensions": "ga:date,ga:hour",
-        "metrics": [
-            "ga:sessions"
-        ],
-        "start-index": 1,
-        "max-results": 10000,
-        "samplingLevel": "HIGHER_PRECISION"
-    },
-    "meta": {
-        "name": "Today",
-        "description": "Today's visits for all sites."
-    },
-    "data": [
-        {
-            "date": "2015-12-07",
-            "hour": "00",
-            "visits": "448077"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "01",
-            "visits": "334516"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "02",
-            "visits": "271237"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "03",
-            "visits": "183625"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "04",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "05",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "06",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "07",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "08",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "09",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "10",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "11",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "12",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "13",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "14",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "15",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "16",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "17",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "18",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "19",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "20",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "21",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "22",
-            "visits": "0"
-        },
-        {
-            "date": "2015-12-07",
-            "hour": "23",
-            "visits": "0"
-        }
+  "name": "today",
+  "query": {
+    "start-date": "today",
+    "end-date": "today",
+    "dimensions": "ga:date,ga:hour",
+    "metrics": [
+      "ga:sessions"
     ],
-    "totals": {
-        "visits": 1237455,
-        "start_date": "2015-12-07",
-        "end_date": "2015-12-07"
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Today",
+    "description": "Today's visits for all sites."
+  },
+  "data": [
+    {
+      "date": "2016-04-26",
+      "hour": "00",
+      "visits": "103"
     },
-    "taken_at": "2015-12-07T09:00:04.096Z"
+    {
+      "date": "2016-04-26",
+      "hour": "01",
+      "visits": "65"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "02",
+      "visits": "88"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "03",
+      "visits": "54"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "04",
+      "visits": "78"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "05",
+      "visits": "159"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "06",
+      "visits": "293"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "07",
+      "visits": "448"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "08",
+      "visits": "679"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "09",
+      "visits": "741"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "10",
+      "visits": "751"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "11",
+      "visits": "762"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "12",
+      "visits": "822"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "13",
+      "visits": "800"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "14",
+      "visits": "755"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "15",
+      "visits": "0"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "16",
+      "visits": "0"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "17",
+      "visits": "0"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "18",
+      "visits": "0"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "19",
+      "visits": "0"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "20",
+      "visits": "0"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "21",
+      "visits": "0"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "22",
+      "visits": "0"
+    },
+    {
+      "date": "2016-04-26",
+      "hour": "23",
+      "visits": "0"
+    }
+  ],
+  "totals": {
+    "visits": 6598,
+    "start_date": "2016-04-26",
+    "end_date": "2016-04-26"
+  },
+  "taken_at": "2016-04-26T23:02:27.657Z"
 }

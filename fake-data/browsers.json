@@ -1,48 +1,7154 @@
 {
-    "name": "browsers",
-    "query": {
-        "start-date": "90daysAgo",
-        "end-date": "yesterday",
-        "dimensions": "ga:date,ga:browser",
-        "metrics": [
-            "ga:sessions"
-        ],
-        "sort": [
-            "ga:date",
-            "-ga:sessions"
-        ],
-        "filters": "ga:sessions>1000",
-        "start-index": 1,
-        "max-results": 10000,
-        "samplingLevel": "HIGHER_PRECISION"
+  "name": "browsers",
+  "query": {
+    "start-date": "90daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:date,ga:browser",
+    "metrics": [
+      "ga:sessions"
+    ],
+    "sort": [
+      "ga:date",
+      "-ga:sessions"
+    ],
+    "start-index": 1,
+    "max-results": 10000,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Browsers",
+    "description": "90 days of visits broken down by browser for all sites."
+  },
+  "data": [
+    {
+      "date": "2016-01-27",
+      "browser": "Chrome",
+      "visits": "4235"
     },
-    "meta": {
-        "name": "Browsers",
-        "description": "90 days of visits broken down by browser for all sites."
+    {
+      "date": "2016-01-27",
+      "browser": "Internet Explorer",
+      "visits": "2964"
     },
-    "totals": {
-        "visits": 1520972917,
-        "browser": {
-            "Internet Explorer": 340000272,
-            "Edge": 22558313,
-            "Chrome": 635100386,
-            "Safari": 300634363,
-            "Firefox": 148504168,
-            "Android Browser": 32305234,
-            "Safari (in-app)": 17108886,
-            "Amazon Silk": 4700588,
-            "Opera": 5114180,
-            "Opera Mini": 7793867,
-            "IE with Chrome Frame": 398527,
-            "BlackBerry": 1841841,
-            "UC Browser": 3028949,
-            "YaBrowser": 509809,
-            "Maxthon": 458705,
-            "Coc Coc": 314362,
-            "Other": 600467
-        },
-        "start_date": "2015-09-07",
-        "end_date": "2015-12-05"
+    {
+      "date": "2016-01-27",
+      "browser": "Safari",
+      "visits": "2732"
     },
-    "taken_at": "2015-12-06T08:10:07.888Z"
+    {
+      "date": "2016-01-27",
+      "browser": "Firefox",
+      "visits": "630"
+    },
+    {
+      "date": "2016-01-27",
+      "browser": "Android Browser",
+      "visits": "170"
+    },
+    {
+      "date": "2016-01-27",
+      "browser": "Edge",
+      "visits": "154"
+    },
+    {
+      "date": "2016-01-27",
+      "browser": "Safari (in-app)",
+      "visits": "43"
+    },
+    {
+      "date": "2016-01-27",
+      "browser": "Amazon Silk",
+      "visits": "29"
+    },
+    {
+      "date": "2016-01-27",
+      "browser": "Opera Mini",
+      "visits": "13"
+    },
+    {
+      "date": "2016-01-27",
+      "browser": "Opera",
+      "visits": "11"
+    },
+    {
+      "date": "2016-01-27",
+      "browser": "BlackBerry",
+      "visits": "5"
+    },
+    {
+      "date": "2016-01-27",
+      "browser": "UC Browser",
+      "visits": "4"
+    },
+    {
+      "date": "2016-01-27",
+      "browser": "IE with Chrome Frame",
+      "visits": "2"
+    },
+    {
+      "date": "2016-01-27",
+      "browser": "DDG-Android-3.0.11",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-27",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-27",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-28",
+      "browser": "Chrome",
+      "visits": "4086"
+    },
+    {
+      "date": "2016-01-28",
+      "browser": "Internet Explorer",
+      "visits": "2769"
+    },
+    {
+      "date": "2016-01-28",
+      "browser": "Safari",
+      "visits": "2667"
+    },
+    {
+      "date": "2016-01-28",
+      "browser": "Firefox",
+      "visits": "600"
+    },
+    {
+      "date": "2016-01-28",
+      "browser": "Edge",
+      "visits": "156"
+    },
+    {
+      "date": "2016-01-28",
+      "browser": "Android Browser",
+      "visits": "130"
+    },
+    {
+      "date": "2016-01-28",
+      "browser": "Amazon Silk",
+      "visits": "40"
+    },
+    {
+      "date": "2016-01-28",
+      "browser": "Safari (in-app)",
+      "visits": "23"
+    },
+    {
+      "date": "2016-01-28",
+      "browser": "Opera",
+      "visits": "18"
+    },
+    {
+      "date": "2016-01-28",
+      "browser": "Opera Mini",
+      "visits": "6"
+    },
+    {
+      "date": "2016-01-28",
+      "browser": "UC Browser",
+      "visits": "5"
+    },
+    {
+      "date": "2016-01-28",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-01-28",
+      "browser": "DDG-Android-3.0.11",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-28",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-28",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-28",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-28",
+      "browser": "Phantom Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-28",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-29",
+      "browser": "Chrome",
+      "visits": "3769"
+    },
+    {
+      "date": "2016-01-29",
+      "browser": "Safari",
+      "visits": "2700"
+    },
+    {
+      "date": "2016-01-29",
+      "browser": "Internet Explorer",
+      "visits": "2485"
+    },
+    {
+      "date": "2016-01-29",
+      "browser": "Firefox",
+      "visits": "537"
+    },
+    {
+      "date": "2016-01-29",
+      "browser": "Edge",
+      "visits": "174"
+    },
+    {
+      "date": "2016-01-29",
+      "browser": "Android Browser",
+      "visits": "149"
+    },
+    {
+      "date": "2016-01-29",
+      "browser": "Safari (in-app)",
+      "visits": "46"
+    },
+    {
+      "date": "2016-01-29",
+      "browser": "Amazon Silk",
+      "visits": "42"
+    },
+    {
+      "date": "2016-01-29",
+      "browser": "Opera",
+      "visits": "19"
+    },
+    {
+      "date": "2016-01-29",
+      "browser": "Opera Mini",
+      "visits": "8"
+    },
+    {
+      "date": "2016-01-29",
+      "browser": "BlackBerry",
+      "visits": "7"
+    },
+    {
+      "date": "2016-01-29",
+      "browser": "IE with Chrome Frame",
+      "visits": "4"
+    },
+    {
+      "date": "2016-01-29",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "3"
+    },
+    {
+      "date": "2016-01-29",
+      "browser": "Maxthon",
+      "visits": "2"
+    },
+    {
+      "date": "2016-01-29",
+      "browser": "UC Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-01-29",
+      "browser": "Lunascape",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "Safari",
+      "visits": "2722"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "Chrome",
+      "visits": "2621"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "Internet Explorer",
+      "visits": "1350"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "Firefox",
+      "visits": "328"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "Android Browser",
+      "visits": "148"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "Edge",
+      "visits": "126"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "Amazon Silk",
+      "visits": "58"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "Safari (in-app)",
+      "visits": "32"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "Opera",
+      "visits": "13"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "BlackBerry",
+      "visits": "5"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "UC Browser",
+      "visits": "4"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "DDG-Android-3.0.11",
+      "visits": "3"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "3"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "Opera Mini",
+      "visits": "3"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "IE with Chrome Frame",
+      "visits": "2"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "Nintendo Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "Iron",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "MRCHROME",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-30",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-31",
+      "browser": "Chrome",
+      "visits": "2482"
+    },
+    {
+      "date": "2016-01-31",
+      "browser": "Safari",
+      "visits": "2325"
+    },
+    {
+      "date": "2016-01-31",
+      "browser": "Internet Explorer",
+      "visits": "890"
+    },
+    {
+      "date": "2016-01-31",
+      "browser": "Firefox",
+      "visits": "383"
+    },
+    {
+      "date": "2016-01-31",
+      "browser": "Edge",
+      "visits": "156"
+    },
+    {
+      "date": "2016-01-31",
+      "browser": "Android Browser",
+      "visits": "151"
+    },
+    {
+      "date": "2016-01-31",
+      "browser": "Safari (in-app)",
+      "visits": "84"
+    },
+    {
+      "date": "2016-01-31",
+      "browser": "Amazon Silk",
+      "visits": "33"
+    },
+    {
+      "date": "2016-01-31",
+      "browser": "Opera Mini",
+      "visits": "9"
+    },
+    {
+      "date": "2016-01-31",
+      "browser": "Opera",
+      "visits": "8"
+    },
+    {
+      "date": "2016-01-31",
+      "browser": "BlackBerry",
+      "visits": "7"
+    },
+    {
+      "date": "2016-01-31",
+      "browser": "UC Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-01-31",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-01-31",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-01",
+      "browser": "Chrome",
+      "visits": "4236"
+    },
+    {
+      "date": "2016-02-01",
+      "browser": "Internet Explorer",
+      "visits": "2719"
+    },
+    {
+      "date": "2016-02-01",
+      "browser": "Safari",
+      "visits": "2702"
+    },
+    {
+      "date": "2016-02-01",
+      "browser": "Firefox",
+      "visits": "606"
+    },
+    {
+      "date": "2016-02-01",
+      "browser": "Android Browser",
+      "visits": "196"
+    },
+    {
+      "date": "2016-02-01",
+      "browser": "Edge",
+      "visits": "166"
+    },
+    {
+      "date": "2016-02-01",
+      "browser": "Safari (in-app)",
+      "visits": "67"
+    },
+    {
+      "date": "2016-02-01",
+      "browser": "Amazon Silk",
+      "visits": "23"
+    },
+    {
+      "date": "2016-02-01",
+      "browser": "Opera",
+      "visits": "13"
+    },
+    {
+      "date": "2016-02-01",
+      "browser": "Opera Mini",
+      "visits": "9"
+    },
+    {
+      "date": "2016-02-01",
+      "browser": "BlackBerry",
+      "visits": "7"
+    },
+    {
+      "date": "2016-02-01",
+      "browser": "UC Browser",
+      "visits": "6"
+    },
+    {
+      "date": "2016-02-01",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-01",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-01",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "Chrome",
+      "visits": "4173"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "Internet Explorer",
+      "visits": "2866"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "Safari",
+      "visits": "2797"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "Firefox",
+      "visits": "631"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "Edge",
+      "visits": "189"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "Android Browser",
+      "visits": "177"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "Amazon Silk",
+      "visits": "35"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "Safari (in-app)",
+      "visits": "33"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "Opera",
+      "visits": "16"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "Opera Mini",
+      "visits": "8"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "Maxthon",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "UC Browser",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "SeaMonkey",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-02",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-03",
+      "browser": "Chrome",
+      "visits": "4056"
+    },
+    {
+      "date": "2016-02-03",
+      "browser": "Internet Explorer",
+      "visits": "2965"
+    },
+    {
+      "date": "2016-02-03",
+      "browser": "Safari",
+      "visits": "2516"
+    },
+    {
+      "date": "2016-02-03",
+      "browser": "Firefox",
+      "visits": "627"
+    },
+    {
+      "date": "2016-02-03",
+      "browser": "Edge",
+      "visits": "162"
+    },
+    {
+      "date": "2016-02-03",
+      "browser": "Android Browser",
+      "visits": "149"
+    },
+    {
+      "date": "2016-02-03",
+      "browser": "Amazon Silk",
+      "visits": "34"
+    },
+    {
+      "date": "2016-02-03",
+      "browser": "Safari (in-app)",
+      "visits": "27"
+    },
+    {
+      "date": "2016-02-03",
+      "browser": "Opera",
+      "visits": "12"
+    },
+    {
+      "date": "2016-02-03",
+      "browser": "Opera Mini",
+      "visits": "8"
+    },
+    {
+      "date": "2016-02-03",
+      "browser": "BlackBerry",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-03",
+      "browser": "UC Browser",
+      "visits": "4"
+    },
+    {
+      "date": "2016-02-03",
+      "browser": "ALCATEL_A206G",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-03",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-03",
+      "browser": "IE with Chrome Frame",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-03",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-03",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-03",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-04",
+      "browser": "Chrome",
+      "visits": "4081"
+    },
+    {
+      "date": "2016-02-04",
+      "browser": "Internet Explorer",
+      "visits": "2902"
+    },
+    {
+      "date": "2016-02-04",
+      "browser": "Safari",
+      "visits": "2602"
+    },
+    {
+      "date": "2016-02-04",
+      "browser": "Firefox",
+      "visits": "592"
+    },
+    {
+      "date": "2016-02-04",
+      "browser": "Android Browser",
+      "visits": "173"
+    },
+    {
+      "date": "2016-02-04",
+      "browser": "Edge",
+      "visits": "162"
+    },
+    {
+      "date": "2016-02-04",
+      "browser": "Amazon Silk",
+      "visits": "39"
+    },
+    {
+      "date": "2016-02-04",
+      "browser": "Safari (in-app)",
+      "visits": "37"
+    },
+    {
+      "date": "2016-02-04",
+      "browser": "Opera",
+      "visits": "14"
+    },
+    {
+      "date": "2016-02-04",
+      "browser": "UC Browser",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-04",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-04",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-04",
+      "browser": "Opera Mini",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-04",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-04",
+      "browser": "Phantom Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-05",
+      "browser": "Chrome",
+      "visits": "3636"
+    },
+    {
+      "date": "2016-02-05",
+      "browser": "Safari",
+      "visits": "2652"
+    },
+    {
+      "date": "2016-02-05",
+      "browser": "Internet Explorer",
+      "visits": "2478"
+    },
+    {
+      "date": "2016-02-05",
+      "browser": "Firefox",
+      "visits": "506"
+    },
+    {
+      "date": "2016-02-05",
+      "browser": "Android Browser",
+      "visits": "186"
+    },
+    {
+      "date": "2016-02-05",
+      "browser": "Edge",
+      "visits": "144"
+    },
+    {
+      "date": "2016-02-05",
+      "browser": "Safari (in-app)",
+      "visits": "99"
+    },
+    {
+      "date": "2016-02-05",
+      "browser": "Amazon Silk",
+      "visits": "34"
+    },
+    {
+      "date": "2016-02-05",
+      "browser": "Opera",
+      "visits": "13"
+    },
+    {
+      "date": "2016-02-05",
+      "browser": "Opera Mini",
+      "visits": "6"
+    },
+    {
+      "date": "2016-02-05",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-05",
+      "browser": "UC Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-05",
+      "browser": "Dolfin",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-05",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-05",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-06",
+      "browser": "Chrome",
+      "visits": "2628"
+    },
+    {
+      "date": "2016-02-06",
+      "browser": "Safari",
+      "visits": "2459"
+    },
+    {
+      "date": "2016-02-06",
+      "browser": "Internet Explorer",
+      "visits": "1330"
+    },
+    {
+      "date": "2016-02-06",
+      "browser": "Firefox",
+      "visits": "357"
+    },
+    {
+      "date": "2016-02-06",
+      "browser": "Android Browser",
+      "visits": "165"
+    },
+    {
+      "date": "2016-02-06",
+      "browser": "Edge",
+      "visits": "140"
+    },
+    {
+      "date": "2016-02-06",
+      "browser": "Safari (in-app)",
+      "visits": "57"
+    },
+    {
+      "date": "2016-02-06",
+      "browser": "Amazon Silk",
+      "visits": "51"
+    },
+    {
+      "date": "2016-02-06",
+      "browser": "BlackBerry",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-06",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-06",
+      "browser": "Opera",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-06",
+      "browser": "Opera Mini",
+      "visits": "4"
+    },
+    {
+      "date": "2016-02-06",
+      "browser": "UC Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-06",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-06",
+      "browser": "Phantom.js bot",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-07",
+      "browser": "Chrome",
+      "visits": "2100"
+    },
+    {
+      "date": "2016-02-07",
+      "browser": "Safari",
+      "visits": "1875"
+    },
+    {
+      "date": "2016-02-07",
+      "browser": "Internet Explorer",
+      "visits": "688"
+    },
+    {
+      "date": "2016-02-07",
+      "browser": "Firefox",
+      "visits": "281"
+    },
+    {
+      "date": "2016-02-07",
+      "browser": "Android Browser",
+      "visits": "123"
+    },
+    {
+      "date": "2016-02-07",
+      "browser": "Edge",
+      "visits": "96"
+    },
+    {
+      "date": "2016-02-07",
+      "browser": "Amazon Silk",
+      "visits": "44"
+    },
+    {
+      "date": "2016-02-07",
+      "browser": "Safari (in-app)",
+      "visits": "30"
+    },
+    {
+      "date": "2016-02-07",
+      "browser": "Opera",
+      "visits": "13"
+    },
+    {
+      "date": "2016-02-07",
+      "browser": "Opera Mini",
+      "visits": "12"
+    },
+    {
+      "date": "2016-02-07",
+      "browser": "UC Browser",
+      "visits": "4"
+    },
+    {
+      "date": "2016-02-07",
+      "browser": "Coc Coc",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-07",
+      "browser": "BlackBerry",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-08",
+      "browser": "Chrome",
+      "visits": "4090"
+    },
+    {
+      "date": "2016-02-08",
+      "browser": "Internet Explorer",
+      "visits": "2779"
+    },
+    {
+      "date": "2016-02-08",
+      "browser": "Safari",
+      "visits": "2549"
+    },
+    {
+      "date": "2016-02-08",
+      "browser": "Firefox",
+      "visits": "632"
+    },
+    {
+      "date": "2016-02-08",
+      "browser": "Edge",
+      "visits": "192"
+    },
+    {
+      "date": "2016-02-08",
+      "browser": "Android Browser",
+      "visits": "124"
+    },
+    {
+      "date": "2016-02-08",
+      "browser": "Amazon Silk",
+      "visits": "41"
+    },
+    {
+      "date": "2016-02-08",
+      "browser": "Safari (in-app)",
+      "visits": "34"
+    },
+    {
+      "date": "2016-02-08",
+      "browser": "Opera",
+      "visits": "13"
+    },
+    {
+      "date": "2016-02-08",
+      "browser": "BlackBerry",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-08",
+      "browser": "UC Browser",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-08",
+      "browser": "Opera Mini",
+      "visits": "4"
+    },
+    {
+      "date": "2016-02-08",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-08",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-08",
+      "browser": "Nokia Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-08",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-09",
+      "browser": "Chrome",
+      "visits": "4183"
+    },
+    {
+      "date": "2016-02-09",
+      "browser": "Internet Explorer",
+      "visits": "2986"
+    },
+    {
+      "date": "2016-02-09",
+      "browser": "Safari",
+      "visits": "2600"
+    },
+    {
+      "date": "2016-02-09",
+      "browser": "Firefox",
+      "visits": "642"
+    },
+    {
+      "date": "2016-02-09",
+      "browser": "Edge",
+      "visits": "163"
+    },
+    {
+      "date": "2016-02-09",
+      "browser": "Android Browser",
+      "visits": "151"
+    },
+    {
+      "date": "2016-02-09",
+      "browser": "Amazon Silk",
+      "visits": "45"
+    },
+    {
+      "date": "2016-02-09",
+      "browser": "Safari (in-app)",
+      "visits": "35"
+    },
+    {
+      "date": "2016-02-09",
+      "browser": "Opera Mini",
+      "visits": "16"
+    },
+    {
+      "date": "2016-02-09",
+      "browser": "BlackBerry",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-09",
+      "browser": "Opera",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-09",
+      "browser": "UC Browser",
+      "visits": "4"
+    },
+    {
+      "date": "2016-02-09",
+      "browser": "IE with Chrome Frame",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-09",
+      "browser": "Maxthon",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-09",
+      "browser": "SeaMonkey",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-09",
+      "browser": "Mozilla",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-09",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-10",
+      "browser": "Chrome",
+      "visits": "3992"
+    },
+    {
+      "date": "2016-02-10",
+      "browser": "Internet Explorer",
+      "visits": "2823"
+    },
+    {
+      "date": "2016-02-10",
+      "browser": "Safari",
+      "visits": "2669"
+    },
+    {
+      "date": "2016-02-10",
+      "browser": "Firefox",
+      "visits": "654"
+    },
+    {
+      "date": "2016-02-10",
+      "browser": "Edge",
+      "visits": "173"
+    },
+    {
+      "date": "2016-02-10",
+      "browser": "Android Browser",
+      "visits": "156"
+    },
+    {
+      "date": "2016-02-10",
+      "browser": "Amazon Silk",
+      "visits": "33"
+    },
+    {
+      "date": "2016-02-10",
+      "browser": "Safari (in-app)",
+      "visits": "30"
+    },
+    {
+      "date": "2016-02-10",
+      "browser": "Opera",
+      "visits": "19"
+    },
+    {
+      "date": "2016-02-10",
+      "browser": "BlackBerry",
+      "visits": "6"
+    },
+    {
+      "date": "2016-02-10",
+      "browser": "Opera Mini",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-10",
+      "browser": "Maxthon",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-10",
+      "browser": "Nintendo Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-10",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-10",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-10",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-10",
+      "browser": "UC Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-11",
+      "browser": "Chrome",
+      "visits": "4023"
+    },
+    {
+      "date": "2016-02-11",
+      "browser": "Internet Explorer",
+      "visits": "2792"
+    },
+    {
+      "date": "2016-02-11",
+      "browser": "Safari",
+      "visits": "2541"
+    },
+    {
+      "date": "2016-02-11",
+      "browser": "Firefox",
+      "visits": "593"
+    },
+    {
+      "date": "2016-02-11",
+      "browser": "Android Browser",
+      "visits": "171"
+    },
+    {
+      "date": "2016-02-11",
+      "browser": "Edge",
+      "visits": "143"
+    },
+    {
+      "date": "2016-02-11",
+      "browser": "Safari (in-app)",
+      "visits": "42"
+    },
+    {
+      "date": "2016-02-11",
+      "browser": "Amazon Silk",
+      "visits": "39"
+    },
+    {
+      "date": "2016-02-11",
+      "browser": "Opera",
+      "visits": "18"
+    },
+    {
+      "date": "2016-02-11",
+      "browser": "BlackBerry",
+      "visits": "10"
+    },
+    {
+      "date": "2016-02-11",
+      "browser": "Opera Mini",
+      "visits": "7"
+    },
+    {
+      "date": "2016-02-11",
+      "browser": "UC Browser",
+      "visits": "7"
+    },
+    {
+      "date": "2016-02-11",
+      "browser": "IE with Chrome Frame",
+      "visits": "4"
+    },
+    {
+      "date": "2016-02-11",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-11",
+      "browser": "Playstation 3",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-11",
+      "browser": "Phantom Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-11",
+      "browser": "Playstation Vita Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-12",
+      "browser": "Chrome",
+      "visits": "3615"
+    },
+    {
+      "date": "2016-02-12",
+      "browser": "Internet Explorer",
+      "visits": "2554"
+    },
+    {
+      "date": "2016-02-12",
+      "browser": "Safari",
+      "visits": "2529"
+    },
+    {
+      "date": "2016-02-12",
+      "browser": "Firefox",
+      "visits": "580"
+    },
+    {
+      "date": "2016-02-12",
+      "browser": "Android Browser",
+      "visits": "155"
+    },
+    {
+      "date": "2016-02-12",
+      "browser": "Edge",
+      "visits": "147"
+    },
+    {
+      "date": "2016-02-12",
+      "browser": "Safari (in-app)",
+      "visits": "87"
+    },
+    {
+      "date": "2016-02-12",
+      "browser": "Amazon Silk",
+      "visits": "31"
+    },
+    {
+      "date": "2016-02-12",
+      "browser": "Opera",
+      "visits": "14"
+    },
+    {
+      "date": "2016-02-12",
+      "browser": "BlackBerry",
+      "visits": "10"
+    },
+    {
+      "date": "2016-02-12",
+      "browser": "Opera Mini",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-12",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-12",
+      "browser": "UC Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-12",
+      "browser": "(not set)",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-12",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-13",
+      "browser": "Chrome",
+      "visits": "2471"
+    },
+    {
+      "date": "2016-02-13",
+      "browser": "Safari",
+      "visits": "2350"
+    },
+    {
+      "date": "2016-02-13",
+      "browser": "Internet Explorer",
+      "visits": "992"
+    },
+    {
+      "date": "2016-02-13",
+      "browser": "Firefox",
+      "visits": "360"
+    },
+    {
+      "date": "2016-02-13",
+      "browser": "Android Browser",
+      "visits": "166"
+    },
+    {
+      "date": "2016-02-13",
+      "browser": "Edge",
+      "visits": "107"
+    },
+    {
+      "date": "2016-02-13",
+      "browser": "Safari (in-app)",
+      "visits": "58"
+    },
+    {
+      "date": "2016-02-13",
+      "browser": "Amazon Silk",
+      "visits": "44"
+    },
+    {
+      "date": "2016-02-13",
+      "browser": "Opera Mini",
+      "visits": "13"
+    },
+    {
+      "date": "2016-02-13",
+      "browser": "BlackBerry",
+      "visits": "8"
+    },
+    {
+      "date": "2016-02-13",
+      "browser": "Opera",
+      "visits": "8"
+    },
+    {
+      "date": "2016-02-13",
+      "browser": "UC Browser",
+      "visits": "4"
+    },
+    {
+      "date": "2016-02-13",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-13",
+      "browser": "Nintendo Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-13",
+      "browser": "(not set)",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-13",
+      "browser": "Playstation 3",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-13",
+      "browser": "Playstation Vita Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-14",
+      "browser": "Chrome",
+      "visits": "2267"
+    },
+    {
+      "date": "2016-02-14",
+      "browser": "Safari",
+      "visits": "2257"
+    },
+    {
+      "date": "2016-02-14",
+      "browser": "Internet Explorer",
+      "visits": "824"
+    },
+    {
+      "date": "2016-02-14",
+      "browser": "Firefox",
+      "visits": "313"
+    },
+    {
+      "date": "2016-02-14",
+      "browser": "Edge",
+      "visits": "135"
+    },
+    {
+      "date": "2016-02-14",
+      "browser": "Android Browser",
+      "visits": "131"
+    },
+    {
+      "date": "2016-02-14",
+      "browser": "Safari (in-app)",
+      "visits": "53"
+    },
+    {
+      "date": "2016-02-14",
+      "browser": "Amazon Silk",
+      "visits": "26"
+    },
+    {
+      "date": "2016-02-14",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-14",
+      "browser": "Opera",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-14",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-14",
+      "browser": "Opera Mini",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-14",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-14",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-15",
+      "browser": "Chrome",
+      "visits": "3486"
+    },
+    {
+      "date": "2016-02-15",
+      "browser": "Safari",
+      "visits": "2758"
+    },
+    {
+      "date": "2016-02-15",
+      "browser": "Internet Explorer",
+      "visits": "1128"
+    },
+    {
+      "date": "2016-02-15",
+      "browser": "Firefox",
+      "visits": "559"
+    },
+    {
+      "date": "2016-02-15",
+      "browser": "Edge",
+      "visits": "188"
+    },
+    {
+      "date": "2016-02-15",
+      "browser": "Android Browser",
+      "visits": "171"
+    },
+    {
+      "date": "2016-02-15",
+      "browser": "Safari (in-app)",
+      "visits": "55"
+    },
+    {
+      "date": "2016-02-15",
+      "browser": "Amazon Silk",
+      "visits": "41"
+    },
+    {
+      "date": "2016-02-15",
+      "browser": "Opera",
+      "visits": "13"
+    },
+    {
+      "date": "2016-02-15",
+      "browser": "Opera Mini",
+      "visits": "11"
+    },
+    {
+      "date": "2016-02-15",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "7"
+    },
+    {
+      "date": "2016-02-15",
+      "browser": "BlackBerry",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-15",
+      "browser": "UC Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-15",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-15",
+      "browser": "Iron",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-16",
+      "browser": "Chrome",
+      "visits": "4205"
+    },
+    {
+      "date": "2016-02-16",
+      "browser": "Internet Explorer",
+      "visits": "3137"
+    },
+    {
+      "date": "2016-02-16",
+      "browser": "Safari",
+      "visits": "2574"
+    },
+    {
+      "date": "2016-02-16",
+      "browser": "Firefox",
+      "visits": "683"
+    },
+    {
+      "date": "2016-02-16",
+      "browser": "Edge",
+      "visits": "196"
+    },
+    {
+      "date": "2016-02-16",
+      "browser": "Android Browser",
+      "visits": "148"
+    },
+    {
+      "date": "2016-02-16",
+      "browser": "Safari (in-app)",
+      "visits": "56"
+    },
+    {
+      "date": "2016-02-16",
+      "browser": "Amazon Silk",
+      "visits": "49"
+    },
+    {
+      "date": "2016-02-16",
+      "browser": "Opera",
+      "visits": "14"
+    },
+    {
+      "date": "2016-02-16",
+      "browser": "Opera Mini",
+      "visits": "14"
+    },
+    {
+      "date": "2016-02-16",
+      "browser": "UC Browser",
+      "visits": "8"
+    },
+    {
+      "date": "2016-02-16",
+      "browser": "BlackBerry",
+      "visits": "4"
+    },
+    {
+      "date": "2016-02-16",
+      "browser": "IE with Chrome Frame",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-16",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-16",
+      "browser": "Mozilla",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-16",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-17",
+      "browser": "Chrome",
+      "visits": "4282"
+    },
+    {
+      "date": "2016-02-17",
+      "browser": "Internet Explorer",
+      "visits": "2988"
+    },
+    {
+      "date": "2016-02-17",
+      "browser": "Safari",
+      "visits": "2598"
+    },
+    {
+      "date": "2016-02-17",
+      "browser": "Firefox",
+      "visits": "591"
+    },
+    {
+      "date": "2016-02-17",
+      "browser": "Android Browser",
+      "visits": "173"
+    },
+    {
+      "date": "2016-02-17",
+      "browser": "Edge",
+      "visits": "160"
+    },
+    {
+      "date": "2016-02-17",
+      "browser": "Safari (in-app)",
+      "visits": "67"
+    },
+    {
+      "date": "2016-02-17",
+      "browser": "Amazon Silk",
+      "visits": "37"
+    },
+    {
+      "date": "2016-02-17",
+      "browser": "Opera",
+      "visits": "11"
+    },
+    {
+      "date": "2016-02-17",
+      "browser": "Opera Mini",
+      "visits": "8"
+    },
+    {
+      "date": "2016-02-17",
+      "browser": "UC Browser",
+      "visits": "6"
+    },
+    {
+      "date": "2016-02-17",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-17",
+      "browser": "Nintendo Browser",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-17",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-17",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-17",
+      "browser": "Playstation 3",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-18",
+      "browser": "Chrome",
+      "visits": "4082"
+    },
+    {
+      "date": "2016-02-18",
+      "browser": "Internet Explorer",
+      "visits": "2880"
+    },
+    {
+      "date": "2016-02-18",
+      "browser": "Safari",
+      "visits": "2545"
+    },
+    {
+      "date": "2016-02-18",
+      "browser": "Firefox",
+      "visits": "622"
+    },
+    {
+      "date": "2016-02-18",
+      "browser": "Edge",
+      "visits": "177"
+    },
+    {
+      "date": "2016-02-18",
+      "browser": "Android Browser",
+      "visits": "165"
+    },
+    {
+      "date": "2016-02-18",
+      "browser": "Safari (in-app)",
+      "visits": "95"
+    },
+    {
+      "date": "2016-02-18",
+      "browser": "Amazon Silk",
+      "visits": "27"
+    },
+    {
+      "date": "2016-02-18",
+      "browser": "Opera",
+      "visits": "19"
+    },
+    {
+      "date": "2016-02-18",
+      "browser": "BlackBerry",
+      "visits": "7"
+    },
+    {
+      "date": "2016-02-18",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "6"
+    },
+    {
+      "date": "2016-02-18",
+      "browser": "Opera Mini",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-18",
+      "browser": "UC Browser",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-18",
+      "browser": "SeaMonkey",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-18",
+      "browser": "nook browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-19",
+      "browser": "Chrome",
+      "visits": "3653"
+    },
+    {
+      "date": "2016-02-19",
+      "browser": "Safari",
+      "visits": "2599"
+    },
+    {
+      "date": "2016-02-19",
+      "browser": "Internet Explorer",
+      "visits": "2572"
+    },
+    {
+      "date": "2016-02-19",
+      "browser": "Firefox",
+      "visits": "531"
+    },
+    {
+      "date": "2016-02-19",
+      "browser": "Edge",
+      "visits": "167"
+    },
+    {
+      "date": "2016-02-19",
+      "browser": "Android Browser",
+      "visits": "150"
+    },
+    {
+      "date": "2016-02-19",
+      "browser": "Safari (in-app)",
+      "visits": "117"
+    },
+    {
+      "date": "2016-02-19",
+      "browser": "Amazon Silk",
+      "visits": "41"
+    },
+    {
+      "date": "2016-02-19",
+      "browser": "Opera",
+      "visits": "22"
+    },
+    {
+      "date": "2016-02-19",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "7"
+    },
+    {
+      "date": "2016-02-19",
+      "browser": "Opera Mini",
+      "visits": "7"
+    },
+    {
+      "date": "2016-02-19",
+      "browser": "UC Browser",
+      "visits": "6"
+    },
+    {
+      "date": "2016-02-19",
+      "browser": "IE with Chrome Frame",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-19",
+      "browser": "BlackBerry",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-19",
+      "browser": "Playstation Vita Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-19",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-19",
+      "browser": "Nintendo 3DS Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-19",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-20",
+      "browser": "Chrome",
+      "visits": "2669"
+    },
+    {
+      "date": "2016-02-20",
+      "browser": "Safari",
+      "visits": "2427"
+    },
+    {
+      "date": "2016-02-20",
+      "browser": "Internet Explorer",
+      "visits": "1304"
+    },
+    {
+      "date": "2016-02-20",
+      "browser": "Firefox",
+      "visits": "343"
+    },
+    {
+      "date": "2016-02-20",
+      "browser": "Android Browser",
+      "visits": "184"
+    },
+    {
+      "date": "2016-02-20",
+      "browser": "Edge",
+      "visits": "108"
+    },
+    {
+      "date": "2016-02-20",
+      "browser": "Amazon Silk",
+      "visits": "56"
+    },
+    {
+      "date": "2016-02-20",
+      "browser": "Safari (in-app)",
+      "visits": "47"
+    },
+    {
+      "date": "2016-02-20",
+      "browser": "Opera",
+      "visits": "14"
+    },
+    {
+      "date": "2016-02-20",
+      "browser": "BlackBerry",
+      "visits": "6"
+    },
+    {
+      "date": "2016-02-20",
+      "browser": "Opera Mini",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-20",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "4"
+    },
+    {
+      "date": "2016-02-20",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-20",
+      "browser": "Phantom.js bot",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-21",
+      "browser": "Chrome",
+      "visits": "2615"
+    },
+    {
+      "date": "2016-02-21",
+      "browser": "Safari",
+      "visits": "2385"
+    },
+    {
+      "date": "2016-02-21",
+      "browser": "Internet Explorer",
+      "visits": "819"
+    },
+    {
+      "date": "2016-02-21",
+      "browser": "Firefox",
+      "visits": "350"
+    },
+    {
+      "date": "2016-02-21",
+      "browser": "Edge",
+      "visits": "143"
+    },
+    {
+      "date": "2016-02-21",
+      "browser": "Android Browser",
+      "visits": "124"
+    },
+    {
+      "date": "2016-02-21",
+      "browser": "Amazon Silk",
+      "visits": "43"
+    },
+    {
+      "date": "2016-02-21",
+      "browser": "Safari (in-app)",
+      "visits": "37"
+    },
+    {
+      "date": "2016-02-21",
+      "browser": "Opera",
+      "visits": "7"
+    },
+    {
+      "date": "2016-02-21",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-21",
+      "browser": "Opera Mini",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-21",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-21",
+      "browser": "Nintendo 3DS Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-21",
+      "browser": "UC Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-21",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-21",
+      "browser": "Playstation Vita Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-22",
+      "browser": "Chrome",
+      "visits": "4204"
+    },
+    {
+      "date": "2016-02-22",
+      "browser": "Safari",
+      "visits": "2663"
+    },
+    {
+      "date": "2016-02-22",
+      "browser": "Internet Explorer",
+      "visits": "2654"
+    },
+    {
+      "date": "2016-02-22",
+      "browser": "Firefox",
+      "visits": "655"
+    },
+    {
+      "date": "2016-02-22",
+      "browser": "Edge",
+      "visits": "196"
+    },
+    {
+      "date": "2016-02-22",
+      "browser": "Android Browser",
+      "visits": "145"
+    },
+    {
+      "date": "2016-02-22",
+      "browser": "Safari (in-app)",
+      "visits": "39"
+    },
+    {
+      "date": "2016-02-22",
+      "browser": "Amazon Silk",
+      "visits": "34"
+    },
+    {
+      "date": "2016-02-22",
+      "browser": "Opera",
+      "visits": "24"
+    },
+    {
+      "date": "2016-02-22",
+      "browser": "BlackBerry",
+      "visits": "6"
+    },
+    {
+      "date": "2016-02-22",
+      "browser": "Opera Mini",
+      "visits": "6"
+    },
+    {
+      "date": "2016-02-22",
+      "browser": "IE with Chrome Frame",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-22",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-22",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-22",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-22",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-22",
+      "browser": "UC Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-22",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-23",
+      "browser": "Chrome",
+      "visits": "4281"
+    },
+    {
+      "date": "2016-02-23",
+      "browser": "Internet Explorer",
+      "visits": "3002"
+    },
+    {
+      "date": "2016-02-23",
+      "browser": "Safari",
+      "visits": "2674"
+    },
+    {
+      "date": "2016-02-23",
+      "browser": "Firefox",
+      "visits": "573"
+    },
+    {
+      "date": "2016-02-23",
+      "browser": "Edge",
+      "visits": "173"
+    },
+    {
+      "date": "2016-02-23",
+      "browser": "Android Browser",
+      "visits": "148"
+    },
+    {
+      "date": "2016-02-23",
+      "browser": "Safari (in-app)",
+      "visits": "51"
+    },
+    {
+      "date": "2016-02-23",
+      "browser": "Amazon Silk",
+      "visits": "42"
+    },
+    {
+      "date": "2016-02-23",
+      "browser": "Opera",
+      "visits": "16"
+    },
+    {
+      "date": "2016-02-23",
+      "browser": "Opera Mini",
+      "visits": "7"
+    },
+    {
+      "date": "2016-02-23",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-23",
+      "browser": "BlackBerry",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-23",
+      "browser": "Maxthon",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-23",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-23",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-23",
+      "browser": "Playstation 3",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-23",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-24",
+      "browser": "Chrome",
+      "visits": "4140"
+    },
+    {
+      "date": "2016-02-24",
+      "browser": "Internet Explorer",
+      "visits": "2915"
+    },
+    {
+      "date": "2016-02-24",
+      "browser": "Safari",
+      "visits": "2569"
+    },
+    {
+      "date": "2016-02-24",
+      "browser": "Firefox",
+      "visits": "644"
+    },
+    {
+      "date": "2016-02-24",
+      "browser": "Edge",
+      "visits": "158"
+    },
+    {
+      "date": "2016-02-24",
+      "browser": "Android Browser",
+      "visits": "141"
+    },
+    {
+      "date": "2016-02-24",
+      "browser": "Safari (in-app)",
+      "visits": "44"
+    },
+    {
+      "date": "2016-02-24",
+      "browser": "Amazon Silk",
+      "visits": "40"
+    },
+    {
+      "date": "2016-02-24",
+      "browser": "Opera",
+      "visits": "17"
+    },
+    {
+      "date": "2016-02-24",
+      "browser": "BlackBerry",
+      "visits": "8"
+    },
+    {
+      "date": "2016-02-24",
+      "browser": "Opera Mini",
+      "visits": "4"
+    },
+    {
+      "date": "2016-02-24",
+      "browser": "IE with Chrome Frame",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-24",
+      "browser": "UC Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-24",
+      "browser": "(not set)",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-24",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-24",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-24",
+      "browser": "Playstation 3",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-25",
+      "browser": "Chrome",
+      "visits": "4035"
+    },
+    {
+      "date": "2016-02-25",
+      "browser": "Internet Explorer",
+      "visits": "2719"
+    },
+    {
+      "date": "2016-02-25",
+      "browser": "Safari",
+      "visits": "2488"
+    },
+    {
+      "date": "2016-02-25",
+      "browser": "Firefox",
+      "visits": "562"
+    },
+    {
+      "date": "2016-02-25",
+      "browser": "Android Browser",
+      "visits": "167"
+    },
+    {
+      "date": "2016-02-25",
+      "browser": "Edge",
+      "visits": "160"
+    },
+    {
+      "date": "2016-02-25",
+      "browser": "Safari (in-app)",
+      "visits": "54"
+    },
+    {
+      "date": "2016-02-25",
+      "browser": "Amazon Silk",
+      "visits": "32"
+    },
+    {
+      "date": "2016-02-25",
+      "browser": "Opera",
+      "visits": "10"
+    },
+    {
+      "date": "2016-02-25",
+      "browser": "Opera Mini",
+      "visits": "8"
+    },
+    {
+      "date": "2016-02-25",
+      "browser": "UC Browser",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-25",
+      "browser": "BlackBerry",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-25",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-25",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-26",
+      "browser": "Chrome",
+      "visits": "3694"
+    },
+    {
+      "date": "2016-02-26",
+      "browser": "Safari",
+      "visits": "2573"
+    },
+    {
+      "date": "2016-02-26",
+      "browser": "Internet Explorer",
+      "visits": "2487"
+    },
+    {
+      "date": "2016-02-26",
+      "browser": "Firefox",
+      "visits": "496"
+    },
+    {
+      "date": "2016-02-26",
+      "browser": "Edge",
+      "visits": "137"
+    },
+    {
+      "date": "2016-02-26",
+      "browser": "Android Browser",
+      "visits": "130"
+    },
+    {
+      "date": "2016-02-26",
+      "browser": "Amazon Silk",
+      "visits": "39"
+    },
+    {
+      "date": "2016-02-26",
+      "browser": "Safari (in-app)",
+      "visits": "27"
+    },
+    {
+      "date": "2016-02-26",
+      "browser": "Opera",
+      "visits": "21"
+    },
+    {
+      "date": "2016-02-26",
+      "browser": "UC Browser",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-26",
+      "browser": "Opera Mini",
+      "visits": "4"
+    },
+    {
+      "date": "2016-02-26",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-26",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-26",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-26",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-27",
+      "browser": "Chrome",
+      "visits": "2508"
+    },
+    {
+      "date": "2016-02-27",
+      "browser": "Safari",
+      "visits": "2502"
+    },
+    {
+      "date": "2016-02-27",
+      "browser": "Internet Explorer",
+      "visits": "1347"
+    },
+    {
+      "date": "2016-02-27",
+      "browser": "Firefox",
+      "visits": "330"
+    },
+    {
+      "date": "2016-02-27",
+      "browser": "Edge",
+      "visits": "138"
+    },
+    {
+      "date": "2016-02-27",
+      "browser": "Android Browser",
+      "visits": "126"
+    },
+    {
+      "date": "2016-02-27",
+      "browser": "Amazon Silk",
+      "visits": "34"
+    },
+    {
+      "date": "2016-02-27",
+      "browser": "Safari (in-app)",
+      "visits": "31"
+    },
+    {
+      "date": "2016-02-27",
+      "browser": "Opera",
+      "visits": "11"
+    },
+    {
+      "date": "2016-02-27",
+      "browser": "Opera Mini",
+      "visits": "9"
+    },
+    {
+      "date": "2016-02-27",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-27",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-27",
+      "browser": "UC Browser",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-27",
+      "browser": "DDG-Android-3.0.12",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-27",
+      "browser": "Iron",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-28",
+      "browser": "Chrome",
+      "visits": "2409"
+    },
+    {
+      "date": "2016-02-28",
+      "browser": "Safari",
+      "visits": "2372"
+    },
+    {
+      "date": "2016-02-28",
+      "browser": "Internet Explorer",
+      "visits": "856"
+    },
+    {
+      "date": "2016-02-28",
+      "browser": "Firefox",
+      "visits": "341"
+    },
+    {
+      "date": "2016-02-28",
+      "browser": "Edge",
+      "visits": "125"
+    },
+    {
+      "date": "2016-02-28",
+      "browser": "Android Browser",
+      "visits": "114"
+    },
+    {
+      "date": "2016-02-28",
+      "browser": "Amazon Silk",
+      "visits": "26"
+    },
+    {
+      "date": "2016-02-28",
+      "browser": "Safari (in-app)",
+      "visits": "23"
+    },
+    {
+      "date": "2016-02-28",
+      "browser": "Opera",
+      "visits": "10"
+    },
+    {
+      "date": "2016-02-28",
+      "browser": "Opera Mini",
+      "visits": "8"
+    },
+    {
+      "date": "2016-02-28",
+      "browser": "BlackBerry",
+      "visits": "4"
+    },
+    {
+      "date": "2016-02-28",
+      "browser": "YaBrowser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-28",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-28",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-28",
+      "browser": "UC Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-29",
+      "browser": "Chrome",
+      "visits": "4397"
+    },
+    {
+      "date": "2016-02-29",
+      "browser": "Safari",
+      "visits": "2735"
+    },
+    {
+      "date": "2016-02-29",
+      "browser": "Internet Explorer",
+      "visits": "2713"
+    },
+    {
+      "date": "2016-02-29",
+      "browser": "Firefox",
+      "visits": "655"
+    },
+    {
+      "date": "2016-02-29",
+      "browser": "Edge",
+      "visits": "175"
+    },
+    {
+      "date": "2016-02-29",
+      "browser": "Android Browser",
+      "visits": "144"
+    },
+    {
+      "date": "2016-02-29",
+      "browser": "Safari (in-app)",
+      "visits": "27"
+    },
+    {
+      "date": "2016-02-29",
+      "browser": "Amazon Silk",
+      "visits": "23"
+    },
+    {
+      "date": "2016-02-29",
+      "browser": "Opera",
+      "visits": "14"
+    },
+    {
+      "date": "2016-02-29",
+      "browser": "Opera Mini",
+      "visits": "5"
+    },
+    {
+      "date": "2016-02-29",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-02-29",
+      "browser": "IE with Chrome Frame",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-29",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-29",
+      "browser": "UC Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-29",
+      "browser": "YaBrowser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-02-29",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-02-29",
+      "browser": "RockMelt",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-01",
+      "browser": "Chrome",
+      "visits": "4759"
+    },
+    {
+      "date": "2016-03-01",
+      "browser": "Safari",
+      "visits": "3207"
+    },
+    {
+      "date": "2016-03-01",
+      "browser": "Internet Explorer",
+      "visits": "3006"
+    },
+    {
+      "date": "2016-03-01",
+      "browser": "Firefox",
+      "visits": "702"
+    },
+    {
+      "date": "2016-03-01",
+      "browser": "Edge",
+      "visits": "177"
+    },
+    {
+      "date": "2016-03-01",
+      "browser": "Android Browser",
+      "visits": "165"
+    },
+    {
+      "date": "2016-03-01",
+      "browser": "Safari (in-app)",
+      "visits": "49"
+    },
+    {
+      "date": "2016-03-01",
+      "browser": "Amazon Silk",
+      "visits": "43"
+    },
+    {
+      "date": "2016-03-01",
+      "browser": "Opera",
+      "visits": "27"
+    },
+    {
+      "date": "2016-03-01",
+      "browser": "IE with Chrome Frame",
+      "visits": "7"
+    },
+    {
+      "date": "2016-03-01",
+      "browser": "Opera Mini",
+      "visits": "7"
+    },
+    {
+      "date": "2016-03-01",
+      "browser": "BlackBerry",
+      "visits": "6"
+    },
+    {
+      "date": "2016-03-01",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-01",
+      "browser": "NetFront",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-01",
+      "browser": "Playstation 3",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-01",
+      "browser": "UC Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-01",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-02",
+      "browser": "Chrome",
+      "visits": "4164"
+    },
+    {
+      "date": "2016-03-02",
+      "browser": "Internet Explorer",
+      "visits": "2786"
+    },
+    {
+      "date": "2016-03-02",
+      "browser": "Safari",
+      "visits": "2592"
+    },
+    {
+      "date": "2016-03-02",
+      "browser": "Firefox",
+      "visits": "673"
+    },
+    {
+      "date": "2016-03-02",
+      "browser": "Edge",
+      "visits": "184"
+    },
+    {
+      "date": "2016-03-02",
+      "browser": "Android Browser",
+      "visits": "148"
+    },
+    {
+      "date": "2016-03-02",
+      "browser": "Amazon Silk",
+      "visits": "37"
+    },
+    {
+      "date": "2016-03-02",
+      "browser": "Safari (in-app)",
+      "visits": "35"
+    },
+    {
+      "date": "2016-03-02",
+      "browser": "Opera",
+      "visits": "21"
+    },
+    {
+      "date": "2016-03-02",
+      "browser": "Opera Mini",
+      "visits": "5"
+    },
+    {
+      "date": "2016-03-02",
+      "browser": "UC Browser",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-02",
+      "browser": "BlackBerry",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-02",
+      "browser": "Iron",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-02",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-02",
+      "browser": "NetFront",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-02",
+      "browser": "Playstation 3",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-03",
+      "browser": "Chrome",
+      "visits": "4091"
+    },
+    {
+      "date": "2016-03-03",
+      "browser": "Internet Explorer",
+      "visits": "2721"
+    },
+    {
+      "date": "2016-03-03",
+      "browser": "Safari",
+      "visits": "2455"
+    },
+    {
+      "date": "2016-03-03",
+      "browser": "Firefox",
+      "visits": "640"
+    },
+    {
+      "date": "2016-03-03",
+      "browser": "Edge",
+      "visits": "156"
+    },
+    {
+      "date": "2016-03-03",
+      "browser": "Android Browser",
+      "visits": "135"
+    },
+    {
+      "date": "2016-03-03",
+      "browser": "Amazon Silk",
+      "visits": "33"
+    },
+    {
+      "date": "2016-03-03",
+      "browser": "Safari (in-app)",
+      "visits": "26"
+    },
+    {
+      "date": "2016-03-03",
+      "browser": "Opera",
+      "visits": "18"
+    },
+    {
+      "date": "2016-03-03",
+      "browser": "Opera Mini",
+      "visits": "13"
+    },
+    {
+      "date": "2016-03-03",
+      "browser": "UC Browser",
+      "visits": "5"
+    },
+    {
+      "date": "2016-03-03",
+      "browser": "Maxthon",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-03",
+      "browser": "IE with Chrome Frame",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-03",
+      "browser": "BlackBerry",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-03",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-03",
+      "browser": "YE",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-03",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-04",
+      "browser": "Chrome",
+      "visits": "4192"
+    },
+    {
+      "date": "2016-03-04",
+      "browser": "Safari",
+      "visits": "2656"
+    },
+    {
+      "date": "2016-03-04",
+      "browser": "Internet Explorer",
+      "visits": "2517"
+    },
+    {
+      "date": "2016-03-04",
+      "browser": "Firefox",
+      "visits": "534"
+    },
+    {
+      "date": "2016-03-04",
+      "browser": "Android Browser",
+      "visits": "144"
+    },
+    {
+      "date": "2016-03-04",
+      "browser": "Edge",
+      "visits": "140"
+    },
+    {
+      "date": "2016-03-04",
+      "browser": "Amazon Silk",
+      "visits": "31"
+    },
+    {
+      "date": "2016-03-04",
+      "browser": "Safari (in-app)",
+      "visits": "27"
+    },
+    {
+      "date": "2016-03-04",
+      "browser": "Opera",
+      "visits": "12"
+    },
+    {
+      "date": "2016-03-04",
+      "browser": "UC Browser",
+      "visits": "5"
+    },
+    {
+      "date": "2016-03-04",
+      "browser": "BlackBerry",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-04",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "3"
+    },
+    {
+      "date": "2016-03-04",
+      "browser": "Opera Mini",
+      "visits": "3"
+    },
+    {
+      "date": "2016-03-04",
+      "browser": "Iron",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-04",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-04",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-05",
+      "browser": "Chrome",
+      "visits": "2717"
+    },
+    {
+      "date": "2016-03-05",
+      "browser": "Safari",
+      "visits": "2616"
+    },
+    {
+      "date": "2016-03-05",
+      "browser": "Internet Explorer",
+      "visits": "1311"
+    },
+    {
+      "date": "2016-03-05",
+      "browser": "Firefox",
+      "visits": "362"
+    },
+    {
+      "date": "2016-03-05",
+      "browser": "Android Browser",
+      "visits": "172"
+    },
+    {
+      "date": "2016-03-05",
+      "browser": "Edge",
+      "visits": "146"
+    },
+    {
+      "date": "2016-03-05",
+      "browser": "Amazon Silk",
+      "visits": "48"
+    },
+    {
+      "date": "2016-03-05",
+      "browser": "Safari (in-app)",
+      "visits": "20"
+    },
+    {
+      "date": "2016-03-05",
+      "browser": "Opera",
+      "visits": "19"
+    },
+    {
+      "date": "2016-03-05",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "5"
+    },
+    {
+      "date": "2016-03-05",
+      "browser": "UC Browser",
+      "visits": "5"
+    },
+    {
+      "date": "2016-03-05",
+      "browser": "BlackBerry",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-05",
+      "browser": "Opera Mini",
+      "visits": "3"
+    },
+    {
+      "date": "2016-03-05",
+      "browser": "BlackBerry8520",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-05",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-05",
+      "browser": "Phantom.js bot",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-05",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-06",
+      "browser": "Chrome",
+      "visits": "2497"
+    },
+    {
+      "date": "2016-03-06",
+      "browser": "Safari",
+      "visits": "2286"
+    },
+    {
+      "date": "2016-03-06",
+      "browser": "Internet Explorer",
+      "visits": "813"
+    },
+    {
+      "date": "2016-03-06",
+      "browser": "Firefox",
+      "visits": "317"
+    },
+    {
+      "date": "2016-03-06",
+      "browser": "Edge",
+      "visits": "106"
+    },
+    {
+      "date": "2016-03-06",
+      "browser": "Android Browser",
+      "visits": "101"
+    },
+    {
+      "date": "2016-03-06",
+      "browser": "Amazon Silk",
+      "visits": "24"
+    },
+    {
+      "date": "2016-03-06",
+      "browser": "Safari (in-app)",
+      "visits": "24"
+    },
+    {
+      "date": "2016-03-06",
+      "browser": "Opera",
+      "visits": "9"
+    },
+    {
+      "date": "2016-03-06",
+      "browser": "Opera Mini",
+      "visits": "7"
+    },
+    {
+      "date": "2016-03-06",
+      "browser": "BlackBerry",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-06",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-06",
+      "browser": "Mozilla",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-06",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-06",
+      "browser": "Nokia Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-07",
+      "browser": "Chrome",
+      "visits": "4344"
+    },
+    {
+      "date": "2016-03-07",
+      "browser": "Internet Explorer",
+      "visits": "2843"
+    },
+    {
+      "date": "2016-03-07",
+      "browser": "Safari",
+      "visits": "2809"
+    },
+    {
+      "date": "2016-03-07",
+      "browser": "Firefox",
+      "visits": "675"
+    },
+    {
+      "date": "2016-03-07",
+      "browser": "Edge",
+      "visits": "225"
+    },
+    {
+      "date": "2016-03-07",
+      "browser": "Android Browser",
+      "visits": "133"
+    },
+    {
+      "date": "2016-03-07",
+      "browser": "Amazon Silk",
+      "visits": "36"
+    },
+    {
+      "date": "2016-03-07",
+      "browser": "Safari (in-app)",
+      "visits": "26"
+    },
+    {
+      "date": "2016-03-07",
+      "browser": "Opera",
+      "visits": "11"
+    },
+    {
+      "date": "2016-03-07",
+      "browser": "UC Browser",
+      "visits": "8"
+    },
+    {
+      "date": "2016-03-07",
+      "browser": "Opera Mini",
+      "visits": "6"
+    },
+    {
+      "date": "2016-03-07",
+      "browser": "BlackBerry",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-07",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "3"
+    },
+    {
+      "date": "2016-03-07",
+      "browser": "IE with Chrome Frame",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-07",
+      "browser": "Mozilla",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-07",
+      "browser": "NetFront",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-07",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-07",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "Chrome",
+      "visits": "4548"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "Internet Explorer",
+      "visits": "3334"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "Safari",
+      "visits": "2758"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "Firefox",
+      "visits": "775"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "Edge",
+      "visits": "190"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "Android Browser",
+      "visits": "143"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "Safari (in-app)",
+      "visits": "36"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "Amazon Silk",
+      "visits": "29"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "Opera",
+      "visits": "11"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "Opera Mini",
+      "visits": "7"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "UC Browser",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "3"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "Iron",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "Playstation Vita Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "BlackBerry",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "BlackBerry9300",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "NetFront",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "Nokia Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-08",
+      "browser": "Python-urllib",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-09",
+      "browser": "Chrome",
+      "visits": "4131"
+    },
+    {
+      "date": "2016-03-09",
+      "browser": "Internet Explorer",
+      "visits": "2872"
+    },
+    {
+      "date": "2016-03-09",
+      "browser": "Safari",
+      "visits": "2595"
+    },
+    {
+      "date": "2016-03-09",
+      "browser": "Firefox",
+      "visits": "668"
+    },
+    {
+      "date": "2016-03-09",
+      "browser": "Edge",
+      "visits": "175"
+    },
+    {
+      "date": "2016-03-09",
+      "browser": "Android Browser",
+      "visits": "123"
+    },
+    {
+      "date": "2016-03-09",
+      "browser": "Amazon Silk",
+      "visits": "31"
+    },
+    {
+      "date": "2016-03-09",
+      "browser": "Safari (in-app)",
+      "visits": "31"
+    },
+    {
+      "date": "2016-03-09",
+      "browser": "Opera Mini",
+      "visits": "6"
+    },
+    {
+      "date": "2016-03-09",
+      "browser": "Opera",
+      "visits": "5"
+    },
+    {
+      "date": "2016-03-09",
+      "browser": "UC Browser",
+      "visits": "5"
+    },
+    {
+      "date": "2016-03-09",
+      "browser": "Iron",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-09",
+      "browser": "Maxthon",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-09",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-09",
+      "browser": "BlackBerry",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-09",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-09",
+      "browser": "NetFront",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-09",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-10",
+      "browser": "Chrome",
+      "visits": "4157"
+    },
+    {
+      "date": "2016-03-10",
+      "browser": "Internet Explorer",
+      "visits": "2849"
+    },
+    {
+      "date": "2016-03-10",
+      "browser": "Safari",
+      "visits": "2473"
+    },
+    {
+      "date": "2016-03-10",
+      "browser": "Firefox",
+      "visits": "635"
+    },
+    {
+      "date": "2016-03-10",
+      "browser": "Edge",
+      "visits": "190"
+    },
+    {
+      "date": "2016-03-10",
+      "browser": "Android Browser",
+      "visits": "118"
+    },
+    {
+      "date": "2016-03-10",
+      "browser": "Amazon Silk",
+      "visits": "30"
+    },
+    {
+      "date": "2016-03-10",
+      "browser": "Opera",
+      "visits": "18"
+    },
+    {
+      "date": "2016-03-10",
+      "browser": "Safari (in-app)",
+      "visits": "17"
+    },
+    {
+      "date": "2016-03-10",
+      "browser": "Opera Mini",
+      "visits": "6"
+    },
+    {
+      "date": "2016-03-10",
+      "browser": "BlackBerry",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-10",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-10",
+      "browser": "UC Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-10",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-11",
+      "browser": "Chrome",
+      "visits": "3794"
+    },
+    {
+      "date": "2016-03-11",
+      "browser": "Safari",
+      "visits": "2743"
+    },
+    {
+      "date": "2016-03-11",
+      "browser": "Internet Explorer",
+      "visits": "2542"
+    },
+    {
+      "date": "2016-03-11",
+      "browser": "Firefox",
+      "visits": "560"
+    },
+    {
+      "date": "2016-03-11",
+      "browser": "Edge",
+      "visits": "166"
+    },
+    {
+      "date": "2016-03-11",
+      "browser": "Android Browser",
+      "visits": "139"
+    },
+    {
+      "date": "2016-03-11",
+      "browser": "Amazon Silk",
+      "visits": "43"
+    },
+    {
+      "date": "2016-03-11",
+      "browser": "Safari (in-app)",
+      "visits": "27"
+    },
+    {
+      "date": "2016-03-11",
+      "browser": "Opera",
+      "visits": "15"
+    },
+    {
+      "date": "2016-03-11",
+      "browser": "Opera Mini",
+      "visits": "5"
+    },
+    {
+      "date": "2016-03-11",
+      "browser": "UC Browser",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-11",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-03-11",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-11",
+      "browser": "NetFront",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-11",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-11",
+      "browser": "SeaMonkey",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-12",
+      "browser": "Chrome",
+      "visits": "2654"
+    },
+    {
+      "date": "2016-03-12",
+      "browser": "Safari",
+      "visits": "2647"
+    },
+    {
+      "date": "2016-03-12",
+      "browser": "Internet Explorer",
+      "visits": "1334"
+    },
+    {
+      "date": "2016-03-12",
+      "browser": "Firefox",
+      "visits": "302"
+    },
+    {
+      "date": "2016-03-12",
+      "browser": "Edge",
+      "visits": "142"
+    },
+    {
+      "date": "2016-03-12",
+      "browser": "Android Browser",
+      "visits": "122"
+    },
+    {
+      "date": "2016-03-12",
+      "browser": "Amazon Silk",
+      "visits": "40"
+    },
+    {
+      "date": "2016-03-12",
+      "browser": "Safari (in-app)",
+      "visits": "27"
+    },
+    {
+      "date": "2016-03-12",
+      "browser": "Opera",
+      "visits": "9"
+    },
+    {
+      "date": "2016-03-12",
+      "browser": "BlackBerry",
+      "visits": "7"
+    },
+    {
+      "date": "2016-03-12",
+      "browser": "Opera Mini",
+      "visits": "6"
+    },
+    {
+      "date": "2016-03-12",
+      "browser": "UC Browser",
+      "visits": "6"
+    },
+    {
+      "date": "2016-03-12",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-12",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-12",
+      "browser": "SeaMonkey",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-12",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-13",
+      "browser": "Chrome",
+      "visits": "2499"
+    },
+    {
+      "date": "2016-03-13",
+      "browser": "Safari",
+      "visits": "2276"
+    },
+    {
+      "date": "2016-03-13",
+      "browser": "Internet Explorer",
+      "visits": "762"
+    },
+    {
+      "date": "2016-03-13",
+      "browser": "Firefox",
+      "visits": "355"
+    },
+    {
+      "date": "2016-03-13",
+      "browser": "Edge",
+      "visits": "153"
+    },
+    {
+      "date": "2016-03-13",
+      "browser": "Android Browser",
+      "visits": "96"
+    },
+    {
+      "date": "2016-03-13",
+      "browser": "Safari (in-app)",
+      "visits": "27"
+    },
+    {
+      "date": "2016-03-13",
+      "browser": "Amazon Silk",
+      "visits": "18"
+    },
+    {
+      "date": "2016-03-13",
+      "browser": "BlackBerry",
+      "visits": "10"
+    },
+    {
+      "date": "2016-03-13",
+      "browser": "Opera Mini",
+      "visits": "7"
+    },
+    {
+      "date": "2016-03-13",
+      "browser": "Opera",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-13",
+      "browser": "UC Browser",
+      "visits": "3"
+    },
+    {
+      "date": "2016-03-13",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-13",
+      "browser": "RockMelt",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-13",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-14",
+      "browser": "Chrome",
+      "visits": "4612"
+    },
+    {
+      "date": "2016-03-14",
+      "browser": "Safari",
+      "visits": "2930"
+    },
+    {
+      "date": "2016-03-14",
+      "browser": "Internet Explorer",
+      "visits": "2678"
+    },
+    {
+      "date": "2016-03-14",
+      "browser": "Firefox",
+      "visits": "614"
+    },
+    {
+      "date": "2016-03-14",
+      "browser": "Edge",
+      "visits": "201"
+    },
+    {
+      "date": "2016-03-14",
+      "browser": "Android Browser",
+      "visits": "127"
+    },
+    {
+      "date": "2016-03-14",
+      "browser": "Amazon Silk",
+      "visits": "36"
+    },
+    {
+      "date": "2016-03-14",
+      "browser": "Safari (in-app)",
+      "visits": "30"
+    },
+    {
+      "date": "2016-03-14",
+      "browser": "Opera",
+      "visits": "17"
+    },
+    {
+      "date": "2016-03-14",
+      "browser": "Opera Mini",
+      "visits": "10"
+    },
+    {
+      "date": "2016-03-14",
+      "browser": "BlackBerry",
+      "visits": "6"
+    },
+    {
+      "date": "2016-03-14",
+      "browser": "UC Browser",
+      "visits": "5"
+    },
+    {
+      "date": "2016-03-14",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-14",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-14",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-14",
+      "browser": "NetFront",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-14",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-14",
+      "browser": "Nokia Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-15",
+      "browser": "Chrome",
+      "visits": "4261"
+    },
+    {
+      "date": "2016-03-15",
+      "browser": "Internet Explorer",
+      "visits": "2976"
+    },
+    {
+      "date": "2016-03-15",
+      "browser": "Safari",
+      "visits": "2919"
+    },
+    {
+      "date": "2016-03-15",
+      "browser": "Firefox",
+      "visits": "615"
+    },
+    {
+      "date": "2016-03-15",
+      "browser": "Edge",
+      "visits": "195"
+    },
+    {
+      "date": "2016-03-15",
+      "browser": "Android Browser",
+      "visits": "101"
+    },
+    {
+      "date": "2016-03-15",
+      "browser": "Safari (in-app)",
+      "visits": "43"
+    },
+    {
+      "date": "2016-03-15",
+      "browser": "Amazon Silk",
+      "visits": "39"
+    },
+    {
+      "date": "2016-03-15",
+      "browser": "Opera",
+      "visits": "12"
+    },
+    {
+      "date": "2016-03-15",
+      "browser": "UC Browser",
+      "visits": "7"
+    },
+    {
+      "date": "2016-03-15",
+      "browser": "Opera Mini",
+      "visits": "6"
+    },
+    {
+      "date": "2016-03-15",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-03-15",
+      "browser": "IE with Chrome Frame",
+      "visits": "3"
+    },
+    {
+      "date": "2016-03-15",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-15",
+      "browser": "NetFront",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-16",
+      "browser": "Chrome",
+      "visits": "4100"
+    },
+    {
+      "date": "2016-03-16",
+      "browser": "Internet Explorer",
+      "visits": "3017"
+    },
+    {
+      "date": "2016-03-16",
+      "browser": "Safari",
+      "visits": "2688"
+    },
+    {
+      "date": "2016-03-16",
+      "browser": "Firefox",
+      "visits": "621"
+    },
+    {
+      "date": "2016-03-16",
+      "browser": "Edge",
+      "visits": "215"
+    },
+    {
+      "date": "2016-03-16",
+      "browser": "Android Browser",
+      "visits": "148"
+    },
+    {
+      "date": "2016-03-16",
+      "browser": "Safari (in-app)",
+      "visits": "51"
+    },
+    {
+      "date": "2016-03-16",
+      "browser": "Amazon Silk",
+      "visits": "31"
+    },
+    {
+      "date": "2016-03-16",
+      "browser": "Opera",
+      "visits": "13"
+    },
+    {
+      "date": "2016-03-16",
+      "browser": "Opera Mini",
+      "visits": "8"
+    },
+    {
+      "date": "2016-03-16",
+      "browser": "BlackBerry",
+      "visits": "5"
+    },
+    {
+      "date": "2016-03-16",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-16",
+      "browser": "BrowserNG",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-16",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-16",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-16",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-17",
+      "browser": "Chrome",
+      "visits": "3844"
+    },
+    {
+      "date": "2016-03-17",
+      "browser": "Internet Explorer",
+      "visits": "2949"
+    },
+    {
+      "date": "2016-03-17",
+      "browser": "Safari",
+      "visits": "2613"
+    },
+    {
+      "date": "2016-03-17",
+      "browser": "Firefox",
+      "visits": "553"
+    },
+    {
+      "date": "2016-03-17",
+      "browser": "Edge",
+      "visits": "173"
+    },
+    {
+      "date": "2016-03-17",
+      "browser": "Android Browser",
+      "visits": "135"
+    },
+    {
+      "date": "2016-03-17",
+      "browser": "Amazon Silk",
+      "visits": "34"
+    },
+    {
+      "date": "2016-03-17",
+      "browser": "Safari (in-app)",
+      "visits": "32"
+    },
+    {
+      "date": "2016-03-17",
+      "browser": "Opera",
+      "visits": "12"
+    },
+    {
+      "date": "2016-03-17",
+      "browser": "Opera Mini",
+      "visits": "5"
+    },
+    {
+      "date": "2016-03-17",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-03-17",
+      "browser": "UC Browser",
+      "visits": "3"
+    },
+    {
+      "date": "2016-03-17",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-18",
+      "browser": "Chrome",
+      "visits": "3552"
+    },
+    {
+      "date": "2016-03-18",
+      "browser": "Safari",
+      "visits": "2656"
+    },
+    {
+      "date": "2016-03-18",
+      "browser": "Internet Explorer",
+      "visits": "2466"
+    },
+    {
+      "date": "2016-03-18",
+      "browser": "Firefox",
+      "visits": "532"
+    },
+    {
+      "date": "2016-03-18",
+      "browser": "Edge",
+      "visits": "164"
+    },
+    {
+      "date": "2016-03-18",
+      "browser": "Android Browser",
+      "visits": "122"
+    },
+    {
+      "date": "2016-03-18",
+      "browser": "Amazon Silk",
+      "visits": "26"
+    },
+    {
+      "date": "2016-03-18",
+      "browser": "Safari (in-app)",
+      "visits": "24"
+    },
+    {
+      "date": "2016-03-18",
+      "browser": "Opera",
+      "visits": "20"
+    },
+    {
+      "date": "2016-03-18",
+      "browser": "UC Browser",
+      "visits": "7"
+    },
+    {
+      "date": "2016-03-18",
+      "browser": "BlackBerry",
+      "visits": "6"
+    },
+    {
+      "date": "2016-03-18",
+      "browser": "Opera Mini",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-18",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-19",
+      "browser": "Chrome",
+      "visits": "2556"
+    },
+    {
+      "date": "2016-03-19",
+      "browser": "Safari",
+      "visits": "2501"
+    },
+    {
+      "date": "2016-03-19",
+      "browser": "Internet Explorer",
+      "visits": "1244"
+    },
+    {
+      "date": "2016-03-19",
+      "browser": "Firefox",
+      "visits": "376"
+    },
+    {
+      "date": "2016-03-19",
+      "browser": "Android Browser",
+      "visits": "153"
+    },
+    {
+      "date": "2016-03-19",
+      "browser": "Edge",
+      "visits": "139"
+    },
+    {
+      "date": "2016-03-19",
+      "browser": "Amazon Silk",
+      "visits": "30"
+    },
+    {
+      "date": "2016-03-19",
+      "browser": "Safari (in-app)",
+      "visits": "28"
+    },
+    {
+      "date": "2016-03-19",
+      "browser": "BlackBerry",
+      "visits": "8"
+    },
+    {
+      "date": "2016-03-19",
+      "browser": "Opera",
+      "visits": "8"
+    },
+    {
+      "date": "2016-03-19",
+      "browser": "Opera Mini",
+      "visits": "8"
+    },
+    {
+      "date": "2016-03-19",
+      "browser": "UC Browser",
+      "visits": "3"
+    },
+    {
+      "date": "2016-03-19",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-19",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-19",
+      "browser": "Phantom.js bot",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-20",
+      "browser": "Chrome",
+      "visits": "2501"
+    },
+    {
+      "date": "2016-03-20",
+      "browser": "Safari",
+      "visits": "2338"
+    },
+    {
+      "date": "2016-03-20",
+      "browser": "Internet Explorer",
+      "visits": "878"
+    },
+    {
+      "date": "2016-03-20",
+      "browser": "Firefox",
+      "visits": "351"
+    },
+    {
+      "date": "2016-03-20",
+      "browser": "Edge",
+      "visits": "123"
+    },
+    {
+      "date": "2016-03-20",
+      "browser": "Android Browser",
+      "visits": "109"
+    },
+    {
+      "date": "2016-03-20",
+      "browser": "Amazon Silk",
+      "visits": "41"
+    },
+    {
+      "date": "2016-03-20",
+      "browser": "Safari (in-app)",
+      "visits": "23"
+    },
+    {
+      "date": "2016-03-20",
+      "browser": "Opera",
+      "visits": "12"
+    },
+    {
+      "date": "2016-03-20",
+      "browser": "Opera Mini",
+      "visits": "6"
+    },
+    {
+      "date": "2016-03-20",
+      "browser": "BlackBerry",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-20",
+      "browser": "(not set)",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-20",
+      "browser": "BlackBerry8520",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-20",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-20",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-20",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-20",
+      "browser": "UC Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-20",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-21",
+      "browser": "Chrome",
+      "visits": "4303"
+    },
+    {
+      "date": "2016-03-21",
+      "browser": "Safari",
+      "visits": "2943"
+    },
+    {
+      "date": "2016-03-21",
+      "browser": "Internet Explorer",
+      "visits": "2787"
+    },
+    {
+      "date": "2016-03-21",
+      "browser": "Firefox",
+      "visits": "657"
+    },
+    {
+      "date": "2016-03-21",
+      "browser": "Edge",
+      "visits": "200"
+    },
+    {
+      "date": "2016-03-21",
+      "browser": "Android Browser",
+      "visits": "130"
+    },
+    {
+      "date": "2016-03-21",
+      "browser": "Safari (in-app)",
+      "visits": "41"
+    },
+    {
+      "date": "2016-03-21",
+      "browser": "Amazon Silk",
+      "visits": "28"
+    },
+    {
+      "date": "2016-03-21",
+      "browser": "Opera",
+      "visits": "17"
+    },
+    {
+      "date": "2016-03-21",
+      "browser": "UC Browser",
+      "visits": "6"
+    },
+    {
+      "date": "2016-03-21",
+      "browser": "BlackBerry",
+      "visits": "5"
+    },
+    {
+      "date": "2016-03-21",
+      "browser": "Opera Mini",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-21",
+      "browser": "BrowserNG",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-21",
+      "browser": "Iron",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-21",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-21",
+      "browser": "NetFront",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-21",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-22",
+      "browser": "Chrome",
+      "visits": "4659"
+    },
+    {
+      "date": "2016-03-22",
+      "browser": "Internet Explorer",
+      "visits": "3015"
+    },
+    {
+      "date": "2016-03-22",
+      "browser": "Safari",
+      "visits": "2791"
+    },
+    {
+      "date": "2016-03-22",
+      "browser": "Firefox",
+      "visits": "628"
+    },
+    {
+      "date": "2016-03-22",
+      "browser": "Edge",
+      "visits": "191"
+    },
+    {
+      "date": "2016-03-22",
+      "browser": "Android Browser",
+      "visits": "117"
+    },
+    {
+      "date": "2016-03-22",
+      "browser": "Safari (in-app)",
+      "visits": "48"
+    },
+    {
+      "date": "2016-03-22",
+      "browser": "Amazon Silk",
+      "visits": "35"
+    },
+    {
+      "date": "2016-03-22",
+      "browser": "Opera",
+      "visits": "21"
+    },
+    {
+      "date": "2016-03-22",
+      "browser": "Opera Mini",
+      "visits": "9"
+    },
+    {
+      "date": "2016-03-22",
+      "browser": "BlackBerry",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-22",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "3"
+    },
+    {
+      "date": "2016-03-22",
+      "browser": "DDG-Android-3.0.12",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-23",
+      "browser": "Chrome",
+      "visits": "4195"
+    },
+    {
+      "date": "2016-03-23",
+      "browser": "Internet Explorer",
+      "visits": "2869"
+    },
+    {
+      "date": "2016-03-23",
+      "browser": "Safari",
+      "visits": "2837"
+    },
+    {
+      "date": "2016-03-23",
+      "browser": "Firefox",
+      "visits": "635"
+    },
+    {
+      "date": "2016-03-23",
+      "browser": "Edge",
+      "visits": "195"
+    },
+    {
+      "date": "2016-03-23",
+      "browser": "Android Browser",
+      "visits": "136"
+    },
+    {
+      "date": "2016-03-23",
+      "browser": "Safari (in-app)",
+      "visits": "66"
+    },
+    {
+      "date": "2016-03-23",
+      "browser": "Amazon Silk",
+      "visits": "34"
+    },
+    {
+      "date": "2016-03-23",
+      "browser": "Opera",
+      "visits": "13"
+    },
+    {
+      "date": "2016-03-23",
+      "browser": "BlackBerry",
+      "visits": "9"
+    },
+    {
+      "date": "2016-03-23",
+      "browser": "Opera Mini",
+      "visits": "5"
+    },
+    {
+      "date": "2016-03-23",
+      "browser": "UC Browser",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-23",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-23",
+      "browser": "DDG-Android-3.0.12",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-23",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-23",
+      "browser": "Playstation 3",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-23",
+      "browser": "SeaMonkey",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-24",
+      "browser": "Chrome",
+      "visits": "4048"
+    },
+    {
+      "date": "2016-03-24",
+      "browser": "Safari",
+      "visits": "2768"
+    },
+    {
+      "date": "2016-03-24",
+      "browser": "Internet Explorer",
+      "visits": "2702"
+    },
+    {
+      "date": "2016-03-24",
+      "browser": "Firefox",
+      "visits": "584"
+    },
+    {
+      "date": "2016-03-24",
+      "browser": "Edge",
+      "visits": "183"
+    },
+    {
+      "date": "2016-03-24",
+      "browser": "Android Browser",
+      "visits": "120"
+    },
+    {
+      "date": "2016-03-24",
+      "browser": "Safari (in-app)",
+      "visits": "58"
+    },
+    {
+      "date": "2016-03-24",
+      "browser": "Amazon Silk",
+      "visits": "42"
+    },
+    {
+      "date": "2016-03-24",
+      "browser": "Opera",
+      "visits": "21"
+    },
+    {
+      "date": "2016-03-24",
+      "browser": "Opera Mini",
+      "visits": "8"
+    },
+    {
+      "date": "2016-03-24",
+      "browser": "BlackBerry",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-24",
+      "browser": "UC Browser",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-24",
+      "browser": "NetFront",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-24",
+      "browser": "SeaMonkey",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-25",
+      "browser": "Chrome",
+      "visits": "3589"
+    },
+    {
+      "date": "2016-03-25",
+      "browser": "Safari",
+      "visits": "2767"
+    },
+    {
+      "date": "2016-03-25",
+      "browser": "Internet Explorer",
+      "visits": "2374"
+    },
+    {
+      "date": "2016-03-25",
+      "browser": "Firefox",
+      "visits": "567"
+    },
+    {
+      "date": "2016-03-25",
+      "browser": "Edge",
+      "visits": "167"
+    },
+    {
+      "date": "2016-03-25",
+      "browser": "Android Browser",
+      "visits": "121"
+    },
+    {
+      "date": "2016-03-25",
+      "browser": "Safari (in-app)",
+      "visits": "48"
+    },
+    {
+      "date": "2016-03-25",
+      "browser": "Amazon Silk",
+      "visits": "36"
+    },
+    {
+      "date": "2016-03-25",
+      "browser": "Opera",
+      "visits": "19"
+    },
+    {
+      "date": "2016-03-25",
+      "browser": "Opera Mini",
+      "visits": "5"
+    },
+    {
+      "date": "2016-03-25",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-03-25",
+      "browser": "IE with Chrome Frame",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-25",
+      "browser": "UC Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-25",
+      "browser": "Iron",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-25",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-25",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "Chrome",
+      "visits": "2896"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "Safari",
+      "visits": "2836"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "Internet Explorer",
+      "visits": "1007"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "Firefox",
+      "visits": "338"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "Android Browser",
+      "visits": "142"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "Edge",
+      "visits": "142"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "Amazon Silk",
+      "visits": "39"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "Safari (in-app)",
+      "visits": "31"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "Opera",
+      "visits": "19"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "Opera Mini",
+      "visits": "7"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "UC Browser",
+      "visits": "5"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "DDG-Android-3.0.12",
+      "visits": "3"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "Coc Coc",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "BlackBerry",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "Nintendo Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "Playstation Vita Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "SeaMonkey",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-26",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-27",
+      "browser": "Chrome",
+      "visits": "2284"
+    },
+    {
+      "date": "2016-03-27",
+      "browser": "Safari",
+      "visits": "2217"
+    },
+    {
+      "date": "2016-03-27",
+      "browser": "Internet Explorer",
+      "visits": "672"
+    },
+    {
+      "date": "2016-03-27",
+      "browser": "Firefox",
+      "visits": "295"
+    },
+    {
+      "date": "2016-03-27",
+      "browser": "Edge",
+      "visits": "106"
+    },
+    {
+      "date": "2016-03-27",
+      "browser": "Android Browser",
+      "visits": "95"
+    },
+    {
+      "date": "2016-03-27",
+      "browser": "Safari (in-app)",
+      "visits": "44"
+    },
+    {
+      "date": "2016-03-27",
+      "browser": "Amazon Silk",
+      "visits": "35"
+    },
+    {
+      "date": "2016-03-27",
+      "browser": "Opera",
+      "visits": "12"
+    },
+    {
+      "date": "2016-03-27",
+      "browser": "Opera Mini",
+      "visits": "8"
+    },
+    {
+      "date": "2016-03-27",
+      "browser": "UC Browser",
+      "visits": "3"
+    },
+    {
+      "date": "2016-03-27",
+      "browser": "DDG-Android-3.0.12",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-27",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-27",
+      "browser": "SeaMonkey",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-28",
+      "browser": "Chrome",
+      "visits": "4421"
+    },
+    {
+      "date": "2016-03-28",
+      "browser": "Safari",
+      "visits": "3237"
+    },
+    {
+      "date": "2016-03-28",
+      "browser": "Internet Explorer",
+      "visits": "1544"
+    },
+    {
+      "date": "2016-03-28",
+      "browser": "Firefox",
+      "visits": "650"
+    },
+    {
+      "date": "2016-03-28",
+      "browser": "Edge",
+      "visits": "197"
+    },
+    {
+      "date": "2016-03-28",
+      "browser": "Android Browser",
+      "visits": "153"
+    },
+    {
+      "date": "2016-03-28",
+      "browser": "Amazon Silk",
+      "visits": "42"
+    },
+    {
+      "date": "2016-03-28",
+      "browser": "Safari (in-app)",
+      "visits": "38"
+    },
+    {
+      "date": "2016-03-28",
+      "browser": "Opera",
+      "visits": "17"
+    },
+    {
+      "date": "2016-03-28",
+      "browser": "Opera Mini",
+      "visits": "11"
+    },
+    {
+      "date": "2016-03-28",
+      "browser": "BlackBerry",
+      "visits": "7"
+    },
+    {
+      "date": "2016-03-28",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-28",
+      "browser": "UC Browser",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-28",
+      "browser": "YaBrowser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-28",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-28",
+      "browser": "Phantom Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-29",
+      "browser": "Chrome",
+      "visits": "4646"
+    },
+    {
+      "date": "2016-03-29",
+      "browser": "Internet Explorer",
+      "visits": "3042"
+    },
+    {
+      "date": "2016-03-29",
+      "browser": "Safari",
+      "visits": "3023"
+    },
+    {
+      "date": "2016-03-29",
+      "browser": "Firefox",
+      "visits": "638"
+    },
+    {
+      "date": "2016-03-29",
+      "browser": "Edge",
+      "visits": "231"
+    },
+    {
+      "date": "2016-03-29",
+      "browser": "Android Browser",
+      "visits": "109"
+    },
+    {
+      "date": "2016-03-29",
+      "browser": "Safari (in-app)",
+      "visits": "79"
+    },
+    {
+      "date": "2016-03-29",
+      "browser": "Amazon Silk",
+      "visits": "30"
+    },
+    {
+      "date": "2016-03-29",
+      "browser": "Opera",
+      "visits": "20"
+    },
+    {
+      "date": "2016-03-29",
+      "browser": "BlackBerry",
+      "visits": "8"
+    },
+    {
+      "date": "2016-03-29",
+      "browser": "Opera Mini",
+      "visits": "7"
+    },
+    {
+      "date": "2016-03-29",
+      "browser": "IE with Chrome Frame",
+      "visits": "3"
+    },
+    {
+      "date": "2016-03-29",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-29",
+      "browser": "UC Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-29",
+      "browser": "YE",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-30",
+      "browser": "Chrome",
+      "visits": "4301"
+    },
+    {
+      "date": "2016-03-30",
+      "browser": "Internet Explorer",
+      "visits": "3032"
+    },
+    {
+      "date": "2016-03-30",
+      "browser": "Safari",
+      "visits": "2913"
+    },
+    {
+      "date": "2016-03-30",
+      "browser": "Firefox",
+      "visits": "693"
+    },
+    {
+      "date": "2016-03-30",
+      "browser": "Edge",
+      "visits": "220"
+    },
+    {
+      "date": "2016-03-30",
+      "browser": "Android Browser",
+      "visits": "140"
+    },
+    {
+      "date": "2016-03-30",
+      "browser": "Safari (in-app)",
+      "visits": "53"
+    },
+    {
+      "date": "2016-03-30",
+      "browser": "Amazon Silk",
+      "visits": "32"
+    },
+    {
+      "date": "2016-03-30",
+      "browser": "Opera",
+      "visits": "24"
+    },
+    {
+      "date": "2016-03-30",
+      "browser": "BlackBerry",
+      "visits": "6"
+    },
+    {
+      "date": "2016-03-30",
+      "browser": "IE with Chrome Frame",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-30",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-30",
+      "browser": "Opera Mini",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-30",
+      "browser": "UC Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-30",
+      "browser": "BlackBerry8520",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-30",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-31",
+      "browser": "Chrome",
+      "visits": "4218"
+    },
+    {
+      "date": "2016-03-31",
+      "browser": "Internet Explorer",
+      "visits": "2948"
+    },
+    {
+      "date": "2016-03-31",
+      "browser": "Safari",
+      "visits": "2762"
+    },
+    {
+      "date": "2016-03-31",
+      "browser": "Firefox",
+      "visits": "611"
+    },
+    {
+      "date": "2016-03-31",
+      "browser": "Edge",
+      "visits": "196"
+    },
+    {
+      "date": "2016-03-31",
+      "browser": "Android Browser",
+      "visits": "143"
+    },
+    {
+      "date": "2016-03-31",
+      "browser": "Amazon Silk",
+      "visits": "32"
+    },
+    {
+      "date": "2016-03-31",
+      "browser": "Safari (in-app)",
+      "visits": "29"
+    },
+    {
+      "date": "2016-03-31",
+      "browser": "Opera",
+      "visits": "26"
+    },
+    {
+      "date": "2016-03-31",
+      "browser": "IE with Chrome Frame",
+      "visits": "5"
+    },
+    {
+      "date": "2016-03-31",
+      "browser": "Opera Mini",
+      "visits": "5"
+    },
+    {
+      "date": "2016-03-31",
+      "browser": "UC Browser",
+      "visits": "5"
+    },
+    {
+      "date": "2016-03-31",
+      "browser": "BlackBerry",
+      "visits": "4"
+    },
+    {
+      "date": "2016-03-31",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "2"
+    },
+    {
+      "date": "2016-03-31",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-31",
+      "browser": "Iron",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-31",
+      "browser": "YE",
+      "visits": "1"
+    },
+    {
+      "date": "2016-03-31",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-01",
+      "browser": "Chrome",
+      "visits": "3955"
+    },
+    {
+      "date": "2016-04-01",
+      "browser": "Safari",
+      "visits": "2916"
+    },
+    {
+      "date": "2016-04-01",
+      "browser": "Internet Explorer",
+      "visits": "2426"
+    },
+    {
+      "date": "2016-04-01",
+      "browser": "Firefox",
+      "visits": "535"
+    },
+    {
+      "date": "2016-04-01",
+      "browser": "Edge",
+      "visits": "203"
+    },
+    {
+      "date": "2016-04-01",
+      "browser": "Android Browser",
+      "visits": "148"
+    },
+    {
+      "date": "2016-04-01",
+      "browser": "Safari (in-app)",
+      "visits": "40"
+    },
+    {
+      "date": "2016-04-01",
+      "browser": "Opera",
+      "visits": "30"
+    },
+    {
+      "date": "2016-04-01",
+      "browser": "Amazon Silk",
+      "visits": "26"
+    },
+    {
+      "date": "2016-04-01",
+      "browser": "Opera Mini",
+      "visits": "7"
+    },
+    {
+      "date": "2016-04-01",
+      "browser": "BlackBerry",
+      "visits": "6"
+    },
+    {
+      "date": "2016-04-01",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "6"
+    },
+    {
+      "date": "2016-04-01",
+      "browser": "UC Browser",
+      "visits": "4"
+    },
+    {
+      "date": "2016-04-01",
+      "browser": "SeaMonkey",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-01",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-02",
+      "browser": "Safari",
+      "visits": "2862"
+    },
+    {
+      "date": "2016-04-02",
+      "browser": "Chrome",
+      "visits": "2731"
+    },
+    {
+      "date": "2016-04-02",
+      "browser": "Internet Explorer",
+      "visits": "1335"
+    },
+    {
+      "date": "2016-04-02",
+      "browser": "Firefox",
+      "visits": "344"
+    },
+    {
+      "date": "2016-04-02",
+      "browser": "Android Browser",
+      "visits": "149"
+    },
+    {
+      "date": "2016-04-02",
+      "browser": "Edge",
+      "visits": "144"
+    },
+    {
+      "date": "2016-04-02",
+      "browser": "Amazon Silk",
+      "visits": "43"
+    },
+    {
+      "date": "2016-04-02",
+      "browser": "Safari (in-app)",
+      "visits": "28"
+    },
+    {
+      "date": "2016-04-02",
+      "browser": "Opera",
+      "visits": "24"
+    },
+    {
+      "date": "2016-04-02",
+      "browser": "Opera Mini",
+      "visits": "6"
+    },
+    {
+      "date": "2016-04-02",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "5"
+    },
+    {
+      "date": "2016-04-02",
+      "browser": "UC Browser",
+      "visits": "4"
+    },
+    {
+      "date": "2016-04-02",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-02",
+      "browser": "Nintendo Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-02",
+      "browser": "Phantom.js bot",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-03",
+      "browser": "Safari",
+      "visits": "2712"
+    },
+    {
+      "date": "2016-04-03",
+      "browser": "Chrome",
+      "visits": "2541"
+    },
+    {
+      "date": "2016-04-03",
+      "browser": "Internet Explorer",
+      "visits": "807"
+    },
+    {
+      "date": "2016-04-03",
+      "browser": "Firefox",
+      "visits": "359"
+    },
+    {
+      "date": "2016-04-03",
+      "browser": "Edge",
+      "visits": "129"
+    },
+    {
+      "date": "2016-04-03",
+      "browser": "Android Browser",
+      "visits": "107"
+    },
+    {
+      "date": "2016-04-03",
+      "browser": "Amazon Silk",
+      "visits": "32"
+    },
+    {
+      "date": "2016-04-03",
+      "browser": "Safari (in-app)",
+      "visits": "32"
+    },
+    {
+      "date": "2016-04-03",
+      "browser": "Opera",
+      "visits": "21"
+    },
+    {
+      "date": "2016-04-03",
+      "browser": "Opera Mini",
+      "visits": "6"
+    },
+    {
+      "date": "2016-04-03",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "5"
+    },
+    {
+      "date": "2016-04-03",
+      "browser": "UC Browser",
+      "visits": "4"
+    },
+    {
+      "date": "2016-04-03",
+      "browser": "BlackBerry",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-03",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-04",
+      "browser": "Chrome",
+      "visits": "5226"
+    },
+    {
+      "date": "2016-04-04",
+      "browser": "Safari",
+      "visits": "3985"
+    },
+    {
+      "date": "2016-04-04",
+      "browser": "Internet Explorer",
+      "visits": "2896"
+    },
+    {
+      "date": "2016-04-04",
+      "browser": "Firefox",
+      "visits": "905"
+    },
+    {
+      "date": "2016-04-04",
+      "browser": "Edge",
+      "visits": "285"
+    },
+    {
+      "date": "2016-04-04",
+      "browser": "Safari (in-app)",
+      "visits": "156"
+    },
+    {
+      "date": "2016-04-04",
+      "browser": "Android Browser",
+      "visits": "145"
+    },
+    {
+      "date": "2016-04-04",
+      "browser": "Opera",
+      "visits": "28"
+    },
+    {
+      "date": "2016-04-04",
+      "browser": "Amazon Silk",
+      "visits": "24"
+    },
+    {
+      "date": "2016-04-04",
+      "browser": "BlackBerry",
+      "visits": "11"
+    },
+    {
+      "date": "2016-04-04",
+      "browser": "Opera Mini",
+      "visits": "7"
+    },
+    {
+      "date": "2016-04-04",
+      "browser": "UC Browser",
+      "visits": "7"
+    },
+    {
+      "date": "2016-04-04",
+      "browser": "IE with Chrome Frame",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-04",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-04",
+      "browser": "NOKIAN79",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-04",
+      "browser": "Nintendo 3DS Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-04",
+      "browser": "Playstation 3",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-05",
+      "browser": "Chrome",
+      "visits": "7886"
+    },
+    {
+      "date": "2016-04-05",
+      "browser": "Safari",
+      "visits": "7669"
+    },
+    {
+      "date": "2016-04-05",
+      "browser": "Internet Explorer",
+      "visits": "4011"
+    },
+    {
+      "date": "2016-04-05",
+      "browser": "Firefox",
+      "visits": "1402"
+    },
+    {
+      "date": "2016-04-05",
+      "browser": "Edge",
+      "visits": "369"
+    },
+    {
+      "date": "2016-04-05",
+      "browser": "Safari (in-app)",
+      "visits": "247"
+    },
+    {
+      "date": "2016-04-05",
+      "browser": "Android Browser",
+      "visits": "206"
+    },
+    {
+      "date": "2016-04-05",
+      "browser": "Amazon Silk",
+      "visits": "73"
+    },
+    {
+      "date": "2016-04-05",
+      "browser": "Opera",
+      "visits": "34"
+    },
+    {
+      "date": "2016-04-05",
+      "browser": "BlackBerry",
+      "visits": "12"
+    },
+    {
+      "date": "2016-04-05",
+      "browser": "Opera Mini",
+      "visits": "5"
+    },
+    {
+      "date": "2016-04-05",
+      "browser": "UC Browser",
+      "visits": "4"
+    },
+    {
+      "date": "2016-04-05",
+      "browser": "SeaMonkey",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-05",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-06",
+      "browser": "Chrome",
+      "visits": "6680"
+    },
+    {
+      "date": "2016-04-06",
+      "browser": "Safari",
+      "visits": "6177"
+    },
+    {
+      "date": "2016-04-06",
+      "browser": "Internet Explorer",
+      "visits": "4080"
+    },
+    {
+      "date": "2016-04-06",
+      "browser": "Firefox",
+      "visits": "1194"
+    },
+    {
+      "date": "2016-04-06",
+      "browser": "Edge",
+      "visits": "323"
+    },
+    {
+      "date": "2016-04-06",
+      "browser": "Android Browser",
+      "visits": "166"
+    },
+    {
+      "date": "2016-04-06",
+      "browser": "Safari (in-app)",
+      "visits": "99"
+    },
+    {
+      "date": "2016-04-06",
+      "browser": "Amazon Silk",
+      "visits": "73"
+    },
+    {
+      "date": "2016-04-06",
+      "browser": "Opera",
+      "visits": "35"
+    },
+    {
+      "date": "2016-04-06",
+      "browser": "BlackBerry",
+      "visits": "13"
+    },
+    {
+      "date": "2016-04-06",
+      "browser": "Opera Mini",
+      "visits": "9"
+    },
+    {
+      "date": "2016-04-06",
+      "browser": "UC Browser",
+      "visits": "5"
+    },
+    {
+      "date": "2016-04-06",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-07",
+      "browser": "Chrome",
+      "visits": "4262"
+    },
+    {
+      "date": "2016-04-07",
+      "browser": "Safari",
+      "visits": "3060"
+    },
+    {
+      "date": "2016-04-07",
+      "browser": "Internet Explorer",
+      "visits": "2792"
+    },
+    {
+      "date": "2016-04-07",
+      "browser": "Firefox",
+      "visits": "653"
+    },
+    {
+      "date": "2016-04-07",
+      "browser": "Edge",
+      "visits": "209"
+    },
+    {
+      "date": "2016-04-07",
+      "browser": "Android Browser",
+      "visits": "99"
+    },
+    {
+      "date": "2016-04-07",
+      "browser": "Safari (in-app)",
+      "visits": "30"
+    },
+    {
+      "date": "2016-04-07",
+      "browser": "Amazon Silk",
+      "visits": "28"
+    },
+    {
+      "date": "2016-04-07",
+      "browser": "Opera",
+      "visits": "12"
+    },
+    {
+      "date": "2016-04-07",
+      "browser": "BlackBerry",
+      "visits": "7"
+    },
+    {
+      "date": "2016-04-07",
+      "browser": "Opera Mini",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-07",
+      "browser": "IE with Chrome Frame",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-07",
+      "browser": "UC Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-07",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-07",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-08",
+      "browser": "Chrome",
+      "visits": "3960"
+    },
+    {
+      "date": "2016-04-08",
+      "browser": "Safari",
+      "visits": "2955"
+    },
+    {
+      "date": "2016-04-08",
+      "browser": "Internet Explorer",
+      "visits": "2396"
+    },
+    {
+      "date": "2016-04-08",
+      "browser": "Firefox",
+      "visits": "564"
+    },
+    {
+      "date": "2016-04-08",
+      "browser": "Edge",
+      "visits": "193"
+    },
+    {
+      "date": "2016-04-08",
+      "browser": "Android Browser",
+      "visits": "107"
+    },
+    {
+      "date": "2016-04-08",
+      "browser": "Safari (in-app)",
+      "visits": "33"
+    },
+    {
+      "date": "2016-04-08",
+      "browser": "Amazon Silk",
+      "visits": "32"
+    },
+    {
+      "date": "2016-04-08",
+      "browser": "Opera",
+      "visits": "20"
+    },
+    {
+      "date": "2016-04-08",
+      "browser": "BlackBerry",
+      "visits": "4"
+    },
+    {
+      "date": "2016-04-08",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-08",
+      "browser": "Opera Mini",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-08",
+      "browser": "UC Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-08",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-09",
+      "browser": "Safari",
+      "visits": "3042"
+    },
+    {
+      "date": "2016-04-09",
+      "browser": "Chrome",
+      "visits": "2969"
+    },
+    {
+      "date": "2016-04-09",
+      "browser": "Internet Explorer",
+      "visits": "1257"
+    },
+    {
+      "date": "2016-04-09",
+      "browser": "Firefox",
+      "visits": "417"
+    },
+    {
+      "date": "2016-04-09",
+      "browser": "Edge",
+      "visits": "162"
+    },
+    {
+      "date": "2016-04-09",
+      "browser": "Android Browser",
+      "visits": "134"
+    },
+    {
+      "date": "2016-04-09",
+      "browser": "Amazon Silk",
+      "visits": "40"
+    },
+    {
+      "date": "2016-04-09",
+      "browser": "Safari (in-app)",
+      "visits": "25"
+    },
+    {
+      "date": "2016-04-09",
+      "browser": "Opera",
+      "visits": "19"
+    },
+    {
+      "date": "2016-04-09",
+      "browser": "Opera Mini",
+      "visits": "4"
+    },
+    {
+      "date": "2016-04-09",
+      "browser": "BlackBerry",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-09",
+      "browser": "UC Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-09",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-10",
+      "browser": "Chrome",
+      "visits": "2724"
+    },
+    {
+      "date": "2016-04-10",
+      "browser": "Safari",
+      "visits": "2693"
+    },
+    {
+      "date": "2016-04-10",
+      "browser": "Internet Explorer",
+      "visits": "799"
+    },
+    {
+      "date": "2016-04-10",
+      "browser": "Firefox",
+      "visits": "388"
+    },
+    {
+      "date": "2016-04-10",
+      "browser": "Edge",
+      "visits": "152"
+    },
+    {
+      "date": "2016-04-10",
+      "browser": "Android Browser",
+      "visits": "121"
+    },
+    {
+      "date": "2016-04-10",
+      "browser": "Amazon Silk",
+      "visits": "18"
+    },
+    {
+      "date": "2016-04-10",
+      "browser": "Safari (in-app)",
+      "visits": "18"
+    },
+    {
+      "date": "2016-04-10",
+      "browser": "Opera",
+      "visits": "17"
+    },
+    {
+      "date": "2016-04-10",
+      "browser": "Opera Mini",
+      "visits": "6"
+    },
+    {
+      "date": "2016-04-10",
+      "browser": "BlackBerry",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-10",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-10",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-10",
+      "browser": "UC Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-11",
+      "browser": "Chrome",
+      "visits": "4716"
+    },
+    {
+      "date": "2016-04-11",
+      "browser": "Safari",
+      "visits": "2930"
+    },
+    {
+      "date": "2016-04-11",
+      "browser": "Internet Explorer",
+      "visits": "2614"
+    },
+    {
+      "date": "2016-04-11",
+      "browser": "Firefox",
+      "visits": "661"
+    },
+    {
+      "date": "2016-04-11",
+      "browser": "Edge",
+      "visits": "228"
+    },
+    {
+      "date": "2016-04-11",
+      "browser": "Android Browser",
+      "visits": "110"
+    },
+    {
+      "date": "2016-04-11",
+      "browser": "Opera",
+      "visits": "41"
+    },
+    {
+      "date": "2016-04-11",
+      "browser": "Amazon Silk",
+      "visits": "31"
+    },
+    {
+      "date": "2016-04-11",
+      "browser": "Safari (in-app)",
+      "visits": "25"
+    },
+    {
+      "date": "2016-04-11",
+      "browser": "Opera Mini",
+      "visits": "11"
+    },
+    {
+      "date": "2016-04-11",
+      "browser": "BlackBerry",
+      "visits": "6"
+    },
+    {
+      "date": "2016-04-11",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "6"
+    },
+    {
+      "date": "2016-04-11",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-11",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-11",
+      "browser": "UC Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-12",
+      "browser": "Chrome",
+      "visits": "4629"
+    },
+    {
+      "date": "2016-04-12",
+      "browser": "Safari",
+      "visits": "2941"
+    },
+    {
+      "date": "2016-04-12",
+      "browser": "Internet Explorer",
+      "visits": "2939"
+    },
+    {
+      "date": "2016-04-12",
+      "browser": "Firefox",
+      "visits": "627"
+    },
+    {
+      "date": "2016-04-12",
+      "browser": "Edge",
+      "visits": "226"
+    },
+    {
+      "date": "2016-04-12",
+      "browser": "Android Browser",
+      "visits": "146"
+    },
+    {
+      "date": "2016-04-12",
+      "browser": "Amazon Silk",
+      "visits": "44"
+    },
+    {
+      "date": "2016-04-12",
+      "browser": "Safari (in-app)",
+      "visits": "38"
+    },
+    {
+      "date": "2016-04-12",
+      "browser": "Opera",
+      "visits": "33"
+    },
+    {
+      "date": "2016-04-12",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-12",
+      "browser": "IE with Chrome Frame",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-12",
+      "browser": "Opera Mini",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-12",
+      "browser": "UC Browser",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-12",
+      "browser": "BlackBerry9300",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-12",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-13",
+      "browser": "Chrome",
+      "visits": "4312"
+    },
+    {
+      "date": "2016-04-13",
+      "browser": "Safari",
+      "visits": "2933"
+    },
+    {
+      "date": "2016-04-13",
+      "browser": "Internet Explorer",
+      "visits": "2930"
+    },
+    {
+      "date": "2016-04-13",
+      "browser": "Firefox",
+      "visits": "707"
+    },
+    {
+      "date": "2016-04-13",
+      "browser": "Edge",
+      "visits": "214"
+    },
+    {
+      "date": "2016-04-13",
+      "browser": "Android Browser",
+      "visits": "138"
+    },
+    {
+      "date": "2016-04-13",
+      "browser": "Amazon Silk",
+      "visits": "38"
+    },
+    {
+      "date": "2016-04-13",
+      "browser": "Safari (in-app)",
+      "visits": "36"
+    },
+    {
+      "date": "2016-04-13",
+      "browser": "Opera",
+      "visits": "25"
+    },
+    {
+      "date": "2016-04-13",
+      "browser": "Opera Mini",
+      "visits": "6"
+    },
+    {
+      "date": "2016-04-13",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-13",
+      "browser": "IE with Chrome Frame",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-13",
+      "browser": "BlackBerry",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-13",
+      "browser": "UC Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-14",
+      "browser": "Chrome",
+      "visits": "4206"
+    },
+    {
+      "date": "2016-04-14",
+      "browser": "Internet Explorer",
+      "visits": "2927"
+    },
+    {
+      "date": "2016-04-14",
+      "browser": "Safari",
+      "visits": "2809"
+    },
+    {
+      "date": "2016-04-14",
+      "browser": "Firefox",
+      "visits": "655"
+    },
+    {
+      "date": "2016-04-14",
+      "browser": "Edge",
+      "visits": "187"
+    },
+    {
+      "date": "2016-04-14",
+      "browser": "Android Browser",
+      "visits": "110"
+    },
+    {
+      "date": "2016-04-14",
+      "browser": "Amazon Silk",
+      "visits": "40"
+    },
+    {
+      "date": "2016-04-14",
+      "browser": "Safari (in-app)",
+      "visits": "30"
+    },
+    {
+      "date": "2016-04-14",
+      "browser": "Opera",
+      "visits": "28"
+    },
+    {
+      "date": "2016-04-14",
+      "browser": "BlackBerry",
+      "visits": "4"
+    },
+    {
+      "date": "2016-04-14",
+      "browser": "Opera Mini",
+      "visits": "4"
+    },
+    {
+      "date": "2016-04-14",
+      "browser": "UC Browser",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-14",
+      "browser": "YaBrowser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-14",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-15",
+      "browser": "Chrome",
+      "visits": "4047"
+    },
+    {
+      "date": "2016-04-15",
+      "browser": "Safari",
+      "visits": "3059"
+    },
+    {
+      "date": "2016-04-15",
+      "browser": "Internet Explorer",
+      "visits": "2559"
+    },
+    {
+      "date": "2016-04-15",
+      "browser": "Firefox",
+      "visits": "645"
+    },
+    {
+      "date": "2016-04-15",
+      "browser": "Edge",
+      "visits": "193"
+    },
+    {
+      "date": "2016-04-15",
+      "browser": "Android Browser",
+      "visits": "125"
+    },
+    {
+      "date": "2016-04-15",
+      "browser": "Safari (in-app)",
+      "visits": "94"
+    },
+    {
+      "date": "2016-04-15",
+      "browser": "Amazon Silk",
+      "visits": "34"
+    },
+    {
+      "date": "2016-04-15",
+      "browser": "Opera",
+      "visits": "15"
+    },
+    {
+      "date": "2016-04-15",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "4"
+    },
+    {
+      "date": "2016-04-15",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-15",
+      "browser": "Opera Mini",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-15",
+      "browser": "UC Browser",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-15",
+      "browser": "IE with Chrome Frame",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-15",
+      "browser": "Iron",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-15",
+      "browser": "Playstation 3",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-15",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "Safari",
+      "visits": "3125"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "Chrome",
+      "visits": "3020"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "Internet Explorer",
+      "visits": "1250"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "Firefox",
+      "visits": "418"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "Edge",
+      "visits": "181"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "Android Browser",
+      "visits": "134"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "Safari (in-app)",
+      "visits": "40"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "Amazon Silk",
+      "visits": "36"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "Opera",
+      "visits": "19"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "7"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "BlackBerry",
+      "visits": "6"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "Opera Mini",
+      "visits": "4"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "UC Browser",
+      "visits": "4"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "Maxthon",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "NetFront",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "Nintendo 3DS Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "Phantom.js bot",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "YaBrowser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-16",
+      "browser": "nook browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-17",
+      "browser": "Safari",
+      "visits": "2664"
+    },
+    {
+      "date": "2016-04-17",
+      "browser": "Chrome",
+      "visits": "2659"
+    },
+    {
+      "date": "2016-04-17",
+      "browser": "Internet Explorer",
+      "visits": "801"
+    },
+    {
+      "date": "2016-04-17",
+      "browser": "Firefox",
+      "visits": "317"
+    },
+    {
+      "date": "2016-04-17",
+      "browser": "Edge",
+      "visits": "141"
+    },
+    {
+      "date": "2016-04-17",
+      "browser": "Android Browser",
+      "visits": "108"
+    },
+    {
+      "date": "2016-04-17",
+      "browser": "Amazon Silk",
+      "visits": "40"
+    },
+    {
+      "date": "2016-04-17",
+      "browser": "Safari (in-app)",
+      "visits": "22"
+    },
+    {
+      "date": "2016-04-17",
+      "browser": "Opera",
+      "visits": "16"
+    },
+    {
+      "date": "2016-04-17",
+      "browser": "Opera Mini",
+      "visits": "6"
+    },
+    {
+      "date": "2016-04-17",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-17",
+      "browser": "UC Browser",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-17",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-17",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-18",
+      "browser": "Chrome",
+      "visits": "4491"
+    },
+    {
+      "date": "2016-04-18",
+      "browser": "Safari",
+      "visits": "3038"
+    },
+    {
+      "date": "2016-04-18",
+      "browser": "Internet Explorer",
+      "visits": "2760"
+    },
+    {
+      "date": "2016-04-18",
+      "browser": "Firefox",
+      "visits": "665"
+    },
+    {
+      "date": "2016-04-18",
+      "browser": "Edge",
+      "visits": "220"
+    },
+    {
+      "date": "2016-04-18",
+      "browser": "Android Browser",
+      "visits": "89"
+    },
+    {
+      "date": "2016-04-18",
+      "browser": "Amazon Silk",
+      "visits": "37"
+    },
+    {
+      "date": "2016-04-18",
+      "browser": "Opera",
+      "visits": "28"
+    },
+    {
+      "date": "2016-04-18",
+      "browser": "Safari (in-app)",
+      "visits": "25"
+    },
+    {
+      "date": "2016-04-18",
+      "browser": "BlackBerry",
+      "visits": "6"
+    },
+    {
+      "date": "2016-04-18",
+      "browser": "Opera Mini",
+      "visits": "6"
+    },
+    {
+      "date": "2016-04-18",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-18",
+      "browser": "IE with Chrome Frame",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-18",
+      "browser": "Playstation 3",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-18",
+      "browser": "UC Browser",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-18",
+      "browser": "Nokia Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-19",
+      "browser": "Chrome",
+      "visits": "4556"
+    },
+    {
+      "date": "2016-04-19",
+      "browser": "Internet Explorer",
+      "visits": "2977"
+    },
+    {
+      "date": "2016-04-19",
+      "browser": "Safari",
+      "visits": "2945"
+    },
+    {
+      "date": "2016-04-19",
+      "browser": "Firefox",
+      "visits": "667"
+    },
+    {
+      "date": "2016-04-19",
+      "browser": "Edge",
+      "visits": "212"
+    },
+    {
+      "date": "2016-04-19",
+      "browser": "Android Browser",
+      "visits": "121"
+    },
+    {
+      "date": "2016-04-19",
+      "browser": "Amazon Silk",
+      "visits": "26"
+    },
+    {
+      "date": "2016-04-19",
+      "browser": "Safari (in-app)",
+      "visits": "22"
+    },
+    {
+      "date": "2016-04-19",
+      "browser": "Opera",
+      "visits": "21"
+    },
+    {
+      "date": "2016-04-19",
+      "browser": "Opera Mini",
+      "visits": "6"
+    },
+    {
+      "date": "2016-04-19",
+      "browser": "UC Browser",
+      "visits": "6"
+    },
+    {
+      "date": "2016-04-19",
+      "browser": "BlackBerry",
+      "visits": "4"
+    },
+    {
+      "date": "2016-04-19",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "4"
+    },
+    {
+      "date": "2016-04-19",
+      "browser": "NetFront",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-19",
+      "browser": "Playstation 3",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-19",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-20",
+      "browser": "Chrome",
+      "visits": "4434"
+    },
+    {
+      "date": "2016-04-20",
+      "browser": "Safari",
+      "visits": "2915"
+    },
+    {
+      "date": "2016-04-20",
+      "browser": "Internet Explorer",
+      "visits": "2898"
+    },
+    {
+      "date": "2016-04-20",
+      "browser": "Firefox",
+      "visits": "690"
+    },
+    {
+      "date": "2016-04-20",
+      "browser": "Edge",
+      "visits": "202"
+    },
+    {
+      "date": "2016-04-20",
+      "browser": "Android Browser",
+      "visits": "104"
+    },
+    {
+      "date": "2016-04-20",
+      "browser": "Safari (in-app)",
+      "visits": "45"
+    },
+    {
+      "date": "2016-04-20",
+      "browser": "Amazon Silk",
+      "visits": "26"
+    },
+    {
+      "date": "2016-04-20",
+      "browser": "Opera",
+      "visits": "15"
+    },
+    {
+      "date": "2016-04-20",
+      "browser": "BlackBerry",
+      "visits": "8"
+    },
+    {
+      "date": "2016-04-20",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "5"
+    },
+    {
+      "date": "2016-04-20",
+      "browser": "UC Browser",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-20",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-20",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-20",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-20",
+      "browser": "Opera Mini",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-20",
+      "browser": "SeaMonkey",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-21",
+      "browser": "Chrome",
+      "visits": "4160"
+    },
+    {
+      "date": "2016-04-21",
+      "browser": "Internet Explorer",
+      "visits": "2676"
+    },
+    {
+      "date": "2016-04-21",
+      "browser": "Safari",
+      "visits": "2676"
+    },
+    {
+      "date": "2016-04-21",
+      "browser": "Firefox",
+      "visits": "593"
+    },
+    {
+      "date": "2016-04-21",
+      "browser": "Edge",
+      "visits": "186"
+    },
+    {
+      "date": "2016-04-21",
+      "browser": "Android Browser",
+      "visits": "125"
+    },
+    {
+      "date": "2016-04-21",
+      "browser": "Amazon Silk",
+      "visits": "34"
+    },
+    {
+      "date": "2016-04-21",
+      "browser": "Opera",
+      "visits": "25"
+    },
+    {
+      "date": "2016-04-21",
+      "browser": "Safari (in-app)",
+      "visits": "24"
+    },
+    {
+      "date": "2016-04-21",
+      "browser": "Opera Mini",
+      "visits": "7"
+    },
+    {
+      "date": "2016-04-21",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-21",
+      "browser": "Coc Coc",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-21",
+      "browser": "Maxthon",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-21",
+      "browser": "IE with Chrome Frame",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-21",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-21",
+      "browser": "Playstation 3",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-21",
+      "browser": "RockMelt",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-21",
+      "browser": "SeaMonkey",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-22",
+      "browser": "Chrome",
+      "visits": "3809"
+    },
+    {
+      "date": "2016-04-22",
+      "browser": "Safari",
+      "visits": "2738"
+    },
+    {
+      "date": "2016-04-22",
+      "browser": "Internet Explorer",
+      "visits": "2444"
+    },
+    {
+      "date": "2016-04-22",
+      "browser": "Firefox",
+      "visits": "600"
+    },
+    {
+      "date": "2016-04-22",
+      "browser": "Edge",
+      "visits": "177"
+    },
+    {
+      "date": "2016-04-22",
+      "browser": "Android Browser",
+      "visits": "97"
+    },
+    {
+      "date": "2016-04-22",
+      "browser": "Safari (in-app)",
+      "visits": "29"
+    },
+    {
+      "date": "2016-04-22",
+      "browser": "Amazon Silk",
+      "visits": "26"
+    },
+    {
+      "date": "2016-04-22",
+      "browser": "Opera",
+      "visits": "24"
+    },
+    {
+      "date": "2016-04-22",
+      "browser": "Opera Mini",
+      "visits": "4"
+    },
+    {
+      "date": "2016-04-22",
+      "browser": "UC Browser",
+      "visits": "4"
+    },
+    {
+      "date": "2016-04-22",
+      "browser": "BlackBerry",
+      "visits": "3"
+    },
+    {
+      "date": "2016-04-22",
+      "browser": "DDG-Android-3.0.12",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-22",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-22",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-22",
+      "browser": "Phantom Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-23",
+      "browser": "Safari",
+      "visits": "2836"
+    },
+    {
+      "date": "2016-04-23",
+      "browser": "Chrome",
+      "visits": "2771"
+    },
+    {
+      "date": "2016-04-23",
+      "browser": "Internet Explorer",
+      "visits": "1142"
+    },
+    {
+      "date": "2016-04-23",
+      "browser": "Firefox",
+      "visits": "355"
+    },
+    {
+      "date": "2016-04-23",
+      "browser": "Edge",
+      "visits": "147"
+    },
+    {
+      "date": "2016-04-23",
+      "browser": "Android Browser",
+      "visits": "133"
+    },
+    {
+      "date": "2016-04-23",
+      "browser": "Amazon Silk",
+      "visits": "27"
+    },
+    {
+      "date": "2016-04-23",
+      "browser": "Safari (in-app)",
+      "visits": "22"
+    },
+    {
+      "date": "2016-04-23",
+      "browser": "Opera",
+      "visits": "14"
+    },
+    {
+      "date": "2016-04-23",
+      "browser": "BlackBerry",
+      "visits": "9"
+    },
+    {
+      "date": "2016-04-23",
+      "browser": "Opera Mini",
+      "visits": "6"
+    },
+    {
+      "date": "2016-04-23",
+      "browser": "UC Browser",
+      "visits": "6"
+    },
+    {
+      "date": "2016-04-23",
+      "browser": "Maxthon",
+      "visits": "2"
+    },
+    {
+      "date": "2016-04-23",
+      "browser": "Coc Coc",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-23",
+      "browser": "Playstation Vita Browser",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-24",
+      "browser": "Safari",
+      "visits": "2534"
+    },
+    {
+      "date": "2016-04-24",
+      "browser": "Chrome",
+      "visits": "2480"
+    },
+    {
+      "date": "2016-04-24",
+      "browser": "Internet Explorer",
+      "visits": "769"
+    },
+    {
+      "date": "2016-04-24",
+      "browser": "Firefox",
+      "visits": "315"
+    },
+    {
+      "date": "2016-04-24",
+      "browser": "Edge",
+      "visits": "165"
+    },
+    {
+      "date": "2016-04-24",
+      "browser": "Android Browser",
+      "visits": "77"
+    },
+    {
+      "date": "2016-04-24",
+      "browser": "Amazon Silk",
+      "visits": "30"
+    },
+    {
+      "date": "2016-04-24",
+      "browser": "Safari (in-app)",
+      "visits": "27"
+    },
+    {
+      "date": "2016-04-24",
+      "browser": "Opera",
+      "visits": "16"
+    },
+    {
+      "date": "2016-04-24",
+      "browser": "UC Browser",
+      "visits": "8"
+    },
+    {
+      "date": "2016-04-24",
+      "browser": "Opera Mini",
+      "visits": "6"
+    },
+    {
+      "date": "2016-04-24",
+      "browser": "BlackBerry",
+      "visits": "5"
+    },
+    {
+      "date": "2016-04-24",
+      "browser": "Maxthon",
+      "visits": "1"
+    },
+    {
+      "date": "2016-04-25",
+      "browser": "Chrome",
+      "visits": "4499"
+    },
+    {
+      "date": "2016-04-25",
+      "browser": "Safari",
+      "visits": "3008"
+    },
+    {
+      "date": "2016-04-25",
+      "browser": "Internet Explorer",
+      "visits": "2626"
+    },
+    {
+      "date": "2016-04-25",
+      "browser": "Firefox",
+      "visits": "712"
+    },
+    {
+      "date": "2016-04-25",
+      "browser": "Edge",
+      "visits": "206"
+    },
+    {
+      "date": "2016-04-25",
+      "browser": "Android Browser",
+      "visits": "97"
+    },
+    {
+      "date": "2016-04-25",
+      "browser": "Safari (in-app)",
+      "visits": "60"
+    },
+    {
+      "date": "2016-04-25",
+      "browser": "Amazon Silk",
+      "visits": "33"
+    },
+    {
+      "date": "2016-04-25",
+      "browser": "Opera",
+      "visits": "23"
+    },
+    {
+      "date": "2016-04-25",
+      "browser": "BlackBerry",
+      "visits": "9"
+    },
+    {
+      "date": "2016-04-25",
+      "browser": "UC Browser",
+      "visits": "6"
+    },
+    {
+      "date": "2016-04-25",
+      "browser": "Mozilla Compatible Agent",
+      "visits": "4"
+    },
+    {
+      "date": "2016-04-25",
+      "browser": "Opera Mini",
+      "visits": "4"
+    },
+    {
+      "date": "2016-04-25",
+      "browser": "YaBrowser",
+      "visits": "1"
+    }
+  ],
+  "totals": {
+    "visits": 886240,
+    "browser": {
+      "Internet Explorer": 204678,
+      "Edge": 15728,
+      "Chrome": 340660,
+      "Safari": 251780,
+      "Firefox": 50331,
+      "Android Browser": 12337,
+      "Safari (in-app)": 4072,
+      "Amazon Silk": 3241,
+      "Opera": 1525,
+      "Opera Mini": 573,
+      "IE with Chrome Frame": 98,
+      "BlackBerry": 429,
+      "UC Browser": 314,
+      "YaBrowser": 32,
+      "Maxthon": 44,
+      "Coc Coc": 26,
+      "Other": 372
+    },
+    "start_date": "2016-01-27",
+    "end_date": "2016-04-25"
+  },
+  "taken_at": "2016-04-26T23:02:29.048Z"
 }

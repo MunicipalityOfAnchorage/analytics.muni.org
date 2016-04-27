@@ -28,7 +28,7 @@
     <meta name="google-site-verification" content="f-xcDj4mz0SRy057FprzNaOS-g6n8Kr0ZoYVipZ2EZg" />
 
     <link rel="stylesheet" href="{{ site.baseurl }}/css/public_analytics.css">
-    <link rel="icon" type="image/x-icon" href="images/analytics-favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/images/analytics-favicon.ico">
 
     <meta name="twitter:site" content="@{{ site.twitter }}">
     <meta name="twitter:creator" content="@{{ site.twitter }}">
@@ -97,7 +97,6 @@
   </head>
 
   <body>
-
     <!-- Initalize title and data source variables -->
     {% if page.url == '/' %}
       {% capture data_url %}{{ site.data_url }}{% endcapture %}
@@ -152,19 +151,17 @@
       -->
 
       <div id="main_data">
-
         <!-- Technical Difficulties Banner -->
 <!--         <div class="technical-difficulties">
           * We are currently experiencing technical difficulties with respect to our real-time traffic data. 
           Actual real-time visitor counts may be higher than displayed.
         </div> -->
-        
         <section id="realtime"
           data-block="realtime"
           data-source="{{ data_url }}/realtime.json"
           data-refresh="15">
           <h2 id="current_visitors" class="data">...</h2>
-          <div class="chart_subtitle">people on municipal websites now</div>
+          <div class="chart_subtitle">people on municipal web pages now</div>
         </section>
 
         <section class="section_headline visits_today">
