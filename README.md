@@ -40,7 +40,7 @@ See [analytics.usa.gov README.md] (https://github.com/18F/analytics.usa.gov/blob
 
 See [analytics.usa.gov README.md] (https://github.com/18F/analytics.usa.gov/blob/18f-pages/README.md) for agency setup instructions.
 
-## Development
+## Developing
 
 Development build using fake data:
 
