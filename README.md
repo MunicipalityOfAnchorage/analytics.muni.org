@@ -11,7 +11,7 @@ Other government agencies have reused [analytics.usa.gov](https://github.com/18F
 
 ### Windows servers
 
-Install [GNU Make for Windows] (http://gnuwin32.sourceforge.net/packages/make.htm) (optional)
+Install [GNU Make for Windows] (http://gnuwin32.sourceforge.net/packages/make.htm) (Optional)
 
 Install Ruby using [RubyInstaller for Windows](http://rubyinstaller.org/).
 
@@ -21,13 +21,13 @@ Install [Bundler] (http://bundler.io)
 gem install bundle
 ```
 
-This app uses [Jekyll](http://jekyllrb.com) to build the site, and [Sass](http://sass-lang.com/), [Bourbon](http://bourbon.io), and [Neat](http://neat.bourbon.io) for CSS. Install them all (from the directory containing the local copy of this github repository):
+This app uses [Jekyll](http://jekyllrb.com) to build the site, and [Sass](http://sass-lang.com/), [Bourbon](http://bourbon.io), and [Neat](http://neat.bourbon.io) for CSS.
+
+Install them all (from the directory containing the local copy of this github repository):
 
 ```bash
 bundle install
 ```
-
-*NOTE: The above items are not required for setup on a production server.*
 
 [`analytics-reporter`](https://github.com/MunicipalityOfAnchorage/analytics-reporter) is the code that powers the analytics dashboard.
 Please clone the `analytics-reporter` next to a local copy of this github repository.
