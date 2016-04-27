@@ -1,8 +1,9 @@
-# For development with fake data
-url: http://analyticstest.muni.org
+# For development, when using `jekyll serve`
+url: http://localhost:4000
 # For development, when using:
 #   analytics --output=[dir]
 # and running from [dir]:
 #   serve
 data_url: /fake-data
-header_host: analyticstest
+
+data_dir: /fake-data

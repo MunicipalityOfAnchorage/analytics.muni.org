@@ -1,15 +1,11 @@
-prod:
+DEPLOY_BUCKET=18f-dap
+
+production:
 	bundle exec jekyll build
 
-test:
-	bundle exec jekyll build --config=_config.yml,_test.yml
-	node ..\analytics-reporter\bin\analytics --output _site\data
-	node ..\analytics-reporter\bin\analytics --csv --output _site\data
-
 dev:
-	bundle exec jekyll build --config=_config.yml,_development.yml
-	
+	bundle exec jekyll serve --watch --config=_config.yml,_development.yml
+
 deploy:
-	make prod
-	net use "%ANALYTICS_PROD_SHARE%"
-	-robocopy d:\analytics.muni.org\_site\ "%ANALYTICS_PROD_SHARE%"
+	make production && s3cmd put --recursive -P -M --add-header="Cache-Control:max-age=0" _site/* s3://$(DEPLOY_BUCKET)/ && s3cmd put -P --mime-type="text/css" --add-header="Cache-Control:max-age=0" _site/css/*.css s3://$(DEPLOY_BUCKET)/css/
+

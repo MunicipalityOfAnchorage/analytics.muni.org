@@ -1,8 +1,0 @@
-# For test with live data
-url: http://analyticstest.muni.org
-# For development, when using:
-#   analytics --output=[dir]
-# and running from [dir]:
-#   serve
-data_url: http://analyticstest.muni.org/data
-header_host: analyticstest
