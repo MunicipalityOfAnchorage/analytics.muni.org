@@ -8,28 +8,23 @@
     {% endif %}
 
     <header>
-        <div class="inner clearfix">
-            <h1>
-              <a href="/" class="external-link">
-                <strong>analytics</strong>.usa.gov
-              </a>
-            </h1>
-            <ul class="links">
-              <li><a href="#explanation">About <span class="sm-hide">this site</span></a></li>
-              <!--<li><a href="#data_downloads">Data</a></li>-->
-            </ul>
-            {% if site.agencies.size > 0 %}
-            <div class="agency-selector-wrap">
-              <form>
-                <label for="agency-selector">Select an agency</label>
-                <select name="agency-selector" id="agency-selector" title="Agency Selection Dropdown">
-                  <option value="{{site.baseurl}}/">{{site.dropdown_title}}</option>
-                  {% for agency in site.agencies %}
-                    <option value="{{site.baseurl}}{{agency.url}}">{{agency.name}}</option>
-                  {% endfor %}
-                </select>
-              </form>
-            </div>
-            {% endif %}
+      <div class="inner clearfix">
+		<h1>
+		  <img src="{{ site.header_logo }}" width="70" height="70" style="vertical-align:middle" />
+          <a href="/" class="external-link"><strong>{{ site.header_host }}</strong></a>.<a href="{{ site.home_url }}" class="external-link" target="_blank">{{ site.header_domain }}</a>
+        </h1>
+        <a href="#explanation" id="about" class="el">
+          About <span class="sm-hide">this site</span>
+        </a>
+        {% if site.agencies.size > 0 %}
+        <div class="el agency-selector-wrap">
+          <select class="agency-selector" title="Agency Selection Dropdown">
+            <option value="{{site.baseurl}}/">{{site.dropdown_title}}</option>
+            {% for agency in site.agencies %}
+              <option value="{{site.baseurl}}{{agency.url}}">{{agency.name}}</option>
+            {% endfor %}
+          </select>
         </div>
+        {% endif %}
+      </div>
     </header>
