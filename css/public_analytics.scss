@@ -327,7 +327,6 @@ section {
 }
 
 #data_download {
-  @include span-columns(5);
   @include media($small-screen)  {
     @include span-columns(1);
   }
@@ -466,14 +465,14 @@ figure {
 
 ul.pills {
   @include clearfix;
-  @include span-columns(3 of 5);
+  @include span-columns(5 of 5);
   display: inline-block;
 
   border-right: 1px solid $gray;
   border-left: 1px solid $gray;
 
   li {
-    width: 33.3333%;
+    width: 20%;
   }
 
   &, & > li {

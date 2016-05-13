@@ -958,18 +958,19 @@
 // Set the dropdown
 var dropDown = document.getElementById('agency-selector');
 
-// Start on change listener to load new page
-d3.select(dropDown).on("change", function () {
-  window.location= d3.select(this).property('value');
-});
+if (dropDown) {
+  // Start on change listener to load new page
+  d3.select(dropDown).on("change", function () {
+    window.location= d3.select(this).property('value');
+  });
 
-for (var j = 0; j < dropDown.options.length; j++) {
-  if (dropDown.options[j].value === window.location.pathname){
-    dropDown.selectedIndex = j;
-    break;
+  for (var j = 0; j < dropDown.options.length; j++) {
+    if (dropDown.options[j].value === window.location.pathname){
+      dropDown.selectedIndex = j;
+      break;
+    }
   }
 }
-
 
 
 })(this);
