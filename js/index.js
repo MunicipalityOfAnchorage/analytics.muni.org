@@ -708,7 +708,7 @@
 
       element(svg, "g.axis.y0")
         .attr("transform", "translate(" + [left, 0] + ")")
-        .attr("aria-hidden", "true")
+        .attr("aria-hidden", "false")
         .transition()
           .duration(duration)
           .call(yAxis
@@ -717,7 +717,7 @@
 
       element(svg, "g.axis.y1")
         .attr("transform", "translate(" + [right, 0] + ")")
-        .attr("aria-hidden", "true")
+        .attr("aria-hidden", "false")
         .transition()
           .duration(duration)
           .call(yAxis
