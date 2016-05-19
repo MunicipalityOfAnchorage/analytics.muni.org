@@ -1,0 +1,292 @@
+{
+  "name": "all-pages-realtime",
+  "query": {
+    "dimensions": "rt:pagePath,rt:pageTitle",
+    "metrics": [
+      "rt:activeUsers"
+    ],
+    "sort": [
+      "-rt:activeUsers"
+    ],
+    "filters": "rt:pagePath=~^gis.muni.org|^merrillfieldmasterplan.com|^muni.org|^www.muni.org|^analytics.muni.org;rt:pagePath!~pagenotfound",
+    "max-results": 10000
+  },
+  "meta": {
+    "name": "All Pages (Live)",
+    "description": "Pages, measured by active onsite users, for all sites."
+  },
+  "data": [
+    {
+      "page": "www.muni.org/departments/library/pages/default.aspx",
+      "page_title": "Library",
+      "active_visitors": "21"
+    },
+    {
+      "page": "www.muni.org/pages/default.aspx",
+      "page_title": "Anchorage, Alaska: The Official Municipality of Anchorage, Alaska website",
+      "active_visitors": "11"
+    },
+    {
+      "page": "www.muni.org/departments/finance/property_appraisal/pages/default.aspx",
+      "page_title": "Property Appraisal",
+      "active_visitors": "6"
+    },
+    {
+      "page": "www.muni.org/departments/transit/peoplemover/pages/mapsandschedules.aspx",
+      "page_title": "MapsAndSchedules",
+      "active_visitors": "6"
+    },
+    {
+      "page": "www.muni.org/departments/employee_relations/pages/jol.aspx",
+      "page_title": "Jobs",
+      "active_visitors": "4"
+    },
+    {
+      "page": "www.muni.org/departments/purchasing/pages/bidding.aspx",
+      "page_title": "Current Bidding Opportunities",
+      "active_visitors": "3"
+    },
+    {
+      "page": "www.muni.org/departments/transit/peoplemover/pages/default.aspx",
+      "page_title": "People Mover",
+      "active_visitors": "3"
+    },
+    {
+      "page": "www.muni.org/departments/finance/treasury/proptax/pages/realestatepropertytaxes.aspx",
+      "page_title": "Real Estate Property Taxes",
+      "active_visitors": "2"
+    },
+    {
+      "page": "www.muni.org/departments/fire/prevention/pages/default.aspx",
+      "page_title": "Fire Prevention",
+      "active_visitors": "2"
+    },
+    {
+      "page": "www.muni.org/departments/mayor/pages/default.aspx",
+      "page_title": "Mayor's Corner",
+      "active_visitors": "2"
+    },
+    {
+      "page": "www.muni.org/departments/ocpd/planning/projects/anchlanduse/pages/default.aspx",
+      "page_title": "Anchorage Bowl Land Use Plan Map Project",
+      "active_visitors": "2"
+    },
+    {
+      "page": "www.muni.org/departments/parks/pages/bartlettpool.aspx",
+      "page_title": "Bartlett Pool",
+      "active_visitors": "2"
+    },
+    {
+      "page": "www.muni.org/departments/police/pages/contactinfo.aspx",
+      "page_title": "Contact Information",
+      "active_visitors": "2"
+    },
+    {
+      "page": "www.muni.org/departments/sws/howdoi/pages/recycle.aspx",
+      "page_title": "How Do I Recycle These Items?",
+      "active_visitors": "2"
+    },
+    {
+      "page": "www.muni.org/departments/transit/peoplemover/pages/route3.aspx",
+      "page_title": "Route 3",
+      "active_visitors": "2"
+    },
+    {
+      "page": "www.muni.org/departments/transit/peoplemover/pages/route7.aspx",
+      "page_title": "Route7",
+      "active_visitors": "2"
+    },
+    {
+      "page": "www.muni.org/contactus/pages/default.aspx",
+      "page_title": "Employee Search",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/assembly/events/pages/090309asd.aspx",
+      "page_title": "Step Up Open House",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/assembly/pages/default.aspx",
+      "page_title": "Anchorage Assembly",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/finance/property_appraisal/exemption/pages/default.aspx",
+      "page_title": "Property Appraisal Exemptions",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/fire/pages/default.aspx",
+      "page_title": "Anchorage Fire Department",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/fire/pages/faq.aspx",
+      "page_title": "FAQ",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/fire/wildfire/pages/woodlots.aspx",
+      "page_title": "Wood Lots",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/health/admin/animal_control/pages/barkingdogs.aspx",
+      "page_title": "BarkingDogs",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/health/admin/animal_control/pages/default.aspx",
+      "page_title": "Animal Control",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/health/admin/environment/fss/pages/alternatefoodworkertesting.aspx",
+      "page_title": "Alternate Food Worker Testing",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/health/directservices/pages/disease.aspx",
+      "page_title": "Disease",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/it/gis2/pages/default.aspx",
+      "page_title": "GIS and Mapping Services",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/legal/criminal/pages/pretrialdiversion.aspx",
+      "page_title": "Pre-Trial Diversion",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/library/pages/loussaclibrary.aspx",
+      "page_title": "Z.J. Loussac Public Library",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/merrill_field/pages/default.aspx",
+      "page_title": "Merrill Field",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/merrill_field/pages/maaac.aspx",
+      "page_title": "maaac",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/ocpd/development/bsd/pages/contactinfo.aspx",
+      "page_title": "Contact Information",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/ocpd/development/bsd/pages/forms.aspx",
+      "page_title": "Forms",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/ocpd/development/bsd/pages/inspections.aspx",
+      "page_title": "Inspections",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/ocpd/development/landuseplanreview/pages/default.aspx",
+      "page_title": "Land Use Review",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/ocpd/planning/amats/pages/default.aspx",
+      "page_title": "Transportation Planning/AMATS",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/ocpd/planning/amats/pages/gismaps.aspx",
+      "page_title": "GIS Maps",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/ocpd/planning/pages/maps.aspx",
+      "page_title": "Maps",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/operations/streets/pages/contactinfo.aspx",
+      "page_title": "Contact Information",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/pages/default.aspx",
+      "page_title": "MOA Departments Divisions and Offices",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/parks/pages/parklisting.aspx",
+      "page_title": "Park Listing",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/parks/pages/parksdirectory.aspx",
+      "page_title": "Example page for parks directory",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/parks/pages/spenard.aspx",
+      "page_title": "Spenard",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/police/forms/pages/beforepolicereport.aspx",
+      "page_title": "BeforePoliceReport",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/police/pages/default.aspx",
+      "page_title": "Anchorage Police Department",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/sws/disposal/pages/default.aspx",
+      "page_title": "Disposal Utility Information",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/sws/howdoi/pages/dispose.aspx",
+      "page_title": "How Do I Dispose of These items?",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/sws/pages/default.aspx",
+      "page_title": "Solid Waste Services",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/transit/peoplemover/pages/route102.aspx",
+      "page_title": "Route102",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/transit/peoplemover/pages/route15.aspx",
+      "page_title": "Route 15",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/transit/peoplemover/pages/route2.aspx",
+      "page_title": "Route2",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/departments/transit/peoplemover/pages/route8.aspx",
+      "page_title": "Route 8",
+      "active_visitors": "1"
+    },
+    {
+      "page": "www.muni.org/pages/propertyinformation.aspx",
+      "page_title": "Property Information",
+      "active_visitors": "1"
+    }
+  ],
+  "totals": {},
+  "taken_at": "2016-04-26T23:02:39.689Z"
+}

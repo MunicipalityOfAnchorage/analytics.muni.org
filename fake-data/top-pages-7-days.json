@@ -1,0 +1,176 @@
+{
+  "name": "top-pages-7-days",
+  "query": {
+    "start-date": "7daysAgo",
+    "end-date": "yesterday",
+    "dimensions": "ga:hostname,ga:pagePath,ga:pageTitle",
+    "metrics": [
+      "ga:pageviews"
+    ],
+    "sort": [
+      "-ga:pageviews"
+    ],
+    "filters": "ga:hostname=~^gis.muni.org|^merrillfieldmasterplan.com|^muni.org|^www.muni.org|^analytics.muni.org;ga:pagePath!~pagenotfound",
+    "start-index": 1,
+    "max-results": 25,
+    "samplingLevel": "HIGHER_PRECISION"
+  },
+  "meta": {
+    "name": "Top Pages (7 Days)",
+    "description": "Last week's top 25 pages, measured by page views, for all sites."
+  },
+  "data": [
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/pages/default.aspx",
+      "page_title": "Anchorage, Alaska: The Official Municipality of Anchorage, Alaska website",
+      "pageviews": "19595"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/library/pages/default.aspx",
+      "page_title": "Library",
+      "pageviews": "13560"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/transit/peoplemover/pages/mapsandschedules.aspx",
+      "page_title": "MapsAndSchedules",
+      "pageviews": "10854"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/transit/peoplemover/pages/default.aspx",
+      "page_title": "People Mover",
+      "pageviews": "4443"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/finance/property_appraisal/pages/default.aspx",
+      "page_title": "Property Appraisal",
+      "pageviews": "4139"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/employee_relations/pages/jol.aspx",
+      "page_title": "Jobs",
+      "pageviews": "3885"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/searchcenter/pages/results.aspx",
+      "page_title": "Results",
+      "pageviews": "3104"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/pages/propertyinformation.aspx",
+      "page_title": "Property Information",
+      "pageviews": "2724"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/health/admin/animal_control/pages/adoptingapet.aspx",
+      "page_title": "Adopting a Pet",
+      "pageviews": "2563"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/police/pages/default.aspx",
+      "page_title": "Anchorage Police Department",
+      "pageviews": "2553"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/finance/treasury/proptax/pages/realestatepropertytaxes.aspx",
+      "page_title": "Real Estate Property Taxes",
+      "pageviews": "2539"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/health/admin/animal_control/pages/default.aspx",
+      "page_title": "Animal Control",
+      "pageviews": "2367"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/pages/default.aspx",
+      "page_title": "MOA Departments Divisions and Offices",
+      "pageviews": "2260"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/sws/pages/default.aspx",
+      "page_title": "Solid Waste Services",
+      "pageviews": "1855"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/transit/peoplemover/pages/route75.aspx",
+      "page_title": "Route75",
+      "pageviews": "1721"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/finance/treasury/proptax/pages/default.aspx",
+      "page_title": "Property Taxes",
+      "pageviews": "1681"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/transit/peoplemover/pages/route45.aspx",
+      "page_title": "Route45",
+      "pageviews": "1625"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/transit/peoplemover/pages/route7.aspx",
+      "page_title": "Route7",
+      "pageviews": "1606"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/purchasing/pages/bidding.aspx",
+      "page_title": "Current Bidding Opportunities",
+      "pageviews": "1598"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/transit/peoplemover/pages/route3.aspx",
+      "page_title": "Route 3",
+      "pageviews": "1524"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/finance/property_appraisal/business/pages/default.aspx",
+      "page_title": "Business Personal Property Appraisal",
+      "pageviews": "1428"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/library/pages/loussaclibrary.aspx",
+      "page_title": "Z.J. Loussac Public Library",
+      "pageviews": "1205"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/finance/property_appraisal/business/pages/efiling.aspx",
+      "page_title": "Business Personal Property E-filing",
+      "pageviews": "1196"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/transit/peoplemover/pages/route2.aspx",
+      "page_title": "Route2",
+      "pageviews": "1155"
+    },
+    {
+      "domain": "www.muni.org",
+      "page": "www.muni.org/departments/finance/property_appraisal/pages/propinfo.aspx",
+      "page_title": "Property Information Research",
+      "pageviews": "1149"
+    }
+  ],
+  "totals": {},
+  "taken_at": "2016-04-26T23:02:29.767Z"
+}
