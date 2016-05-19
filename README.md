@@ -32,6 +32,16 @@ bundle install
 [`analytics-reporter`](https://github.com/MunicipalityOfAnchorage/analytics-reporter) is the code that powers the analytics dashboard.
 Please clone the `analytics-reporter` next to a local copy of this github repository.
 
+#### IIS Notes
+
+Some IIS versions will require the addition of the JSON and WOFF MIME types and most IIS versions will also require the addition of the WOFF2 MIME type.
+
+| File Extension | MIME Type        |
+| -------------- | ---------------- |
+| .json          | application/json |
+| .woff          | font/x-woff      |
+| .woff2         | font/woff2       |
+
 ### Linux servers
 
 See [analytics.usa.gov README.md] (https://github.com/18F/analytics.usa.gov/blob/18f-pages/README.md) for Linux setup instructions.
